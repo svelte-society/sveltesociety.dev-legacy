@@ -1,0 +1,32 @@
+{
+  "name": "svelte-society",
+  "description": "Svelte Society Website",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "routify",
+    "dev:split": "routify --dynamic-imports",
+    "build": "routify -b && rollup -c && routify -bD && rollup -c && routify export",
+    "start": "sirv dist --single __app.html",
+    "preview-build": "cd scripts/server && node index",
+    "deploy:now": "cd scripts/now && npm run deploy",
+    "deploy:netlify": "cd scripts/netlify && npm run deploy",
+    "rollup": "rollup -cw"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "@rollup/plugin-commonjs": "^11.0.0",
+    "@sveltech/routify": "^1.1.1-2",
+    "concurrently": "^5.0.2",
+    "del": "^5.1.0",
+    "ppid-changed": "^1.0.1",
+    "rollup": "^1.2.0",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-copy": "^3.2.1",
+    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-terser": "^5.1.2",
+    "sirv-cli": "^1.0.0-next.2",
+    "svelte": "3.19.2"
+  },
+  "dependencies": {}
+}

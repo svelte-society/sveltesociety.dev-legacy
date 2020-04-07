@@ -1,0 +1,15 @@
+
+[build]
+  publish = "public/"
+  functions = "api/"
+
+[[redirects]]
+  # SSR and SPA
+  from = "/*"
+  to = "/.netlify/functions/ssr"
+  status = 200
+  
+  # SPA only
+  # from = "/*"
+  # to = "/__app.html"
+  # status = 200
