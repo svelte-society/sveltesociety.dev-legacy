@@ -1,13 +1,11 @@
-# routify-starter
+# WIP Website for Svelte Society
 
-Starter template for [Routify](https://github.com/sveltech/routify)
+Uses the Routify Starter Template: [Routify](https://github.com/sveltech/routify).
 
 ### Get started
 
-To use this starter run `npx @sveltech/routify init` in an empty folder.
 
-Alternatively, you can clone this repo.
- 
+
 ### Npm scripts
 
 | Syntax          | Description                                                                        |
@@ -36,7 +34,3 @@ See [src/pages/example/api/[showId].svelte](https://github.com/sveltech/routify-
 * For SPA or SSR apps please make sure that url rewrite is enabled on the server.
 * For SPA redirect to `__dynamic.html`.
 * For SSR redirect to the lambda function or express server.
-
-### Issues?
-
-File on Github! See https://github.com/sveltech/routify/issues .
