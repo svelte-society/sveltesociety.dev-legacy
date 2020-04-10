@@ -90,7 +90,7 @@
           <a href="/">HOME</a>
         </li>
         <li>
-          <a href="/cookbook">COOKBOOK</a>
+          <a href="/recipes">RECIPES</a>
         </li>
       </ul>
     </nav>

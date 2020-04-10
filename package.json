@@ -13,11 +13,13 @@
     "rollup": "rollup -cw"
   },
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "^7.0.0",
     "@rollup/plugin-commonjs": "^11.0.0",
+    "@rollup/plugin-json": "^4.0.2",
+    "@rollup/plugin-node-resolve": "^7.0.0",
     "@sveltech/routify": "^1.1.1-2",
     "concurrently": "^5.0.2",
     "del": "^5.1.0",
+    "jdown": "^1.0.3",
     "ppid-changed": "^1.0.1",
     "rollup": "^1.2.0",
     "rollup-plugin-commonjs": "^10.0.0",
