@@ -2,7 +2,7 @@ type = "webpack"
 account_id = "8d17b159c1762092c249ba7ed2318384"
 workers_dev = false
 route = "sveltesociety.dev/*"
-zone_id = "5c539810a07302dd6823b4dc107a6d4b"
+zone_id = "c9c97df5f17700b0070fbe0771b3f78e"
 
 [site]
 bucket = "./dist"
