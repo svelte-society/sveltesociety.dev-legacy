@@ -3,6 +3,12 @@
 
   import { layout, page } from "@sveltech/routify";
   const nodes = $layout.children.filter(r => !r.path.includes("/index"));
+
+  const categories = nodes.map(
+    node => node.children.filter(r => r.path.includes("/index"))[0]
+  );
+
+  console.log("Categories: ", categories);
 </script>
 
 <style>
@@ -50,13 +56,13 @@
 <main>
   <div class="TOC">
     <h1>table of contents</h1>
-    {#each nodes as node}
+    {#each categories as node}
       <div class="TOCLink">
-        <img src={node.children[0].meta.frontmatter.icon} alt="" />
-        <a href={node.path}>{node.children[0].meta.frontmatter.title}</a>
+        <img src={node.meta.frontmatter.icon} alt="" />
+        <a href={node.parent.path}>{node.meta.frontmatter.title}</a>
       </div>
-      {#if $page.path.includes(node.path)}
-        <CategoryTree nodes={node.children} />
+      {#if $page.path.includes(node.parent.path)}
+        <CategoryTree nodes={node.parent.children} />
       {/if}
     {/each}
   </div>
