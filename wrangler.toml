@@ -1,0 +1,17 @@
+type = "webpack"
+account_id = "8d17b159c1762092c249ba7ed2318384"
+workers_dev = false
+route = "sveltesociety.dev/*"
+zone_id = "c9c97df5f17700b0070fbe0771b3f78e"
+
+[site]
+bucket = "./dist"
+entry-point = "workers-site"
+
+[env.staging]
+name = "sveltesociety-staging"
+route = "staging.sveltesociety.dev/*"
+
+[env.production]
+name = "sveltesociety"
+route = "sveltesociety.dev/*"
