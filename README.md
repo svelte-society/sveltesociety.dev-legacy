@@ -1,44 +1,14 @@
-# routify-starter
+# Svelte Society Site
 
-Starter template for [Routify](https://github.com/sveltech/routify)
+This repository contains the source code for the Svelte Society website. It is comprised of a couple of different pieces that are important to understand when contributing. TODO: Fill this in
 
-### Get started
+Technologies used:
+* Routify
+* MDSveX
+* Cloudflare Worker Site
 
-To use this starter run `npx @sveltech/routify init` in an empty folder.
+## Contributing
 
-Alternatively, you can clone this repo.
+Find an issue worth pursuing and pull down the repo. Run `npm install` followed by `npm run dev:nollup`. You can now access the site at `localhost:8080`.
 
-### Npm scripts
-
-| Syntax           | Description                                                                       |
-|------------------|-----------------------------------------------------------------------------------|
-| `dev`            | Development (port 5000)                                                           |
-| `dev-dynamic`    | Development with dynamic imports                                                  |
-| `build`          | Build a bundled app with SSR + prerendering and dynamic imports                   |
-| `serve`          | Run after a build to preview. Serves SPA on 5000 and SSR on 5005                  |
-| `deploy:*`       | Deploy to netlify or now                                                          |
-| `export`         | Create static pages from content in dist folder (used by `npm run build`)         |
-
-### SSR and pre-rendering
-
-SSR and pre-rendering are included in the default build process.
-
-`npm run deploy:(now|netlify)` will deploy the app with SSR and prerendering included.
-
-To render async data, call the `$ready()` helper whenever your data is ready.
-
-If $ready() is present, rendering will be delayed till the function has been called.
-
-Otherwise it will be rendered instantly.
-
-See [src/pages/example/api/[showId].svelte](https://github.com/sveltech/routify-starter/blob/master/src/pages/example/api/%5BshowId%5D.svelte) for an example.
-
-### Production
-
-* For SPA or SSR apps please make sure that url rewrite is enabled on the server.
-* For SPA redirect to `__dynamic.html`.
-* For SSR redirect to the lambda function or express server.
-
-### Issues?
-
-File on Github! See https://github.com/sveltech/routify/issues .
+If you want to expand the site or do larger work, such as adding new sections to the site, please come to the [Discord](https://discord.gg/JcvNM8p) and discuss it with us first. Otherwise you might be doing work that won't get merged and that's not fun for anyone!
