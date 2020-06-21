@@ -67,7 +67,8 @@ const baseConfig = () => ({
       preprocess: [
         mdsvex({
           layout: {
-            recipe: "./src/layouts/Recipe.svelte"
+            recipe: "./src/layouts/Recipe.svelte",
+            recipeCategory: "./src/layouts/RecipeCategory.svelte"
           }
         })
       ],

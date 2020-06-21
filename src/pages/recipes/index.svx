@@ -1,0 +1,6 @@
+---
+layout: recipeCategory
+icon: /images/icons/test.svg
+---
+
+Welcome to the index page

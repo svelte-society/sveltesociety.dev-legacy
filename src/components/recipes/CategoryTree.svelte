@@ -1,8 +1,6 @@
 <script>
   export let nodes;
   import { page } from "@sveltech/routify";
-
-  console.log(nodes);
 </script>
 
 <style>

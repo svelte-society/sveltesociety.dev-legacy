@@ -3,8 +3,6 @@
 
   import { layout, page } from "@sveltech/routify";
   const nodes = $layout.children.filter(r => !r.path.includes("/index"));
-
-  console.log(nodes);
 </script>
 
 <style>

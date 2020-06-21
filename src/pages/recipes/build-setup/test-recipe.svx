@@ -1,12 +1,6 @@
 ---
 title: Test Recipe
 layout: recipe
-pubdate: 2020-06-06
-author: Kevin Åberg Kultalahti
-summary: |
-        <p>Part two of a three part series on how to use actions in Svelte. To get a basic understanding of actions, checkout the first part.</p>
-        <p>Today we'll look at how to integrate external libraries in Svelte using actions. We'll also be looking at how to integrate it with Sapper (hint, it's plug and play!).</p>
-description: External Libraries in Svelte and Sapper Using Actions.
 ---
 
 Test-recipe

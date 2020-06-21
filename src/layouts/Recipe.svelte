@@ -1,2 +1,7 @@
-This comes from the recipe layout file
+<script>
+  export let title;
+</script>
+
+<h1>{title}</h1>
+
 <slot />
