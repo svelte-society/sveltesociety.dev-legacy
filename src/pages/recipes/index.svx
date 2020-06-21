@@ -1,6 +1,3 @@
----
-layout: recipeCategory
-icon: /images/icons/test.svg
----
 
+# Svelte Recipes
 Welcome to the index page
