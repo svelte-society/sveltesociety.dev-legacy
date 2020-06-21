@@ -55,6 +55,10 @@
     display: flex;
     align-items: center;
   }
+  img {
+    width: 92px;
+    height: 92px;
+  }
 </style>
 
 <div class="shaded" id="title">
@@ -62,9 +66,9 @@
     <nav>
       <div class="logo">
         <a href="/">
-          <img alt="Svelte Society Logo" src="/logo.jpg" />
+          <img alt="Svelte Society Logo" src="./logo.svg" />
         </a>
-        <h1>SVELTE SOCIETY</h1>
+        <h1>SVELTE SOCIETY DAY</h1>
       </div>
       <ul>
         <li>
