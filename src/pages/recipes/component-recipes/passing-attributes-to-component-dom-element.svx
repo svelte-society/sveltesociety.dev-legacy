@@ -2,42 +2,18 @@
 title: Passing attributes to component DOM element
 layout: recipe
 ---
-Using `bind:this` allows a component to store a reference to it's children, this can also be used when generating a series of components in an `{#each}` block.
-
-**Method 1: Using an array**
-
-This method simply binds the generated component to an array element based on it's index within the loop.
+When you want to "forward" any attributes like `class` or `style` to your component wrapper DOM element (instead of declaring variables), use `$$restProps`:
 
 ```svelte
-<script>
-  import Child from "./Child.svelte";
-  const array = [
-    { id: 1, title: "apple" },
-    { id: 2, title: "banana" },
-  ];
-  const children = [];
-</script>
+<!-- Component.svelte -->
+<li {...$$restProps} ><slot></slot></li>
 
-{#each array as item, i}
-<Child title="{item.title}" bind:this="{children[i]}" />
-{/each}
+<!-- App.svelte -->
+<Component class="li-item-class">{name}</Component>
 ```
 
-**Method 2: Using an object as a hashtable**
+[Svelte Playground here](https://svelte.dev/repl/24139d8599d348b9bcad5c0a1f471230?version=3.23.0). See [relevant part of docs](https://svelte.dev/docs#Attributes_and_props) for more.
 
-An alternative is to use an _unique_ key and bind the component to an object, effectively making a hashtable of components.
+This is helpful where, for example, [using MDSveX](https://github.com/pngwn/MDsveX/), you want to create a bunch of Svelte wrappers to DOM elements like `H1`, `P`, and `A` instead of the normal `h1`, `p`, and `a`.
 
-```svelte
-<script>
-  import Child from "./Child.svelte";
-  const array = [
-    { id: 1, title: "apple" },
-    { id: 2, title: "banana" },
-  ];
-  const children = [];
-</script>
-
-{#each array as item, i (id)}
-<Child title="{item.title}" bind:this="{children[id]}" />
-{/each}
-```
+Note that when passing a class to component, you may need to set it to global `:global(.title){...}`
