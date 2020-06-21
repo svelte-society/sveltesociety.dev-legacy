@@ -1,7 +1,14 @@
 <script>
-  import { layout, page } from "@sveltech/routify";
+  import { layout, page, metatags } from "@sveltech/routify";
   const nodes = $layout.parent.children.filter(r => !r.path.includes("/index"));
-  export let title;
+  export let title,
+    description = "";
+
+  $: metatags.title = title;
+  $: metatags.description = description;
+
+  $: metatags["twitter:title"] = title;
+  $: metatags["twitter:description"] = description;
 </script>
 
 <h1>{title}</h1>
