@@ -1,6 +1,0 @@
----
-title: Test Recipe
-layout: recipe
----
-
-Test-recipe

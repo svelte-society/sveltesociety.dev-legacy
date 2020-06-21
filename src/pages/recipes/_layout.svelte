@@ -53,10 +53,11 @@
     {#each nodes as node}
       <div class="TOCLink">
         <img src={node.children[0].meta.frontmatter.icon} alt="" />
-        <a href={node.path}>{node.title}</a>
+        <a href={node.path}>{node.children[0].meta.frontmatter.title}</a>
       </div>
-
-      <CategoryTree nodes={node.children} />
+      {#if $page.path.includes(node.path)}
+        <CategoryTree nodes={node.children} />
+      {/if}
     {/each}
   </div>
   <article>

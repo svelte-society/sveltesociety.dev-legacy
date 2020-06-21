@@ -20,13 +20,13 @@
   }
 </style>
 
-{#each nodes.filter(r => !r.path.includes('/index')) as node}
-  <ul>
+<ul>
+  {#each nodes.filter(r => !r.path.includes('/index')) as node}
     <li class:active={$page.path.includes(node.path)}>
-      <a href={node.path}>{node.title}</a>
+      <a href={node.path}>{node.meta.frontmatter.title}</a>
     </li>
     {#if node.children}
       <svelte:self nodes={node.children} />
     {/if}
-  </ul>
-{/each}
+  {/each}
+</ul>
