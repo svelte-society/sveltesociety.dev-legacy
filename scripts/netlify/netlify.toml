@@ -2,6 +2,7 @@
 [build]
   publish = "public/"
   functions = "api/"
+  ignore = "git diff --quiet HEAD^ HEAD ../../"
 
 [[redirects]]
   # SSR and SPA

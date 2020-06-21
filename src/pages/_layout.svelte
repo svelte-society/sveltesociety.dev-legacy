@@ -35,13 +35,6 @@
 
 <svelte:head>
   <title>Svelte Society Day 2020</title>
-  <script
-    async
-    defer
-    data-domain="sveltesociety.dev"
-    src="https://plausible.io/js/plausible.js">
-
-  </script>
   <!-- Correct these when ready -->
   <meta
     name="description"
@@ -81,7 +74,7 @@
     <nav>
       <div class="logo">
         <a href="/">
-          <img alt="Svelte Society Logo" src="./logo.jpg" />
+          <img alt="Svelte Society Logo" src="/logo.jpg" />
         </a>
         <h1>SVELTE SOCIETY</h1>
       </div>

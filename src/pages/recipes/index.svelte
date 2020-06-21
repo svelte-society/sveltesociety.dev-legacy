@@ -1,5 +1,1 @@
-<script>
-  import RecipesPage from "RecipesPage.svelte";
-</script>
-
-<RecipesPage />
+Welcome to the index page
