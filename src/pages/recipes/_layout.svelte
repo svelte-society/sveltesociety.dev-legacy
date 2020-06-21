@@ -7,8 +7,6 @@
   const categories = nodes.map(
     node => node.children.filter(r => r.path.includes("/index"))[0]
   );
-
-  console.log("Categories: ", categories);
 </script>
 
 <style>
