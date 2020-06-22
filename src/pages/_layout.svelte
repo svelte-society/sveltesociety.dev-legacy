@@ -66,7 +66,7 @@
     <nav>
       <div class="logo">
         <a href="/">
-          <img alt="Svelte Society Logo" src="./logo.svg" />
+          <img alt="Svelte Society Logo" src="/logo.svg" />
         </a>
         <h1>SVELTE SOCIETY DAY</h1>
       </div>
