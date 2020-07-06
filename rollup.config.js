@@ -1,3 +1,7 @@
+import 'prismjs';
+import "prism-svelte";
+import "./prism/svx.js";
+
 import svelte from 'rollup-plugin-svelte-hot';
 import Hmr from 'rollup-plugin-hot'
 import resolve from '@rollup/plugin-node-resolve';
@@ -13,6 +17,7 @@ import del from 'del'
 import replace from '@rollup/plugin-replace';
 import { injectManifest } from 'rollup-plugin-workbox'
 import { spassr } from 'spassr'
+import { highlight } from "./prism/prism.js";
 
 const staticDir = 'static'
 const distDir = 'dist'
@@ -65,7 +70,12 @@ const baseConfig = () => ({
       },
       hot: useHmr,
       preprocess: [
-        mdsvex({
+        mdsvex({          
+					highlight: {
+						alias: {
+							svelte: "svelte",
+						}
+					},
           layout: {
             recipe: "./src/layouts/Recipe.svelte",
             recipeCategory: "./src/layouts/RecipeCategory.svelte"
