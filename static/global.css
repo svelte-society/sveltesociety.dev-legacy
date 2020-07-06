@@ -205,12 +205,9 @@
   pre code,
   pre samp {
 	display: block;
-    font-size: .9em;
-    line-height: 1.2em;
 	margin: 1rem 0;
 	max-width: var(--width-card-wide);
 	padding: 1rem;
-	white-space: pre;
   }
   
   small {
