@@ -63,19 +63,19 @@ const baseConfig = () => ({
     }),
     svelte({
       extensions: ['.svelte', '.md', '.svx'],
-      dev: !production, // run-time checks      
+      dev: !production, // run-time checks
       // Extract component CSS — better performance
       css: css => {
         css.write(`${buildDir}/bundle.css`);
       },
       hot: useHmr,
       preprocess: [
-        mdsvex({          
-					highlight: {
-						alias: {
-							svelte: "svelte",
-						}
-					},
+        mdsvex({
+          highlight: {
+            alias: {
+              svelte: "svelte",
+            }
+          },
           layout: {
             recipe: "./src/layouts/Recipe.svelte",
             recipeCategory: "./src/layouts/RecipeCategory.svelte"
