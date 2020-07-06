@@ -8,7 +8,7 @@
     "dev-dynamic": "cross-env BUNDLING=dynamic npm run dev",
     "build": "npm run routify -- -b && rollup -c",
     "serve": "spassr --serve-spa --serve-ssr",
-    "export": "routify export",
+    "export": "routify export --convert-to-index",
     "build:docker": "npm run build && ./scripts/docker/docker-build.sh",
     "deploy:now": "cd scripts/now && npm run deploy",
     "deploy:netlify": "cd scripts/netlify && npm run deploy",
@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "@rollup/plugin-replace": "^2.3.3",
-    "@sveltech/routify": "^1.8.0-beta.29",
+    "@sveltech/routify": "^1.9.0",
     "rollup-plugin-workbox": "^5.0.1",
     "svelte": "^3.23.2",
     "workbox": "0.0.0"
