@@ -1,3 +1,6 @@
+import Prism from 'prismjs';
+import 'prism-svelte';
+
 import svelte from 'rollup-plugin-svelte-hot';
 import Hmr from 'rollup-plugin-hot'
 import resolve from '@rollup/plugin-node-resolve';
