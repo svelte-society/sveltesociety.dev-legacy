@@ -42,6 +42,7 @@ pre[class*='language-'] {
 	/* max-width: var(--code-w); */
 	border-radius: var(--border-r);
 	box-shadow: 1px 1px 1px rgba(68, 68, 68, .12) inset;
+	white-space: normal;
 }
 
 :not(pre) > code[class*='language-'],
