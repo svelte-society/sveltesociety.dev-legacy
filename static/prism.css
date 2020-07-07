@@ -6,8 +6,8 @@
 
 /*	colors --------------------------------- */
 pre[class*='language-'] {
-	--background: hsl(45, 7%, 5%);
-	--base:       hsl(173, 80%, 98%);
+	--background: #f6fafd;
+	--base:       hsl(45, 7%, 45%);
 	--comment:    hsl(210, 25%, 60%);
 	--keyword:    hsl(204, 58%, 45%);
 	--function:   hsl(19, 67%, 45%);
@@ -41,8 +41,7 @@ pre[class*='language-'] {
 	margin: .8rem 0 2.4rem;
 	/* max-width: var(--code-w); */
 	border-radius: var(--border-r);
-    box-shadow: 1px 1px 1px rgba(68, 68, 68, .12) inset;
-    white-space: normal;
+	box-shadow: 1px 1px 1px rgba(68, 68, 68, .12) inset;
 }
 
 :not(pre) > code[class*='language-'],
