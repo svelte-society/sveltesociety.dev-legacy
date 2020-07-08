@@ -56,7 +56,9 @@
 
 <svelte:head>
   <title>Svelte Recipes</title>
+  <link rel="stylesheet" href="/prism.css">
 </svelte:head>
+
 <main>
   <div class="TOC">
     <h1>Table of Contents</h1>

@@ -147,7 +147,6 @@
   }
   
   /* Typography */
-  code,
   samp {
 	background-color: var(--color-accent);
 	border-radius: var(--border-radius);
@@ -198,11 +197,6 @@
 	padding: 0;
   }
   
-  pre {
-	white-space: normal;
-  }
-  
-  pre code,
   pre samp {
 	display: block;
 	margin: 1rem 0;
