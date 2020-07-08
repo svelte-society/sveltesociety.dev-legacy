@@ -18,6 +18,9 @@
   li.active::before {
     color: var(--svelte-grey);
   }
+  li.active a {
+    font-weight: bold;
+  }
 </style>
 
 <ul>

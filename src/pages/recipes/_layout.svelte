@@ -19,13 +19,12 @@
   .TOC {
     margin-right: 2rem;
     flex: 1;
-    /* font-family: Overpass;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 29px;
-    line-height: 150%; */
-    /* or 43px */
+    font-family: Overpass;
+    line-height: 150%;
+  }
+  .TOC :global(a) {
     color: #2e2e35;
+    font-weight: normal;
   }
   article {
     flex: 3;
@@ -39,12 +38,19 @@
     border-left: 2px solid #ff3e01;
   }
   .TOCLink {
-    align-items: center;
+    align-items: baseline;
     display: grid;
     grid-template-columns: auto 1fr;
     grid-gap: 10px;
     padding: 1rem 0;
     border-bottom: 1px solid #d0deec;
+    font-size: 1.1em;
+  }
+  .TOCLink.active a {
+    font-weight: bold;
+  }
+  .TOCLink img {
+    height: 1em;
   }
 </style>
 
@@ -53,9 +59,9 @@
 </svelte:head>
 <main>
   <div class="TOC">
-    <h1>table of contents</h1>
+    <h1>Table of Contents</h1>
     {#each categories as node}
-      <div class="TOCLink">
+      <div class="TOCLink" class:active={$page.path.includes(node.parent.path)}>
         <img src={node.meta.frontmatter.icon} alt="" />
         <a href={node.parent.path}>{node.meta.frontmatter.title}</a>
       </div>
