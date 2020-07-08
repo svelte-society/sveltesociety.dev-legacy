@@ -29,6 +29,7 @@
   article {
     flex: 3;
     margin-left: 2rem;
+    overflow-x: hidden;
   }
   :global(article blockquote) {
     background: #ff3e01;
