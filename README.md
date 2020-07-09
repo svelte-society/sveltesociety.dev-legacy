@@ -23,4 +23,18 @@ The recipes are written and processed using [Mdsvex](https://mdsvex.com/). Three
 
 ### Example usage
 
-(point to a recipe using them ?)
+```md
+---
+title: Sample
+---
+
+<script>
+  import Warning from '../../../components/recipes/Warning.svelte'
+</script>
+
+This is regular text
+
+<Warning>
+    This is text within the block
+</Warning>
+```
