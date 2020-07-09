@@ -12,3 +12,29 @@ Technologies used:
 Find an issue worth pursuing and pull down the repo. Run `npm install` followed by `npm run dev:nollup`. You can now access the site at `localhost:8080`.
 
 If you want to expand the site or do larger work, such as adding new sections to the site, please come to the [Discord](https://discord.gg/JcvNM8p) and discuss it with us first. Otherwise you might be doing work that won't get merged and that's not fun for anyone!
+
+## Recipes
+
+The recipes are written and processed using [Mdsvex](https://mdsvex.com/). Three helper components are provided, located in `scr/components/recipes` that can be used to highlight certain parts of a recipe.
+
+- **Warning** Can be used to inform a reader of common pitfall or point to take extra care
+- **Note** To highlight something noteworthy
+- **ReadMore** Use this to wrap extra reading material related to the recipe
+
+### Example usage
+
+```md
+---
+title: Sample
+---
+
+<script>
+  import Warning from '../../../components/recipes/Warning.svelte'
+</script>
+
+This is regular text
+
+<Warning>
+    This is text within the block
+</Warning>
+```
