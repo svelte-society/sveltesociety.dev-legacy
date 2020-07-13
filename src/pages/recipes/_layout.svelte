@@ -1,7 +1,7 @@
 <script>
-  import CategoryTree from "@/components/recipes/CategoryTree.svelte";
-
-  import { layout, page } from "@sveltech/routify";
+  import '/static/prism.css'
+  import CategoryTree from "/src/components/recipes/CategoryTree.svelte";
+  import { layout, page } from "@sveltech/routify/runtime";
   const nodes = $layout.children.filter(r => !r.path.includes("/index"));
 
   const categories = nodes.map(
@@ -57,7 +57,6 @@
 
 <svelte:head>
   <title>Svelte Recipes</title>
-  <link rel="stylesheet" href="/prism.css">
 </svelte:head>
 
 <main>

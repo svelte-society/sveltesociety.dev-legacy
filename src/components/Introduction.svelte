@@ -1,3 +1,6 @@
+<script>
+  import introduction from '/static/introduction.svg'
+</script>
 <style>
   section {
     overflow: hidden;
@@ -19,7 +22,7 @@
       Sign up here to get notified.
     </a>
   </h2>
-  <img src="introduction.svg" alt="Live Conversation Application Preview" />
+  <img src="{introduction}" alt="Live Conversation Application Preview" />
   <p>
     A lot of us have some extra time on our hands. Since we can't go to any
     meetups anymore, we thought, why not host an online meetup? In a couple of

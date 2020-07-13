@@ -1,6 +1,6 @@
 <script>
   export let nodes;
-  import { page } from "@sveltech/routify";
+  import { page } from "@sveltech/routify/runtime";
 </script>
 
 <style>

@@ -1,5 +1,6 @@
 <script>
-  import { metatags, page } from "@sveltech/routify";
+  import { metatags, page } from "@sveltech/routify/runtime";
+  import logo from '/static/logo.svg';
   metatags.template(
     "title",
     title => `${title ? ` ${title} - ` : ""}Svelte Society`
@@ -66,7 +67,7 @@
     <nav>
       <div class="logo">
         <a href="/">
-          <img alt="Svelte Society Logo" src="/logo.svg" />
+          <img alt="Svelte Society Logo" src="{logo}" />
         </a>
         <h1>SVELTE SOCIETY DAY</h1>
       </div>
