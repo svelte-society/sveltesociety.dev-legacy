@@ -23,9 +23,10 @@
     "ppid-changed": "^1.0.2",
     "prism-svelte": "^0.4.6",
     "prismjs": "^1.20.0",
+    "rollup-plugin-visualizer": "^4.0.4",
     "routify-plugin-frontmatter": "^1.0.0",
     "svelte-hmr": "^0.10.0-0",
-    "svite": "^0.2.2-beta.4",
+    "svite": "^0.2.2",
     "vite": "^1.0.0-beta.11"
   },
   "dependencies": {
