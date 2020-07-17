@@ -2,7 +2,7 @@
 
 It is important to keep a good workflow while developing the Svelte Society Site, for this we have established a simple, but common, workflow based on two main branches:
 
-- **master**: this is the branch that is currently live on the [website](https:/www.sveltesociety.dev)
+- **master**: this is the branch that is currently live on the [website](https://sveltesociety.dev)
 - **staging**: this the working branch and can be previewed [here](https://staging.sveltesociety.dev)
 
 As this is a community driven project, contributions are always welcome :100: but make sure to follow these guidelines so everyone's life is easier
