@@ -10,8 +10,12 @@
 </script>
 
 <style>
+  @media (min-width: 1024px) {
+      main {
+        display: flex;
+      }
+  }
   main {
-    display: flex;
     margin: 0 auto;
     max-width: var(--width-content);
     padding: 2rem 1rem;
@@ -28,8 +32,12 @@
   }
   article {
     flex: 3;
-    margin-left: 2rem;
     overflow-x: hidden;
+  }
+  @media (min-width: 1024px) {
+      article {
+        margin-left: 2rem;
+      }
   }
   :global(article blockquote) {
     background: #ff3e01;
