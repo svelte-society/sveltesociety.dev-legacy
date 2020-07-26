@@ -1,5 +1,5 @@
 <script>
-  import Tag from "components/Tag.svelte";
+  import Tag from "@/components/Tag.svelte";
   export let active = false;
   export let title = "";
   export let description = "";
