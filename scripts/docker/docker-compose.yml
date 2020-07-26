@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  routify-starter:
+    image: "routify-starter"
+    ports: 
+      - "5000:5000"
+      - "5005:5005"

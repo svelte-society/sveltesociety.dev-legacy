@@ -1,0 +1,7 @@
+---
+title: Other
+layout: recipeCategory
+icon: /images/icons/test.svg
+---
+
+Some description of this category should go here.
