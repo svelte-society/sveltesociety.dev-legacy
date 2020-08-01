@@ -21,6 +21,8 @@ The recipes are written and processed using [Mdsvex](https://mdsvex.com/). Three
 - **Note** To highlight something noteworthy
 - **ReadMore** Use this to wrap extra reading material related to the recipe
 
+**⚠️ Be aware that markup inside of these components will not be processed, so when putting for instance a link inside use normal HTML markup to do so. ⚠️**
+
 ### Example usage
 
 ```md
@@ -29,6 +31,7 @@ title: Sample
 ---
 
 <script>
+  import ReadMore from '../../../components/recipes/ReadMore.svelte'
   import Warning from '../../../components/recipes/Warning.svelte'
 </script>
 
@@ -37,4 +40,8 @@ This is regular text
 <Warning>
     This is text within the block
 </Warning>
+
+<ReadMore>
+  Click <a href="/">here</a> to read more about this.
+</ReadMore>
 ```
