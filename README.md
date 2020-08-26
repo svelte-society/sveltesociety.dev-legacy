@@ -1,36 +1,47 @@
-# WIP Website for Svelte Society
+# Svelte Society Site
 
-Uses the Routify Starter Template: [Routify](https://github.com/sveltech/routify).
+This repository contains the source code for the Svelte Society website. It is comprised of a couple of different pieces that are important to understand when contributing. TODO: Fill this in
 
-### Get started
+Technologies used:
+* Routify
+* MDSveX
+* Cloudflare Worker Site
 
+## Contributing
 
+Find an issue worth pursuing and pull down the repo. Run `npm install` followed by `npm run dev:nollup`. You can now access the site at `localhost:8080`.
 
-### Npm scripts
+If you want to expand the site or do larger work, such as adding new sections to the site, please come to the [Discord](https://discord.gg/JcvNM8p) and discuss it with us first. Otherwise you might be doing work that won't get merged and that's not fun for anyone!
 
-| Syntax          | Description                                                                        |
-|-----------------|------------------------------------------------------------------------------------|
-| `dev`            | Development (to test dynamic imports use ``npm run dev -- -D``)                                                    |
-| `build`          | Build a bundled app for SSR + prerendering and a dynamic app for code splitting   |
-| `preview-build`  | Run after build to preview app                                                    |
-| `deploy:*`       | Deploy to netlify or now                                                          |
+## Recipes
 
-### SSR and pre-rendering
+The recipes are written and processed using [Mdsvex](https://mdsvex.com/). Three helper components are provided, located in `scr/components/recipes` that can be used to highlight certain parts of a recipe.
 
-SSR and pre-rendering are included in the default build process.
+- **Warning** Can be used to inform a reader of common pitfall or point to take extra care
+- **Note** To highlight something noteworthy
+- **ReadMore** Use this to wrap extra reading material related to the recipe
 
-`npm run deploy:(now|netlify)` will deploy the app with SSR and prerendering included.
+**⚠️ Be aware that markdown inside of these components will not be processed, so when putting for instance a link inside use normal HTML markup to do so. ⚠️**
 
-To render async data, call the `$ready()` helper whenever your data is ready.
+### Example usage
 
-If $ready() is present, rendering will be delayed till the function has been called.
+```md
+---
+title: Sample
+---
 
-Otherwise it will be rendered instantly.
+<script>
+  import ReadMore from '../../../components/recipes/ReadMore.svelte'
+  import Warning from '../../../components/recipes/Warning.svelte'
+</script>
 
-See [src/pages/example/api/[showId].svelte](https://github.com/sveltech/routify-starter/blob/master/src/pages/example/api/%5BshowId%5D.svelte) for an example.
+This is regular text
 
-### Production
+<Warning>
+    This is text within the block
+</Warning>
 
-* For SPA or SSR apps please make sure that url rewrite is enabled on the server.
-* For SPA redirect to `__dynamic.html`.
-* For SSR redirect to the lambda function or express server.
+<ReadMore>
+  Click <a href="/">here</a> to read more about this.
+</ReadMore>
+```
