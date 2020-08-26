@@ -1,3 +1,7 @@
+<script>
+  import { page } from "@sveltech/routify";
+</script>
+
 <style>
   section {
     overflow: hidden;
@@ -6,25 +10,29 @@
   p {
     max-width: 720px;
     text-align: left;
-    margin: 80px 0;
+    margin: 40px 0;
   }
 </style>
 
 <section>
   <h2>
-    Let's get together for a one day event all about Svelte. Watch some talks,
-    learn a thing or two and get to know the community! Get ready for the event
-    on April 26th.
-    <a href="https://forms.gle/RTW6U85nudgwzS7Z9" target="_blank">
-      Sign up here to get notified.
+    This page is under HEAVY construction and we need your help to make it ready
+    for prime-time! If you're interested in helping out checkout the
+    <a
+      href="https://github.com/svelte-society/sveltesociety.dev"
+      target="_blank">
+      github repository.
     </a>
+    You can also come talk to us on the
+    <a href="https://discord.gg/FFYDNp5" target="_blank">Svelte discord</a>
+    if you want further guidance.
   </h2>
-  <img src="introduction.svg" alt="Live Conversation Application Preview" />
-  <p>
-    A lot of us have some extra time on our hands. Since we can't go to any
-    meetups anymore, we thought, why not host an online meetup? In a couple of
-    weeks we'll announce the speakers as well as more practical details. Stay
-    tuned.
-  </p>
 
+  <p>
+    In the meantime, you can checkout
+    <a href="https://sveltesummit.com">Svelte Summit</a>
+    , our next online conference. It's free! And we have lots of speakers lined
+    up.
+  </p>
+  <img src="introduction.svg" alt="Live Conversation Application Preview" />
 </section>

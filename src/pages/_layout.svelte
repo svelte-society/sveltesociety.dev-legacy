@@ -2,9 +2,9 @@
   import { metatags, page } from "@sveltech/routify";
   metatags.template(
     "title",
-    title => `${title ? ` ${title} - ` : ""}Svelte Society`
+    (title) => `${title ? ` ${title} - ` : ""}Svelte Society`
   );
-  const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+  const capitalize = (str) => str.charAt(0).toUpperCase() + str.slice(1);
   $: metatags.title = capitalize($page.title);
   $: metatags.url = `https://sveltesociety.dev${$page.path.replace(
     /\/index$/,
@@ -76,6 +76,9 @@
         </li>
         <li>
           <a href="/recipes">RECIPES</a>
+        </li>
+        <li>
+          <a href="/components">COMPONENTS</a>
         </li>
       </ul>
     </nav>
