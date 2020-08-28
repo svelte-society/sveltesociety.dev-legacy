@@ -15,7 +15,7 @@ If you want to expand the site or do larger work, such as adding new sections to
 
 ## Recipes
 
-The recipes are written and processed using [Mdsvex](https://mdsvex.com/). Three helper components are provided, located in `scr/components/recipes` that can be used to highlight certain parts of a recipe.
+The recipes are written and processed using [Mdsvex](https://mdsvex.com/). Three helper components are provided, located in `src/components/recipes` that can be used to highlight certain parts of a recipe.
 
 - **Warning** Can be used to inform a reader of common pitfall or point to take extra care
 - **Note** To highlight something noteworthy
