@@ -2,34 +2,9 @@
 title: Using TypeScript with Svelte
 layout: recipe
 ---
-**It is a common misconception that Svelte doesn't work with TypeScript yet**. Svelte is, of course, written in TypeScript, so the project strongly believes in the value of typing. The part that doesn't have full support yet is IDE-supported typechecking of templates, and [there is ongoing work on a langauge server with some pointers from the TypeScript team](https://github.com/sveltejs/language-tools/issues/11).
+**It is a common misconception that Svelte doesn't work with TypeScript**. Svelte is, of course, written in TypeScript, so the project strongly believes in the value of typing. An [offical blog post](https://svelte.dev/blog/svelte-and-typescript) announced full support for it in mid 2020. Here is how to get started: 
 
-However, using TypeScript inside `<script>` tags is supported, and that is likely an important part of how you will be using TypeScript anyway. All of them use Svelte's preprocessor feature:
-
-- You can use `[@babel/preset-typescript](https://babeljs.io/docs/en/babel-preset-typescript)` together with the Babel process described above to strip out types.
-- You can pass the source code [through the `typescript` compiler](https://github.com/microsoft/TypeScript/wiki/Using-the-Compiler-API#a-simple-transform-function):
-
-  ```ts
-  // rollup.config.js
-  import * as ts from "typescript";
-  // ...
-  export default {
-    // ...
-    plugins: [
-      svelte({
-        // ...
-        preprocess: {
-          script: ({ content }) => {
-            return ts.transpileModule(content, {
-              compilerOptions: { // up to you }
-              })
-          },
-        },
-      }),
-  // ...
-  ```
-
-- Or instead of writing this all yourself, you can use [`svelte-preprocess`](https://github.com/kaisermann/svelte-preprocess/), which is what we recommend.
+First you need to change you build setup. We recommend using [`svelte-preprocess`](https://github.com/sveltejs/svelte-preprocess/), which will preprocess TypeScript and many more languages out of the box.
 
 Example using `svelte-preprocess`:
 
@@ -37,7 +12,7 @@ Example using `svelte-preprocess`:
 // rollup.config.js
 import svelte from 'rollup-plugin-svelte';
 import autoPreprocess from 'svelte-preprocess'
-import { scss, coffeescript, pug } from 'svelte-preprocess'
+import typescript from '@rollup/plugin-typescript';
 
 export default {
   ...,
@@ -47,16 +22,20 @@ export default {
        * Auto preprocess supported languages with
        * '<template>'/'external src files' support
        **/
-      preprocess: autoPreprocess({ /* options available https://github.com/kaisermann/svelte-preprocess/#user-content-options */ })
-    })
+      preprocess: autoPreprocess({ /* options available https://github.com/sveltejs/svelte-preprocess/blob/master/docs/preprocessing.md */ })
+    }),
+    /**
+     * In case you want to use TypeScript outside of Svelte files, too
+     */
+    typescript()
   ]
 }
 ```
 
-and then you can write your Svelte components with TypeScript:
+Then you can write your Svelte components with TypeScript:
 
 ```svelte
-<script lang="typescript">
+<script lang="ts">
   // Compatible with Svelte v3...
   export const hello: string = 'world';
 </script>
