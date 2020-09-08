@@ -2,6 +2,7 @@
 title: Using PostCSS with Svelte
 layout: recipe
 ---
+
 **Option 1 - Write your own**
 
 This process is actually [documented in the Svelte docs](https://svelte.dev/docs#svelte_preprocess), but we'll restate it here with the bundler case:
@@ -78,3 +79,7 @@ and you can write SCSS/SASS in your Svelte template:
 ```
 
 The same is true for PostCSS as well, which also applies to any PostCSS plugins, like TailwindCSS (see [Tailwind demo here](https://github.com/tailwindcss/setup-examples/tree/master/examples/sapper)).
+
+## Svelte setup with Tailwind CSS
+
+Here is a specific [guide for adding TailwindCSS to a Svelte app](https://dev.to/swyx/how-to-set-up-svelte-with-tailwind-css-4fg5) (which inclues adding PostCSS).
