@@ -23,7 +23,7 @@
     justify-content: space-between;
     align-items: center;
     font-family: Overpass;
-    object-fit :cover;
+    object-fit :fill;
   }
 
   .inputs {
