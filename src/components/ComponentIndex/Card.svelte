@@ -13,7 +13,7 @@
   .card {
     display: flex;
     flex-direction: column;
-    max-width: 370px;
+    object-fit :cover;
     padding: 14px;
     background: #f3f6f9;
     border-radius: 5px;
