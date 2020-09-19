@@ -1,0 +1,115 @@
+<script>
+    import CategoryTree from "@/components/recipes/CategoryTree.svelte";
+
+    import { getContext } from 'svelte';
+    const categories = getContext("categories")
+</script>
+
+<style>
+    .content-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .navigation-block {
+        background: #F3F6F9;
+        padding: 3rem 0px;
+        width: 100%;
+    }
+    .navigation-content {
+        max-width: 1160px;
+        margin: 0px auto;
+    }
+    .categories-wrap {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .category-style {
+        width: 48%;
+    }
+    @media screen and (max-width: 800px) {
+        .category-style {
+            width: 100%;
+        }
+    }
+    .signup-block {
+        max-width: 848px;
+        background: #ECF6FF;
+        padding: 2rem;
+    }
+    p {
+        text-align: justify;
+        max-width: 720px;
+    }
+</style>
+
+<div class="content-wrap">
+    <div>
+        <h1>Cookbook</h1>
+        <p>
+            This cookbook serves shows users how best-in-practice
+            code is written in Svelte. You’ll learn how to import
+            third-party libraries, external scripts as well as how to
+            handle common problems that you will have to solve often.    
+        </p>
+    </div>
+    <div class="navigation-block">
+        <div class="navigation-content">
+            <h3>Pick a Category to Get Started</h3>
+            <div class="categories-wrap">
+                {#each categories as category}
+                    <div class="category-style">
+                        <div>
+                            <img src={category.meta.frontmatter.icon} alt="" />
+                            <a href={category.parent.path}>{category.meta.frontmatter.title}</a>
+                        </div>
+                        <CategoryTree nodes={category.parent.children} />
+                    </div>
+                {/each}
+            </div>
+        </div>
+    </div>
+    <div>
+        <h3>
+            What can I expect from these recipes?
+        </h3>
+        <p>
+            The Svelte compiler expects all components it receives to be valid Svelte
+            syntax. To use compile-to-js or compile-to-css languages, you need to make
+            sure that any non-standard syntax is transformed before Svelte tries to parse
+            it. To enable this Svelte provides a preprocess method allowing you to
+            transform different parts of the component before it reaches the compiler.
+            The Svelte compiler expects all components it receives to be valid Svelte
+            syntax. To use compile-to-js or compile-to-css languages, you need to make
+            sure that any non-standard syntax is transformed before Svelte tries to parse
+            it. To enable this Svelte provides a preprocess method allowing you to
+            transform different parts of the component before it reaches the compiler. 
+            With svelte.preprocess you have a great deal of flexibility in how you write
+            your components while ensuring that the Svelte compiler receives a plain
+            component. The Svelte compiler expects all components it receives to be valid
+            Svelte syntax. To use compile-to-js or compile-to-css languages, you need to make
+            sure that any non-standard syntax is transformed before Svelte tries to parse it.
+            To enable this Svelte provides a preprocess method allowing you to transform
+            different parts of the component before it reaches the compiler.
+        </p>
+    </div>
+    <div class="signup-block">
+        <h3>Do you want to write a recipe?</h3>
+        <p>We’re looking for new recipes and recipe authors. Are you interested? Sign up below!</p>
+        <button>Sign up</button>
+    </div>
+    <div>
+        <h3>
+            Where to get started
+        </h3>
+        <p>
+            The Svelte compiler expects all components it receives to be valid Svelte
+            syntax. To use compile-to-js or compile-to-css languages, you need to make
+            sure that any non-standard syntax is transformed before Svelte tries to parse
+            it. To enable this Svelte provides a preprocess method allowing you to
+            transform different parts of the component before it reaches the compiler.
+        </p>
+    </div>
+</div>
