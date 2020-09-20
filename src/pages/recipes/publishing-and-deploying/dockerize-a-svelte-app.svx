@@ -10,9 +10,11 @@ npx degit sveltejs/template svelte-docker
 cd svelte-docker
 ```
 
-Next, we need to create a `Dockerfile` in the root of our project.
+### Building
 
-```
+Next, we need to create a file named `Dockerfile` in the root of our project, and paste in the following:
+
+```dockerfile
 FROM node:12 AS build
 
 WORKDIR /app
@@ -25,29 +27,21 @@ FROM nginx:1.19-alpine
 COPY --from=build /app/public /usr/share/nginx/html
 ```
 
-You can now build and run your docker image.
+This tells Docker to build the Svelte App using an intermediate Node image and then copies only the build output to the final NGINX image, as
+we only need something that serves static content. That way, Node doesn't contribute to the final size of the Docker image.
+
+You can now build your docker image:
 
 ```
 docker build . -t svelte-docker
+```
+
+### Running
+
+And to run your image:
+
+```
 docker run --rm --name=svelte-docker -p 5000:80 svelte-docker
 ```
 
-Open up your browser at `http://localhost:5000` and Your dockerized Svelte App should now be up and running!
-
-### Building Svelte App in a Docker image
-
-If you want to build your Svelte App in a Docker image instead in your machine, you can do it in an intermediate Docker image, that way, it would not contribute to the final Docker image size.
-
-```dockerfile
-FROM node AS build
-
-WORKDIR /app
-COPY . .
-
-RUN npm install
-RUN npm run build
-
-FROM nginx:stable
-
-COPY ./public/ /var/www
-COPY ./nginx.conf /etc/nginx/nginx.conf
+Open up your browser at `http://localhost:5000` and your dockerized Svelte App should now be up and running!
