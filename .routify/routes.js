@@ -132,7 +132,7 @@ export const _tree = {
                 "frontmatter": {
                   "title": "Build Setup",
                   "layout": "recipeCategory",
-                  "icon": "/images/icons/test.svg"
+                  "icon": "/images/icons/recipe.svg"
                 },
                 "preload": false,
                 "prerender": true,
@@ -354,7 +354,7 @@ export const _tree = {
                 "frontmatter": {
                   "title": "Component Recipes",
                   "layout": "recipeCategory",
-                  "icon": "/images/icons/test.svg"
+                  "icon": "/images/icons/recipe.svg"
                 },
                 "preload": false,
                 "prerender": true,
@@ -476,7 +476,7 @@ export const _tree = {
                 "frontmatter": {
                   "title": "Design Patterns",
                   "layout": "recipeCategory",
-                  "icon": "/images/icons/test.svg"
+                  "icon": "/images/icons/recipe.svg"
                 },
                 "preload": false,
                 "prerender": true,
@@ -619,7 +619,7 @@ export const _tree = {
                 "frontmatter": {
                   "title": "Other",
                   "layout": "recipeCategory",
-                  "icon": "/images/icons/test.svg"
+                  "icon": "/images/icons/recipe.svg"
                 },
                 "preload": false,
                 "prerender": true,
@@ -691,7 +691,7 @@ export const _tree = {
                 "frontmatter": {
                   "title": "Publishing and Deploying",
                   "layout": "recipeCategory",
-                  "icon": "/images/icons/test.svg"
+                  "icon": "/images/icons/recipe.svg"
                 },
                 "preload": false,
                 "prerender": true,
@@ -738,7 +738,7 @@ export const _tree = {
                 "frontmatter": {
                   "title": "Stores",
                   "layout": "recipeCategory",
-                  "icon": "/images/icons/test.svg"
+                  "icon": "/images/icons/recipe.svg"
                 },
                 "preload": false,
                 "prerender": true,
@@ -785,7 +785,7 @@ export const _tree = {
                 "frontmatter": {
                   "title": "Svelte Language Fundamentals",
                   "layout": "recipeCategory",
-                  "icon": "/images/icons/test.svg"
+                  "icon": "/images/icons/recipe.svg"
                 },
                 "preload": false,
                 "prerender": true,
@@ -932,7 +932,7 @@ export const _tree = {
                 "frontmatter": {
                   "title": "Testing and Debugging Svelte",
                   "layout": "recipeCategory",
-                  "icon": "/images/icons/test.svg"
+                  "icon": "/images/icons/recipe.svg"
                 },
                 "preload": false,
                 "prerender": true,
