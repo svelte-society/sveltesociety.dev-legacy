@@ -88,5 +88,7 @@
     </article>
   </main>
 {:else}
-  <slot />
+  <main>
+    <slot />
+  </main>
 {/if}

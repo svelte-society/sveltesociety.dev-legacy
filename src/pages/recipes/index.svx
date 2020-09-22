@@ -12,6 +12,11 @@
         align-items: center;
         width: 100%;
     }
+    @media screen and (max-width: 800px) {
+        .content-wrap {
+            line-height: 1.5em;
+        }
+    }
     .navigation-block {
         background: #F3F6F9;
         padding: 3rem 0px;
@@ -41,7 +46,7 @@
         padding: 2rem;
     }
     p {
-        text-align: justify;
+        /* text-align: justify; */
         max-width: 720px;
     }
 </style>
@@ -82,18 +87,8 @@
             sure that any non-standard syntax is transformed before Svelte tries to parse
             it. To enable this Svelte provides a preprocess method allowing you to
             transform different parts of the component before it reaches the compiler.
-            The Svelte compiler expects all components it receives to be valid Svelte
-            syntax. To use compile-to-js or compile-to-css languages, you need to make
-            sure that any non-standard syntax is transformed before Svelte tries to parse
-            it. To enable this Svelte provides a preprocess method allowing you to
-            transform different parts of the component before it reaches the compiler. 
-            With svelte.preprocess you have a great deal of flexibility in how you write
-            your components while ensuring that the Svelte compiler receives a plain
-            component. The Svelte compiler expects all components it receives to be valid
-            Svelte syntax. To use compile-to-js or compile-to-css languages, you need to make
-            sure that any non-standard syntax is transformed before Svelte tries to parse it.
-            To enable this Svelte provides a preprocess method allowing you to transform
-            different parts of the component before it reaches the compiler.
+            With `svelte.preprocess` you have a great deal of flexibility in how you write your components while ensuring that the Svelte compiler receives a plain
+            component.
         </p>
     </div>
     <div class="signup-block">
@@ -106,11 +101,10 @@
             Where to get started
         </h3>
         <p>
-            The Svelte compiler expects all components it receives to be valid Svelte
-            syntax. To use compile-to-js or compile-to-css languages, you need to make
-            sure that any non-standard syntax is transformed before Svelte tries to parse
-            it. To enable this Svelte provides a preprocess method allowing you to
-            transform different parts of the component before it reaches the compiler.
+            If you want the quickest way to get started, clone <a href="https://github.com/sveltejs/template">the Official Svelte App template</a>. If you want a custom setup, head to the <a href="/recipes/build-setup">Build Setup recipes</a>.
+        </p>
+        <p>
+            If you are writing a Svelte component library, check the <a href="https://github.com/sveltejs/component-template">the Official Svelte Component template</a>.
         </p>
     </div>
 </div>
