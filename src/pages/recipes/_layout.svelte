@@ -1,5 +1,6 @@
 <script>
   import CategoryTree from "@/components/recipes/CategoryTree.svelte";
+  import { setContext } from 'svelte'
 
   import { layout, page } from "@sveltech/routify";
   const nodes = $layout.children.filter(r => !r.path.includes("/index"));
@@ -7,6 +8,7 @@
   const categories = nodes.map(
     node => node.children.filter(r => r.path.includes("/index"))[0]
   );
+  setContext('categories', categories)
 </script>
 
 <style>
@@ -67,21 +69,26 @@
   <title>Svelte Recipes</title>
   <link rel="stylesheet" href="/prism.css">
 </svelte:head>
-
-<main>
-  <div class="TOC">
-    <h1>Table of Contents</h1>
-    {#each categories as node}
-      <div class="TOCLink" class:active={$page.path.includes(node.parent.path)}>
-        <img src={node.meta.frontmatter.icon} alt="" />
-        <a href={node.parent.path}>{node.meta.frontmatter.title}</a>
-      </div>
-      {#if $page.path.includes(node.parent.path)}
-        <CategoryTree nodes={node.parent.children} />
-      {/if}
-    {/each}
-  </div>
-  <article>
+{#if $page.path !== "/recipes/index"}
+  <main>
+    <div class="TOC">
+      <h1>Table of Contents</h1>
+      {#each categories as node}
+        <div class="TOCLink" class:active={$page.path.includes(node.parent.path)}>
+          <img src={node.meta.frontmatter.icon} alt="" />
+          <a href={node.parent.path}>{node.meta.frontmatter.title}</a>
+        </div>
+        {#if $page.path.includes(node.parent.path)}
+          <CategoryTree nodes={node.parent.children} />
+        {/if}
+      {/each}
+    </div>
+    <article>
+      <slot />
+    </article>
+  </main>
+{:else}
+  <main>
     <slot />
-  </article>
-</main>
+  </main>
+{/if}
