@@ -80,6 +80,9 @@
         <li>
           <a href="/components">COMPONENTS</a>
         </li>
+        <li>
+          <a href="/about">ABOUT</a>
+        </li>
       </ul>
     </nav>
   </header>
