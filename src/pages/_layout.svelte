@@ -68,7 +68,7 @@
         <a href="/">
           <img alt="Svelte Society Logo" src="/logo.svg" />
         </a>
-        <h1>SVELTE SOCIETY DAY</h1>
+        <h1>SVELTE SOCIETY</h1>
       </div>
       <ul>
         <li>

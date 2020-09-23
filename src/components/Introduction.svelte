@@ -30,8 +30,8 @@
 
   <p>
     In the meantime, you can checkout
-    <a href="https://sveltesummit.com">Svelte Summit</a>
-    , our next online conference. It's free! And we have lots of speakers lined
+    <a href="https://sveltesummit.com">Svelte Summit</a>, 
+    our next online conference. It's free! And we have lots of speakers lined
     up.
   </p>
   <img src="introduction.svg" alt="Live Conversation Application Preview" />

@@ -2,6 +2,7 @@
 
 Svelte Society is the global Svelte community organization. It started as a series of meetups in [New York](https://www.downtomeet.com/Svelte-Society-NYC), [London](https://www.meetup.com/svelte/), and [Stockholm](https://www.meetup.com/Sveltejs-Society-Stockholm/), then combined into a global network in early 2020. Today it comprises:
 
+- [This website](https://github.com/svelte-society/sveltesociety.dev), which documents Recipes and Examples beyond [the official docs](https://svelte.dev/)
 - Discord: https://discord.gg/tnu54nB
 - YouTube: http://youtube.com/SvelteSociety
 - Twitter: https://twitter.com/sveltesociety
@@ -39,4 +40,4 @@ However, a lot of work remains to be done. The original Svelte Society meetups a
 
 ### Acknowledgements
 
-Special thanks to [VueMeetups](https://events.vuejs.org/code-of-conduct/#english) for the basis of this Code of Conducts.
+Special thanks to [VueMeetups](https://events.vuejs.org/code-of-conduct/#english) for the basis of this Code of Conduct.
