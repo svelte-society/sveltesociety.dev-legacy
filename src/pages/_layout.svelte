@@ -59,32 +59,35 @@
     width: 92px;
     height: 92px;
   }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: unset;
+    padding: 3em;
+  }
 </style>
 
 <div class="shaded" id="title">
   <header>
     <nav>
       <div class="logo">
-        <a href="/">
-          <img alt="Svelte Society Logo" src="/logo.svg" />
-        </a>
+        <a href="/"> <img alt="Svelte Society Logo" src="/logo.svg" /> </a>
         <h1>SVELTE SOCIETY</h1>
       </div>
       <ul>
-        <li>
-          <a href="/">HOME</a>
-        </li>
-        <li>
-          <a href="/recipes">RECIPES</a>
-        </li>
-        <li>
-          <a href="/components">COMPONENTS</a>
-        </li>
-        <li>
-          <a href="/about">ABOUT</a>
-        </li>
+        <li><a href="/">HOME</a></li>
+        <li><a href="/recipes">RECIPES</a></li>
+        <li><a href="/components">COMPONENTS</a></li>
+        <li><a href="/about">ABOUT</a></li>
       </ul>
     </nav>
   </header>
 </div>
 <slot />
+
+<footer class="shaded">
+  <div>© Svelte Society 2020</div>
+
+  <div>Want to contribute? Pick up an issue on <a href="https://github.com/svelte-society/sveltesociety.dev" target="_blank">GitHub!</a>
+  </div>
+</footer>
