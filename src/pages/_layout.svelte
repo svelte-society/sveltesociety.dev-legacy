@@ -24,7 +24,7 @@
 
 <style>
   .shaded {
-    width: 100%;
+    max-width: 100%;
     background: #f3f6f9;
   }
   header {
