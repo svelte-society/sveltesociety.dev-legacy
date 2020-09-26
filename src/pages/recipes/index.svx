@@ -94,7 +94,7 @@
             sure that any non-standard syntax is transformed before Svelte tries to parse
             it. To enable this Svelte provides a preprocess method allowing you to
             transform different parts of the component before it reaches the compiler.
-            With `svelte.preprocess` you have a great deal of flexibility in how you write your components while ensuring that the Svelte compiler receives a plain
+            With <b>svelte.preprocess</b> you have a great deal of flexibility in how you write your components while ensuring that the Svelte compiler receives a plain
             component.
         </p>
     </div>
