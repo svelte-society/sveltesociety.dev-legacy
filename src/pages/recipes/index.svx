@@ -12,25 +12,21 @@
         align-items: center;
         width: 100%;
     }
-    @media screen and (max-width: 800px) {
-        .content-wrap {
-            line-height: 1.5em;
-        }
-    }
     .navigation-block {
         background: #F3F6F9;
-        padding: 3rem 0px;
         width: 100%;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
     }
     .navigation-content {
         max-width: 1160px;
-        margin: 0px auto;
+        margin: 0px 0.5rem;
     }
     .categories-wrap {
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
-        padding-top: 50px;
+        padding-top: 1rem;
     }
     .category-style {
         width: 48%;
@@ -43,22 +39,33 @@
     .signup-block {
         max-width: 848px;
         background: #ECF6FF;
-        padding: 2rem;
+        padding: 0 1.5rem 1.5rem;
+        margin: 1rem 0;
     }
     p {
-        /* text-align: justify; */
         max-width: 720px;
+    }
+    p.intro {
+        margin-bottom: 3rem;
+    }
+    h1,
+    h3 {
+        margin-top: 1rem;
+    }
+    button {
+        display: block;
+        margin: 2rem auto 0;
     }
 </style>
 
 <div class="content-wrap">
     <div>
         <h1>Cookbook</h1>
-        <p>
+        <p class="intro">
             This cookbook serves shows users how best-in-practice
             code is written in Svelte. You’ll learn how to import
             third-party libraries, external scripts as well as how to
-            handle common problems that you will have to solve often.    
+            handle common problems that you will have to solve often.
         </p>
     </div>
     <div class="navigation-block">

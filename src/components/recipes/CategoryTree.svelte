@@ -6,7 +6,7 @@
 <style>
   ul {
     list-style: none;
-    margin-left: 20px;
+    margin: 0 0 0 1rem;
   }
   li::before {
     content: "•";
