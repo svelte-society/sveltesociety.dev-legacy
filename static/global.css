@@ -177,12 +177,12 @@
   h4,
   h5,
   h6 {
-	margin-bottom: 0;
+	margin: 0;
 	font-family: Overpass;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 29px;
-	line-height: 150%;
+	line-height: var(--line-height);
   }
   
   mark {
@@ -409,3 +409,9 @@
 	font-weight: bold;
   }
   
+  .my-1{
+	  margin: 1rem 0;
+  }
+  .mx-1{
+	margin: 0 1rem;
+}
