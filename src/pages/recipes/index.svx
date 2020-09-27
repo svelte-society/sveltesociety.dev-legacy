@@ -32,6 +32,7 @@
     }
     .content-wrap, .content-wrap {
       width: inherit;
+      padding: 0 1rem;
     }
   }
   .signup-block {
