@@ -63,13 +63,8 @@
   .TOCLink img {
     height: 1em;
   }
-  @media (max-width: 768px) {
-    .home-wrap {
-      margin: 0 auto;
-      max-width: var(--width-content);
-      padding: 2rem 1rem;
-    }
-  }
+
+ 
 </style>
 
 <svelte:head>

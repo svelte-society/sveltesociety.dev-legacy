@@ -12,8 +12,8 @@
     margin: 0 auto;
   }
   .navigation-block {
-    background: #f3f6f9;
     padding: 1rem;
+    width: var(--width-content);
   }
 
   .categories-wrap {
@@ -24,12 +24,13 @@
   }
   .category-style {
     width: 50%;
+    padding: 1rem 0;
   }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1200px) {
     .category-style {
       width: 100%;
     }
-    .content-wrap {
+    .content-wrap, .content-wrap {
       width: inherit;
     }
   }
@@ -39,7 +40,20 @@
   }
   button {
     display: block;
-    margin: 0 auto;
+    margin: 0;
+  }
+  .recipies-block {
+    background: #f3f6f9;
+  }
+  .list-meta {
+    align-items: center;
+  }
+  .list-icon {
+    width:2rem;
+  }
+  .list-title {
+    color: var(--svelte-grey);
+    margin-left: 1rem;
   }
 </style>
 
@@ -53,16 +67,18 @@
       often.
     </p>
   </div>
+</div>
+<section class="recipies-block">
   <div class="navigation-block my-1">
     <div class="navigation-content">
       <h3>Pick a Category to Get Started</h3>
       <div class="categories-wrap">
         {#each categories as category}
           <div class="category-style">
-            <div>
-              <img src={category.meta.frontmatter.icon} alt="" />
+            <div class="d-flex list-meta">
+              <img src={category.meta.frontmatter.icon} alt="" class="list-icon" />
               <a
-                href={category.parent.path}>{category.meta.frontmatter.title}</a>
+                href={category.parent.path} class="list-title">{category.meta.frontmatter.title}</a>
             </div>
             <CategoryTree nodes={category.parent.children} />
           </div>
@@ -70,6 +86,9 @@
       </div>
     </div>
   </div>
+</section>
+
+<div class="content-wrap">
   <div class="my-1">
     <h3>What can I expect from these recipes?</h3>
     <p>
