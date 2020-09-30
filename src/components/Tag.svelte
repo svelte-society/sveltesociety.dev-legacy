@@ -5,13 +5,13 @@
 
 <style>
   div {
-    max-width: 33%;
+    /* max-width: 33%; */
     padding: 2px 12px;
     border-radius: 5px;
     font-family: Overpass;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 150%;
     text-align: center;
     margin-right: 0.5rem;
