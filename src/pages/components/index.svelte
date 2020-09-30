@@ -2,11 +2,11 @@
   import ComponentCard from "@/components/ComponentIndex/Card.svelte";
   import List from "@/components/ComponentIndex/CardList.svelte";
   import Button from "@/components/ComponentIndex/ArrowButton.svelte";
-  import componentsMock from "./components.js";
+  import components from "./components.json";
 
   let searchValue;
 
-  $: testData = componentsMock.filter(component => {
+  $: testData = components.filter(component => {
     if (searchValue) {
       return (
         component.title.includes(searchValue) ||

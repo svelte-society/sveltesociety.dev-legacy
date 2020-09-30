@@ -7,6 +7,7 @@
   export let tags = [];
   export let stars = 0;
   export let addedOn = new Date();
+  export let url = "";
 </script>
 
 <style>
@@ -31,15 +32,18 @@
     display: flex;
     justify-content: space-between;
   }
+  .flex-grow {
+    flex-grow: 1;
+  }
 </style>
 
 <div class="card" class:active>
   <img src={image} alt={title} />
-  <h1>{title}</h1>
-  <p>{description}</p>
+  <h1><a href={url}>{title}</a></h1>
+  <p class="flex-grow">{description}</p>
   <div class="card__tags">
     {#each tags as tag}
-      <Tag {...tag} />
+      <Tag title={tag} variant='blue' />
     {/each}
   </div>
   <div class="card__bottom">
@@ -47,6 +51,6 @@
       <img src="/github_logo.svg" alt="github logo" />
       {stars}
     </div>
-    <div>{new Intl.DateTimeFormat('en-Us').format(addedOn)}</div>
+    <div>{new Intl.DateTimeFormat('en-Us').format(Date.parse(addedOn))}</div>
   </div>
 </div>
