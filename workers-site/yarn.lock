@@ -2,19 +2,26 @@
 # yarn lockfile v1
 
 
-"@cloudflare/kv-asset-handler@^0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@cloudflare/kv-asset-handler/-/kv-asset-handler-0.0.5.tgz#7719c9f2cbe9516e0e3839bb0dc228dd3e399d74"
-  integrity sha512-7yLMAUZD1XQNKzmktYCcUUPB+wXmQENv1MMi8QEMs0rzL01e0XEyCUUDauRXHzxi7dBbSUGA5RS23h890ncKog==
+"@cloudflare/kv-asset-handler@^0.0.12":
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/@cloudflare/kv-asset-handler/-/kv-asset-handler-0.0.12.tgz#4fc397912a0897a5cf8c0b5eb7c983b5e8b36979"
+  integrity sha512-3XCs9TRhQh/yUs1ST9cIMLB8C5c1JRKcDYTPJbAmcgI0kO2FPCSZz+kyNb9x25DuGQeqOMMwmxHPtiOfTki/Gw==
   dependencies:
-    mime "^2.4.4"
+    "@cloudflare/workers-types" "^2.0.0"
+    "@types/mime" "^2.0.2"
+    mime "^2.4.6"
 
-cloudworker-router@^1.10.0:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/cloudworker-router/-/cloudworker-router-1.10.0.tgz#84379a25c44f0301e9c25eb97fecdf5ad6471558"
-  integrity sha512-67y3uEPt7rsQw48JGxzGynpk+l1vMwOp8atd0UumcSZTi/DEQKDMpI9hKb/EkAjzQEbzpL9DH4nqQXdg6hK0Dw==
+"@cloudflare/workers-types@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@cloudflare/workers-types/-/workers-types-2.0.0.tgz#c57162155bd83744a0fa83276ffec0ad430f14e4"
+  integrity sha512-SFUPQzR5aV2TBLP4Re+xNX5KfAGArcRGA44OLulBDnfblEf3J+6kFvdJAQwFhFpqru3wImwT1cX0wahk6EeWTw==
 
-mime@^2.4.4:
-  version "2.4.5"
-  resolved "https://registry.yarnpkg.com/mime/-/mime-2.4.5.tgz#d8de2ecb92982dedbb6541c9b6841d7f218ea009"
-  integrity sha512-3hQhEUF027BuxZjQA3s7rIv/7VCQPa27hN9u9g87sEkWaKwQPuXOkVKtOeiyUrnWqTDiOs8Ed2rwg733mB0R5w==
+"@types/mime@^2.0.2":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@types/mime/-/mime-2.0.3.tgz#c893b73721db73699943bfc3653b1deb7faa4a3a"
+  integrity sha512-Jus9s4CDbqwocc5pOAnh8ShfrnMcPHuJYzVcSUU7lrh8Ni5HuIqX3oilL86p3dlTrk0LzHRCgA/GQ7uNCw6l2Q==
+
+mime@^2.4.6:
+  version "2.4.6"
+  resolved "https://registry.yarnpkg.com/mime/-/mime-2.4.6.tgz#e5b407c90db442f2beb5b162373d07b69affa4d1"
+  integrity sha512-RZKhC3EmpBchfTGBVb8fb+RL2cWyw/32lshnsETttkBAyAUXSGHxbEJWWRXc751DrIxG1q04b8QwMbAwkRPpUA==

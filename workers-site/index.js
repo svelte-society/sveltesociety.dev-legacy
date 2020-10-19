@@ -36,9 +36,6 @@ async function handleEvent(event) {
    * You can add custom logic to how we fetch your assets
    * by configuring the function `mapRequestToAsset`
    */
-  if (/\.jpg$|.jpeg$/.test(event.request.url)) {
-    options.mapRequestToAsset = handleWebP()
-  }
 
   try {
     if (DEBUG) {
@@ -47,6 +44,8 @@ async function handleEvent(event) {
         bypassCache: true,
       }
     }
+    console.log(await getAssetFromKV(event, options))
+
     return await getAssetFromKV(event, options)
   } catch (e) {
     // if an error is thrown try to serve the asset at 404.html
@@ -87,32 +86,5 @@ function handlePrefix(prefix) {
 
     // inherit all other props from the default request
     return new Request(url.toString(), defaultAssetKey)
-  }
-}
-
-function handleWebP() {
-  return request => {
-    let defaultAssetKey = mapRequestToAsset(request)
-
-    console.log(defaultAssetKey)
-
-    let supportsWebp = false;
-    if (request.headers.has('accept')) {
-      supportsWebp = request.headers
-        .get('accept')
-        .includes('webp');
-    }
-
-    let returnUrl;
-
-    if (supportsWebp) {
-      let req = request.clone();
-
-      returnUrl = req.url.substr(0, req.url.lastIndexOf(".")) + ".webp";
-    } else {
-      returnUrl = request.clone().url
-    }
-
-    return new Request(returnUrl, defaultAssetKey)
   }
 }
