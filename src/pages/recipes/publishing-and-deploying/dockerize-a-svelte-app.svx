@@ -10,6 +10,8 @@ npx degit sveltejs/template svelte-docker
 cd svelte-docker
 ```
 
+Run `npm install` to generate the `package-lock.json` file.
+
 ### Building
 
 Next, we need to create a file named `Dockerfile` in the root of our project, and paste in the following:
@@ -19,8 +21,10 @@ FROM node:12 AS build
 
 WORKDIR /app
 
-COPY . ./
+COPY package.json ./
+COPY package-lock.json ./
 RUN npm install
+COPY . ./
 RUN npm run build
 
 FROM nginx:1.19-alpine
@@ -29,6 +33,12 @@ COPY --from=build /app/public /usr/share/nginx/html
 
 This tells Docker to build the Svelte App using an intermediate Node image and then copies only the build output to the final NGINX image, as
 we only need something that serves static content. That way, Node doesn't contribute to the final size of the Docker image.
+
+To ensure we are not copying unnecessary files and folders in the build process (the `COPY . ./` step), we can add the following to a file named `.dockerignore`:
+
+```
+node_modules
+```
 
 You can now build your docker image:
 
