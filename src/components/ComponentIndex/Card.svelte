@@ -26,6 +26,7 @@
   .card__tags {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin-bottom: 1rem;
   }
   .card__bottom {
@@ -38,7 +39,7 @@
 </style>
 
 <div class="card" class:active>
-  <img src={image} alt={title} />
+  {#if image}<img src={image} alt={title} />{/if}
   <h1><a href={url}>{title}</a></h1>
   <p class="flex-grow">{description}</p>
   <div class="card__tags">
