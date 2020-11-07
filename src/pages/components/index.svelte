@@ -5,16 +5,19 @@
   import components from "./components.json";
 
   let searchValue;
+  const tags = Array.from(new Set(components.map(item => item.tags).flat()))
+  let filterTag = []
+
+  const intersection = (array1, array2) => {
+    return array1.filter(item => array2.includes(item))
+  }
 
   $: testData = components.filter(component => {
-    if (searchValue) {
-      return (
-        component.title.includes(searchValue) ||
-        component.description.includes(searchValue)
-      );
-    }
-    return true;
+    if (!searchValue && filterTag.length === 0) return true
+    return searchValue && (component.title.includes(searchValue) || component.description.includes(searchValue))
+      || filterTag.length > 0 && intersection(filterTag, component.tags).length > 0
   });
+  $: categories = Array.from(new Set(testData.map(item => item.category)))
 </script>
 
 <style>
@@ -23,6 +26,7 @@
     justify-content: space-between;
     align-items: center;
     font-family: Overpass;
+    position: relative;
   }
 
   .inputs {
@@ -41,6 +45,12 @@
     margin: 0;
     padding: 10px 15px;
   }
+
+  .searchbar-count {
+    position: absolute;
+    top: 100%;
+    right: 0;
+  }
 </style>
 
 <main>
@@ -57,16 +67,14 @@
       type="text"
       placeholder="Search for components..."
       bind:value={searchValue} />
+    <span class="searchbar-count">{testData.length} result{#if testData.length !== 1}s{/if}</span>
   </div>
   <hr />
-  <List title="Forms & User Input">
-    {#each testData.filter(d => d.category === 'forms') as data}
-      <ComponentCard {...data} />
-    {/each}
-  </List>
-  <List title="User Interface Libraries">
-    {#each testData.filter(d => d.category === 'ui') as data}
-      <ComponentCard {...data} />
-    {/each}
-  </List>
+  {#each categories as category}
+    <List title={category||"Unclassified"}>
+      {#each testData.filter(d => d.category === category) as data}
+        <ComponentCard {...data} />
+      {/each}
+    </List>
+  {/each}
 </main>
