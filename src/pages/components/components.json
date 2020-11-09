@@ -10,7 +10,7 @@
     "stars": 201,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Forms & User Input"
   },
   {
     "title": "agusID/boilerplate-svelte",
@@ -22,7 +22,7 @@
     "stars": 51,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-tags-input",
@@ -35,7 +35,7 @@
     "stars": 70,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Forms & User Input"
   },
   {
     "title": "sveltedoc-parser",
@@ -48,7 +48,7 @@
     "stars": 33,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Developer Experience"
   },
   {
     "title": "aovi-svelte",
@@ -61,7 +61,7 @@
     "stars": 2,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": "forms"
+    "category": "Forms & User Input"
   },
   {
     "title": "svelte-chota",
@@ -87,7 +87,7 @@
     "stars": 81,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Developer Experience"
   },
   {
     "title": "svelte-eventbus",
@@ -124,7 +124,7 @@
     "stars": 123,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Routers"
   },
   {
     "title": "fa-svelte",
@@ -149,7 +149,7 @@
     "stars": 298,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Routers"
   },
   {
     "title": "svelte-fullscreen",
@@ -199,7 +199,7 @@
     "stars": 27,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "antony/svelte-box",
@@ -211,7 +211,7 @@
     "stars": 30,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-formly",
@@ -229,7 +229,7 @@
     "stars": 62,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": "forms"
+    "category": "Forms & User Input"
   },
   {
     "title": "svelte-websocket-store",
@@ -242,7 +242,7 @@
     "stars": 45,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Stores"
   },
   {
     "title": "Axelen123/svelte-ts-template",
@@ -254,7 +254,7 @@
     "stars": 21,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "sveltestrap",
@@ -305,7 +305,7 @@
     "stars": 13,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "@beyonk/svelte-facebook-customer-chat",
@@ -318,7 +318,7 @@
     "stars": 1,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Integrations"
   },
   {
     "title": "@beyonk/svelte-facebook-pixel",
@@ -331,7 +331,7 @@
     "stars": 5,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Integrations"
   },
   {
     "title": "@beyonk/svelte-google-analytics",
@@ -344,7 +344,7 @@
     "stars": 9,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Integrations"
   },
   {
     "title": "@beyonk/svelte-googlemaps",
@@ -357,7 +357,7 @@
     "stars": 22,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Integrations"
   },
   {
     "title": "@beyonk/svelte-mapbox",
@@ -370,7 +370,7 @@
     "stars": 77,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Integrations"
   },
   {
     "title": "@beyonk/svelte-notifications",
@@ -422,7 +422,7 @@
     "stars": 1,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Integrations"
   },
   {
     "title": "TodoMVC Svelte",
@@ -434,7 +434,7 @@
     "stars": 22,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "Blade67/Sveltron",
@@ -447,7 +447,7 @@
     "stars": 41,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "@bjornlu/svelte-router",
@@ -459,7 +459,7 @@
     "stars": 10,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Routers"
   },
   {
     "title": "brandonxiang/svelte-webpack-mpa",
@@ -471,7 +471,7 @@
     "stars": 11,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-sortable-list",
@@ -510,7 +510,7 @@
     "stars": 17,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Stores"
   },
   {
     "title": "svelma",
@@ -536,7 +536,7 @@
     "stars": 89,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Forms & User Input"
   },
   {
     "title": "svelte-credit-cards",
@@ -561,7 +561,7 @@
     "stars": 7,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "coc-svelte",
@@ -574,7 +574,7 @@
     "stars": 49,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Developer Experience"
   },
   {
     "title": "svelte-headroom",
@@ -612,7 +612,7 @@
     "stars": 46,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "dafn/svelte-typescript-rollup",
@@ -624,7 +624,7 @@
     "stars": 78,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-table",
@@ -675,7 +675,7 @@
     "stars": 7,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "devghost/svelte",
@@ -687,7 +687,7 @@
     "stars": 5,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "waxwing-rating",
@@ -700,7 +700,7 @@
     "stars": 5,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Forms & User Input"
   },
   {
     "title": "@dopry/svelte-auth0",
@@ -740,7 +740,7 @@
     "stars": 5,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Forms & User Input"
   },
   {
     "title": "svelte-dev-helper",
@@ -753,7 +753,7 @@
     "stars": 6,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Developer Experience"
   },
   {
     "title": "svelte-ie11",
@@ -777,7 +777,7 @@
     "stars": 1057,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Routers"
   },
   {
     "title": "svelte-rate-it",
@@ -790,7 +790,7 @@
     "stars": 27,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Forms & User Input"
   },
   {
     "title": "@equipmentshare/date-range-input",
@@ -829,7 +829,7 @@
     "stars": 128,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Developer Experience"
   },
   {
     "title": "svelteify",
@@ -854,7 +854,7 @@
     "stars": 0,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "farhan2106/svelte-typescript",
@@ -866,7 +866,7 @@
     "stars": 35,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "farhan2106/svelte-typescript-ssr",
@@ -878,7 +878,7 @@
     "stars": 8,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-simple-modal",
@@ -916,7 +916,7 @@
     "stars": 45,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-icons",
@@ -966,7 +966,7 @@
     "stars": 25,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Developer Experience"
   },
   {
     "title": "svelte-copyright",
@@ -1029,7 +1029,7 @@
     "stars": 35,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-material-ui",
@@ -1080,7 +1080,7 @@
     "stars": 44,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Developer Experience"
   },
   {
     "title": "svelte-spa-router",
@@ -1092,7 +1092,7 @@
     "stars": 523,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Routers"
   },
   {
     "title": "sapper-ecommerce",
@@ -1104,7 +1104,7 @@
     "stars": 215,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-flatpickr",
@@ -1129,7 +1129,7 @@
     "stars": 12,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Routers"
   },
   {
     "title": "svelvet",
@@ -1142,7 +1142,7 @@
     "stars": 296,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Developer Experience"
   },
   {
     "title": "@jamen/svelte-router",
@@ -1154,7 +1154,7 @@
     "stars": 8,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Routers"
   },
   {
     "title": "jerriclynsjohn/svelte-storybook-tailwind",
@@ -1166,7 +1166,7 @@
     "stars": 161,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-router",
@@ -1178,7 +1178,7 @@
     "stars": 61,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Routers"
   },
   {
     "title": "svelte-pick-a-place",
@@ -1241,7 +1241,7 @@
     "stars": 80,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-router-spa",
@@ -1253,7 +1253,7 @@
     "stars": 237,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Routers"
   },
   {
     "title": "justinekizhak/svelte-tailwind-template",
@@ -1265,7 +1265,7 @@
     "stars": 1,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-css-vars",
@@ -1316,7 +1316,7 @@
     "stars": 808,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Developer Experience"
   },
   {
     "title": "svero",
@@ -1328,7 +1328,7 @@
     "stars": 214,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Routers"
   },
   {
     "title": "svelte-notifications",
@@ -1354,7 +1354,7 @@
     "stars": 84,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Developer Experience"
   },
   {
     "title": "svelte-fragment-component",
@@ -1449,7 +1449,7 @@
     "stars": 42,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Developer Experience"
   },
   {
     "title": "svelte-redux-connect",
@@ -1487,7 +1487,7 @@
     "stars": 1,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-mode",
@@ -1500,7 +1500,7 @@
     "stars": 17,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Developer Experience"
   },
   {
     "title": "vim-svelte-plugin",
@@ -1513,7 +1513,7 @@
     "stars": 31,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Developer Experience"
   },
   {
     "title": "echarts-for-svelte",
@@ -1538,7 +1538,7 @@
     "stars": 25,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Integrations"
   },
   {
     "title": "lpshanley/svelte-phonegap",
@@ -1551,7 +1551,7 @@
     "stars": 8,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-preprocess-less",
@@ -1564,7 +1564,7 @@
     "stars": 7,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Developer Experience"
   },
   {
     "title": "svelte-preprocess-sass",
@@ -1577,7 +1577,7 @@
     "stars": 73,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Developer Experience"
   },
   {
     "title": "@pwa/cli",
@@ -1590,7 +1590,7 @@
     "stars": 2960,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Developer Experience"
   },
   {
     "title": "LunaTK/svelte-web-component-builder",
@@ -1602,7 +1602,7 @@
     "stars": 1,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-easyroute",
@@ -1614,7 +1614,7 @@
     "stars": 62,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Routers"
   },
   {
     "title": "svelte-inview",
@@ -1641,7 +1641,7 @@
     "stars": 95,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-webpack-babel-scss",
@@ -1653,7 +1653,7 @@
     "stars": 1,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "smelte",
@@ -1705,7 +1705,7 @@
     "stars": 126,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Forms & User Input"
   },
   {
     "title": "svelte-navigator",
@@ -1717,7 +1717,7 @@
     "stars": 36,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Routers"
   },
   {
     "title": "Svelte for Meteor",
@@ -1730,7 +1730,7 @@
     "stars": 92,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "layercake",
@@ -1756,7 +1756,7 @@
     "stars": 7,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Forms & User Input"
   },
   {
     "title": "svelte-layout-resizable",
@@ -1794,7 +1794,7 @@
     "stars": 82,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "n0th1ng-else/svelte-typescript-sass",
@@ -1806,7 +1806,7 @@
     "stars": 12,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "@egjs/svelte-infinitegrid",
@@ -1836,7 +1836,7 @@
     "stars": 0,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "neighbourhoodie/svelte-pouchdb-couchdb",
@@ -1848,7 +1848,7 @@
     "stars": 32,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "Sapper - Firebase functions",
@@ -1861,7 +1861,7 @@
     "stars": 13,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "Sapper - PostCSS, Tailwind CSS, PurgeCSS, cssnano",
@@ -1873,7 +1873,7 @@
     "stars": 17,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "nitro52/svelte-typescript-sass-template",
@@ -1885,7 +1885,7 @@
     "stars": 13,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-page-progress",
@@ -1925,7 +1925,7 @@
     "stars": 5,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "@okrad/svelte-progressbar",
@@ -1950,7 +1950,7 @@
     "stars": 14,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "pankod/svelte-boilerplate",
@@ -1962,7 +1962,7 @@
     "stars": 188,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-intl",
@@ -1998,7 +1998,7 @@
     "stars": 9,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Forms & User Input"
   },
   {
     "title": "svql",
@@ -2023,7 +2023,7 @@
     "stars": 101,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Routers"
   },
   {
     "title": "patoi/svelte-component-library-template",
@@ -2035,7 +2035,7 @@
     "stars": 44,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-asyncable",
@@ -2048,7 +2048,7 @@
     "stars": 26,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Stores"
   },
   {
     "title": "svelte-content-loader",
@@ -2086,7 +2086,7 @@
     "stars": 43,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Forms & User Input"
   },
   {
     "title": "svelte-page-router",
@@ -2098,7 +2098,7 @@
     "stars": 17,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Routers"
   },
   {
     "title": "svelte-pathfinder",
@@ -2111,7 +2111,7 @@
     "stars": 30,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Routers"
   },
   {
     "title": "svelte-ticker",
@@ -2136,7 +2136,7 @@
     "stars": 103,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Developer Experience"
   },
   {
     "title": "svelte-viewpoint",
@@ -2162,7 +2162,7 @@
     "stars": 7,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Forms & User Input"
   },
   {
     "title": "pbastowski/svelte-poi-starter",
@@ -2174,7 +2174,7 @@
     "stars": 10,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-match-media",
@@ -2201,7 +2201,7 @@
     "stars": 8,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Stores"
   },
   {
     "title": "svelte-writable-derived",
@@ -2214,7 +2214,7 @@
     "stars": 25,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Stores"
   },
   {
     "title": "storez",
@@ -2227,7 +2227,7 @@
     "stars": 11,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Stores"
   },
   {
     "title": "mdsvex",
@@ -2291,7 +2291,7 @@
     "stars": 4,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "vscode-svelte-component-extractor",
@@ -2304,7 +2304,7 @@
     "stars": 20,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Developer Experience"
   },
   {
     "title": "Simple Svelte Autocomplete",
@@ -2317,7 +2317,7 @@
     "stars": 51,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Forms & User Input"
   },
   {
     "title": "svelte-hash-router",
@@ -2329,7 +2329,7 @@
     "stars": 21,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Routers"
   },
   {
     "title": "pyoner/svelte-typescript",
@@ -2341,7 +2341,7 @@
     "stars": 211,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "@pyoner/svelte-ts-preprocess",
@@ -2354,7 +2354,7 @@
     "stars": 211,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-color-picker",
@@ -2367,7 +2367,7 @@
     "stars": 50,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Forms & User Input"
   },
   {
     "title": "svelte-inspector",
@@ -2380,7 +2380,7 @@
     "stars": 54,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Developer Experience"
   },
   {
     "title": "swheel",
@@ -2392,7 +2392,7 @@
     "stars": 43,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Routers"
   },
   {
     "title": "Svelte DevTools",
@@ -2405,7 +2405,7 @@
     "stars": 395,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Developer Experience"
   },
   {
     "title": "svelte-accessible-dialog",
@@ -2429,7 +2429,7 @@
     "stars": 35,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "@sveltejs/pancake",
@@ -2455,7 +2455,7 @@
     "stars": 72,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "rixo/svelte-template-hot",
@@ -2467,7 +2467,7 @@
     "stars": 45,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-select",
@@ -2480,7 +2480,7 @@
     "stars": 305,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Forms & User Input"
   },
   {
     "title": "svelte-awesome",
@@ -2506,7 +2506,7 @@
     "stars": 282,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Developer Experience"
   },
   {
     "title": "jest-transform-svelte",
@@ -2544,7 +2544,7 @@
     "stars": 15,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "MDBSvelte",
@@ -2608,7 +2608,7 @@
     "stars": 24,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Routers"
   },
   {
     "title": "Shyam-Chen/svelte-play",
@@ -2620,7 +2620,7 @@
     "stars": 96,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-marquee",
@@ -2647,7 +2647,7 @@
     "stars": 5,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Forms & User Input"
   },
   {
     "title": "svelte-infinite-loading",
@@ -2671,7 +2671,7 @@
     "stars": 3,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-monetization",
@@ -2696,7 +2696,7 @@
     "stars": 26,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Forms & User Input"
   },
   {
     "title": "@spaceavocado/svelte-router",
@@ -2708,7 +2708,7 @@
     "stars": 40,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Routers"
   },
   {
     "title": "spaceavocado/svelte-router-template",
@@ -2720,7 +2720,7 @@
     "stars": 6,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-multitoneimage",
@@ -2757,7 +2757,7 @@
     "stars": 15,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "SteveALee/svelte-code-cypress-project",
@@ -2769,7 +2769,7 @@
     "stars": 3,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "storybookjs",
@@ -2807,7 +2807,7 @@
     "stars": 823,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Routers"
   },
   {
     "title": "sveltejs/component-template",
@@ -2819,7 +2819,7 @@
     "stars": 303,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "@sveltejs/gestures",
@@ -2857,7 +2857,7 @@
     "stars": 419,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Developer Experience"
   },
   {
     "title": "sveltejs/sapper-template",
@@ -2869,7 +2869,7 @@
     "stars": 623,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-loader",
@@ -2882,7 +2882,7 @@
     "stars": 387,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Developer Experience"
   },
   {
     "title": "@sveltejs/svelte-repl",
@@ -2895,7 +2895,7 @@
     "stars": 169,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Forms & User Input"
   },
   {
     "title": "@sveltejs/svelte-scroller",
@@ -2946,7 +2946,7 @@
     "stars": 800,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "sveltejs/template-custom-element",
@@ -2958,7 +2958,7 @@
     "stars": 17,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "sveltejs/template-webpack",
@@ -2970,7 +2970,7 @@
     "stars": 205,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "syonip/svelte-cordova",
@@ -2983,7 +2983,7 @@
     "stars": 15,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-preprocess-postcss",
@@ -2996,7 +2996,7 @@
     "stars": 26,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Developer Experience"
   },
   {
     "title": "svelte-state-renderer",
@@ -3008,7 +3008,7 @@
     "stars": 29,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Routers"
   },
   {
     "title": "@testing-library/svelte",
@@ -3033,7 +3033,7 @@
     "stars": 14,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Forms & User Input"
   },
   {
     "title": "svelte-apollo",
@@ -3046,7 +3046,7 @@
     "stars": 522,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Integrations"
   },
   {
     "title": "svelte-observable",
@@ -3059,7 +3059,7 @@
     "stars": 40,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Stores"
   },
   {
     "title": "sveltemantic",
@@ -3085,7 +3085,7 @@
     "stars": 0,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Developer Experience"
   },
   {
     "title": "svelte-forms-lib",
@@ -3098,7 +3098,7 @@
     "stars": 160,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": "forms"
+    "category": "Forms & User Input"
   },
   {
     "title": "svelte-intellij",
@@ -3111,7 +3111,7 @@
     "stars": 288,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Developer Experience"
   },
   {
     "title": "Ionic Svelte UI demo",
@@ -3127,7 +3127,7 @@
     "stars": 113,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "tonyrewin/svelte3-ts-boilerplate",
@@ -3139,7 +3139,7 @@
     "stars": 6,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-inspect",
@@ -3152,7 +3152,7 @@
     "stars": 33,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Developer Experience"
   },
   {
     "title": "prettier-plugin-svelte",
@@ -3165,7 +3165,7 @@
     "stars": 230,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Developer Experience"
   },
   {
     "title": "svelte-grid",
@@ -3204,7 +3204,7 @@
     "stars": 64,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Forms & User Input"
   },
   {
     "title": "svelte-mui",
@@ -3217,7 +3217,7 @@
     "stars": 193,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "ui"
   },
   {
     "title": "Vime",
@@ -3258,7 +3258,7 @@
     "stars": 84,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "ui"
   },
   {
     "title": "will-wow/svelte-typescript-template",
@@ -3270,7 +3270,7 @@
     "stars": 4,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-media-query",
@@ -3322,7 +3322,7 @@
     "stars": 42,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Forms & User Input"
   },
   {
     "title": "svelidation",
@@ -3335,7 +3335,7 @@
     "stars": 30,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": "forms"
+    "category": "Forms & User Input"
   },
   {
     "title": "YogliB/svelte-component-template",
@@ -3347,7 +3347,7 @@
     "stars": 161,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-component-template",
@@ -3359,7 +3359,7 @@
     "stars": 161,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-fullcalendar",
@@ -3372,7 +3372,7 @@
     "stars": 35,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Forms & User Input"
   },
   {
     "title": "Zimtir/SENT-template",
@@ -3384,7 +3384,7 @@
     "stars": 55,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-item-list",
@@ -3423,7 +3423,7 @@
     "stars": 10,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "ui"
   },
   {
     "title": "overmind-svelte",

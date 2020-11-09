@@ -15,6 +15,7 @@
     line-height: 150%;
     text-align: center;
     margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
   }
 
   .red {
