@@ -218,13 +218,7 @@
     "url": "https://github.com/arabdevelop/svelte-formly",
     "description": "Generate dynamic forms for sveltejs / Sapper js",
     "tags": [
-      "svelte-form",
-      "svelte-formly",
-      "saper-form",
-      "sapper-formly",
-      "form",
-      "forms",
-      "formly"
+      "forms and validation"
     ],
     "stars": 62,
     "image": "",
@@ -391,7 +385,7 @@
     "description": "Scroll Spy component for Svelte",
     "tags": [
       "components and libraries",
-      "interaction"
+      "interactions"
     ],
     "stars": 21,
     "image": "",
@@ -645,7 +639,7 @@
     "description": "Component for moveable, draggable, resizable, scalable, rotatable, and more",
     "tags": [
       "components and libraries",
-      "interaction"
+      "interactions"
     ],
     "stars": 0,
     "image": "",
@@ -760,7 +754,7 @@
     "url": "https://github.com/elsonigo/svelte-ie11",
     "description": "svelte template with basic babel setup for ie11 compatibility",
     "tags": [
-      "template"
+      "templates"
     ],
     "stars": 0,
     "image": "",
@@ -810,7 +804,7 @@
     "url": "https://github.com/esinx/svelte-tree",
     "description": "Tree view component for svelte",
     "tags": [
-      "component",
+      "components and libraries",
       "tree"
     ],
     "stars": 3,
@@ -1948,12 +1942,7 @@
       "forms and validation",
       "component sets",
       "layout and structure",
-      "form",
-      "formly",
-      "forms",
-      "svelte-form",
-      "svelte-formly",
-      "template"
+      "templates"
     ],
     "stars": 9,
     "image": "",
@@ -2602,7 +2591,7 @@
       "components and libraries",
       "inputs and widgets",
       "forms and validation",
-      "interaction"
+      "interactions"
     ],
     "stars": 5,
     "image": "",
@@ -2787,7 +2776,7 @@
     "description": "Svelte actions for cross-platform gesture detection (work in progress)",
     "tags": [
       "components and libraries",
-      "interaction"
+      "interactions"
     ],
     "stars": 60,
     "image": "",
@@ -3080,7 +3069,6 @@
     "tags": [
       "components and libraries",
       "component sets",
-      "web component sets",
       "templates",
       "mobile"
     ],
@@ -3365,7 +3353,7 @@
     "description": "Web-components library built with Svelte",
     "tags": [
       "components and libraries",
-      "web component sets"
+      "component sets"
     ],
     "stars": 27,
     "image": "",
