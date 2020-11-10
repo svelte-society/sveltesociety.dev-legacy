@@ -74,7 +74,7 @@
     "stars": 92,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": "ui"
+    "category": "Design System"
   },
   {
     "title": "@svelte-docs/core",
@@ -99,7 +99,7 @@
     "stars": 14,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Design Pattern"
   },
   {
     "title": "svelte-preprocess-markdown",
@@ -267,7 +267,7 @@
     "stars": 419,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Design System"
   },
   {
     "title": "@beyonk/gdpr-cookie-consent-banner",
@@ -280,7 +280,7 @@
     "stars": 44,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "User Interaction"
   },
   {
     "title": "@beyonk/svelte-carousel",
@@ -293,7 +293,7 @@
     "stars": 109,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "User Interaction"
   },
   {
     "title": "beyonk-adventures/svelte-component-livereload-template",
@@ -318,7 +318,7 @@
     "stars": 1,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": "Integrations"
+    "category": "Integration"
   },
   {
     "title": "@beyonk/svelte-facebook-pixel",
@@ -331,7 +331,7 @@
     "stars": 5,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": "Integrations"
+    "category": "Integration"
   },
   {
     "title": "@beyonk/svelte-google-analytics",
@@ -344,7 +344,7 @@
     "stars": 9,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": "Integrations"
+    "category": "Integration"
   },
   {
     "title": "@beyonk/svelte-googlemaps",
@@ -357,7 +357,7 @@
     "stars": 22,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": "Integrations"
+    "category": "Integration"
   },
   {
     "title": "@beyonk/svelte-mapbox",
@@ -370,7 +370,7 @@
     "stars": 77,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": "Integrations"
+    "category": "Integration"
   },
   {
     "title": "@beyonk/svelte-notifications",
@@ -383,7 +383,7 @@
     "stars": 114,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "User Interaction"
   },
   {
     "title": "@beyonk/svelte-scrollspy",
@@ -422,7 +422,7 @@
     "stars": 1,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": "Integrations"
+    "category": "Integration"
   },
   {
     "title": "TodoMVC Svelte",
@@ -484,7 +484,7 @@
     "stars": 64,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Data Visualisation"
   },
   {
     "title": "svelte-data-grid",
@@ -497,7 +497,7 @@
     "stars": 88,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Data Visualisation"
   },
   {
     "title": "query-store",
@@ -523,7 +523,7 @@
     "stars": 348,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Design System"
   },
   {
     "title": "svelte-forms",
@@ -548,7 +548,7 @@
     "stars": 20,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Data Visualisation"
   },
   {
     "title": "chuanqisun/svelte-electron-template",
@@ -587,7 +587,7 @@
     "stars": 49,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "User Interaction"
   },
   {
     "title": "svelte-fa",
@@ -637,7 +637,7 @@
     "stars": 96,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Data Visualisation"
   },
   {
     "title": "svelte-moveable",
@@ -650,7 +650,7 @@
     "stars": 0,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "User Interaction"
   },
   {
     "title": "svelte-ruler",
@@ -765,7 +765,7 @@
     "stars": 0,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Boilerplate"
   },
   {
     "title": "svelte-routing",
@@ -803,7 +803,7 @@
     "stars": 8,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Forms & User Input"
   },
   {
     "title": "svelte-tree",
@@ -816,7 +816,7 @@
     "stars": 3,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Data Visualisation"
   },
   {
     "title": "vim-svelte",
@@ -842,7 +842,7 @@
     "stars": 40,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Design System"
   },
   {
     "title": "fabiohvp/svelte-template",
@@ -891,7 +891,7 @@
     "stars": 82,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "User Interaction"
   },
   {
     "title": "@urql/svelte",
@@ -904,7 +904,7 @@
     ],
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Integration"
   },
   {
     "title": "geakstr/svelte-3-rollup-typescript-vscode",
@@ -941,7 +941,7 @@
     "stars": 679,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Integration"
   },
   {
     "title": "svelte-typewriter",
@@ -1004,7 +1004,7 @@
     "stars": 65,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Data Visualisation"
   },
   {
     "title": "svmd",
@@ -1017,7 +1017,7 @@
     "stars": 8,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Design System"
   },
   {
     "title": "Holben888/svelte-starter-template",
@@ -1042,7 +1042,7 @@
     "stars": 1204,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": "ui"
+    "category": "Design System"
   },
   {
     "title": "carbon-components-svelte",
@@ -1055,7 +1055,7 @@
     "stars": 314,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": "ui"
+    "category": "Design System"
   },
   {
     "title": "attractions",
@@ -1067,7 +1067,7 @@
     "stars": 48,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": "ui"
+    "category": "Design System"
   },
   {
     "title": "vite-plugin-svelte",
@@ -1117,7 +1117,7 @@
     "stars": 35,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Forms & User Input"
   },
   {
     "title": "svelte-navaid",
@@ -1191,7 +1191,7 @@
     "stars": 42,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Forms & User Input"
   },
   {
     "title": "svelte-tabs",
@@ -1204,7 +1204,7 @@
     "stars": 60,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "User Interaction"
   },
   {
     "title": "svelteml",
@@ -1216,7 +1216,7 @@
     "stars": 19,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Integration"
   },
   {
     "title": "svelte-compare-image-slider",
@@ -1229,7 +1229,7 @@
     "stars": 3,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Data Visualisation"
   },
   {
     "title": "jorgegorka/svelte-firebase",
@@ -1341,7 +1341,7 @@
     "stars": 163,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "User Interaction"
   },
   {
     "title": "baelte",
@@ -1368,7 +1368,7 @@
     "stars": 0,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Testing"
   },
   {
     "title": "svelte-htm",
@@ -1382,21 +1382,7 @@
     "stars": 2,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
-  },
-  {
-    "title": "svelte-htm",
-    "url": "https://github.com/kenoxa/svelte-htm",
-    "description": "Tagged Template syntax for svelte to simplify testing",
-    "tags": [
-      "components and libraries",
-      "testing",
-      "jsx"
-    ],
-    "stars": 2,
-    "image": "",
-    "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Testing"
   },
   {
     "title": "svelte-jsx",
@@ -1410,21 +1396,7 @@
     "stars": 4,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
-  },
-  {
-    "title": "svelte-jsx",
-    "url": "https://github.com/kenoxa/svelte-jsx",
-    "description": "JSX for svelte to simplify testing",
-    "tags": [
-      "components and libraries",
-      "testing",
-      "jsx"
-    ],
-    "stars": 4,
-    "image": "",
-    "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Testing"
   },
   {
     "title": "svelte-favicon-badge",
@@ -1474,7 +1446,7 @@
     "stars": 35,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Testing"
   },
   {
     "title": "electron-svelte-boilerplate",
@@ -1526,7 +1498,7 @@
     "stars": 14,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Data Visualisation"
   },
   {
     "title": "@lottiefiles/svelte-lottie-player",
@@ -1538,7 +1510,7 @@
     "stars": 25,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": "Integrations"
+    "category": "Integration"
   },
   {
     "title": "lpshanley/svelte-phonegap",
@@ -1666,7 +1638,7 @@
     "stars": 649,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Design System"
   },
   {
     "title": "svelte-image",
@@ -1743,7 +1715,7 @@
     "stars": 256,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Data Visualisation"
   },
   {
     "title": "Browser REPL JS",
@@ -1892,18 +1864,6 @@
     "url": "https://github.com/NomanGul/svelte-page-progress",
     "description": "Svelte Component that tracks a users progress through a page as they scroll",
     "tags": [
-      "components and libraries"
-    ],
-    "stars": 4,
-    "image": "",
-    "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
-  },
-  {
-    "title": "svelte-page-progress",
-    "url": "https://github.com/NomanGul/svelte-page-progress",
-    "description": "Svelte Component that tracks a users progress through a page as they scroll",
-    "tags": [
       "intersection observer",
       "viewport",
       "components and libraries"
@@ -1911,7 +1871,7 @@
     "stars": 4,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "User Interaction"
   },
   {
     "title": "nye/svelte-electron-better-sqlite3-starter",
@@ -2252,7 +2212,7 @@
     "stars": 163,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Integration"
   },
   {
     "title": "svelte-test",
@@ -2264,7 +2224,7 @@
     "stars": 24,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Testing"
   },
   {
     "title": "svelte-fusioncharts",
@@ -2277,7 +2237,7 @@
     "stars": 69,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Data Visualisation"
   },
   {
     "title": "svelte-ts-snowpack-vscode",
@@ -2417,7 +2377,7 @@
     "stars": 8,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "User Interaction"
   },
   {
     "title": "ricalamino/svelte-firebase-auth",
@@ -2442,7 +2402,7 @@
     "stars": 531,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Data Visualisation"
   },
   {
     "title": "Rich-Harris/svelte-template-electron",
@@ -2518,7 +2478,7 @@
     "stars": 33,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Testing"
   },
   {
     "title": "svelte-image-encoder",
@@ -2557,7 +2517,7 @@
     "stars": 38,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Design System"
   },
   {
     "title": "multicarousel",
@@ -2570,7 +2530,7 @@
     "stars": 31,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "User Interaction"
   },
   {
     "title": "svelte-heatmap",
@@ -2583,7 +2543,7 @@
     "stars": 49,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Data Visualisation"
   },
   {
     "title": "svelte-swipe",
@@ -2596,7 +2556,7 @@
     "stars": 110,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "User Interaction"
   },
   {
     "title": "@slick-for/svelte",
@@ -2683,7 +2643,7 @@
     "stars": 12,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Integration"
   },
   {
     "title": "@spaceavocado/svelte-form",
@@ -2781,7 +2741,7 @@
     "stars": 53730,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Testing"
   },
   {
     "title": "svelte-toolbox",
@@ -2794,7 +2754,7 @@
     "stars": 68,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": "ui"
+    "category": "Design System"
   },
   {
     "title": "routify",
@@ -2832,7 +2792,7 @@
     "stars": 60,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "User Interaction"
   },
   {
     "title": "@sveltejs/gl",
@@ -2934,7 +2894,7 @@
     "stars": 312,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Design Pattern"
   },
   {
     "title": "sveltejs/template",
@@ -3020,7 +2980,7 @@
     "stars": 319,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Testing"
   },
   {
     "title": "svelte-file-dropzone",
@@ -3046,7 +3006,7 @@
     "stars": 522,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": "Integrations"
+    "category": "Integration"
   },
   {
     "title": "svelte-observable",
@@ -3072,7 +3032,7 @@
     "stars": 40,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Design System"
   },
   {
     "title": "@modular-css/svelte",
@@ -3178,7 +3138,7 @@
     "stars": 367,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "User Interaction"
   },
   {
     "title": "svelte-popover",
@@ -3191,7 +3151,7 @@
     "stars": 38,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "User Interaction"
   },
   {
     "title": "svelte-easy-crop",
@@ -3217,7 +3177,7 @@
     "stars": 193,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": "ui"
+    "category": "Design System"
   },
   {
     "title": "Vime",
@@ -3258,7 +3218,7 @@
     "stars": 84,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": "ui"
+    "category": "Design System"
   },
   {
     "title": "will-wow/svelte-typescript-template",
@@ -3296,7 +3256,7 @@
     "stars": 25,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Design Pattern"
   },
   {
     "title": "svelte-watch-resize",
@@ -3410,7 +3370,7 @@
     "stars": 27,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": ""
+    "category": "Design System"
   },
   {
     "title": "svelte-atoms",
@@ -3423,7 +3383,7 @@
     "stars": 10,
     "image": "",
     "addedOn": "2020-09-29T14:39:13Z",
-    "category": "ui"
+    "category": "Design System"
   },
   {
     "title": "overmind-svelte",
