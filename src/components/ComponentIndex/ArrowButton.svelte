@@ -51,7 +51,7 @@
   }
 </style>
 
-<div>
+<div on:click>
   <span>
     <slot />
   </span>

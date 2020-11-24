@@ -122,7 +122,7 @@
         </ul>
       </Button>
       <Button>Size</Button>
-      <Button>Other Options</Button>
+      <Button on:click={() => location.href = "/help/components"}>Submit a component</Button>
     </div>
 
     <input
