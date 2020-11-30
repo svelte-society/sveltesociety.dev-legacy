@@ -7,3 +7,8 @@ _This is a stub, if you are interested in this topic please reach out [via GitHu
 1. Time taking for component to render.
 2. Response time after event is fired
 3. How much resources is the component consuming.
+
+You may also be interested in this related benchmarking work:
+
+- https://svelte-scaling.acmion.com/
+- https://github.com/halfnelson/svelte-it-will-scale
