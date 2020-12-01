@@ -1,4 +1,7 @@
 [
+  "/about/index",
+  "/components/index",
+  "/help/components",
   "/index",
   "/recipes/build-setup/index",
   "/recipes/build-setup/transpiling-es6-to-es5-for-legacy-browser-support",
@@ -18,6 +21,7 @@
   "/recipes/index",
   "/recipes/other/editable-svg-icon-systems-with-svelte-and-heroicons",
   "/recipes/other/index",
+  "/recipes/publishing-and-deploying/dockerize-a-sapper-app",
   "/recipes/publishing-and-deploying/dockerize-a-svelte-app",
   "/recipes/publishing-and-deploying/index",
   "/recipes/stores/index",

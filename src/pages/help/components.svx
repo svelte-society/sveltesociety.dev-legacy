@@ -18,7 +18,7 @@ You can fork the [Github project](https://github.com/svelte-society/sveltesociet
 
 You can edit and propose your changes [directly in Github](https://github.com/svelte-society/sveltesociety.dev/edit/master/src/pages/components/components.json)
 
----
+<hr />
 
 # What information should I give ?
 
