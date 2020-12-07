@@ -90,6 +90,7 @@
   ul.popin li.tag-search input {
     margin: 0;
     background: #f3f6f9;
+    width: 100%;
   }
   ul.popin li.tag-search:hover {
     background: white;
@@ -105,6 +106,38 @@
   ul.popin li input {
     flex: 0;
     margin: 0 1ex 0 0;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .controls {
+      flex-flow: column-reverse;
+    }
+
+    .inputs {
+      align-self: flex-start;
+      width: 100%;
+      grid-template-columns: repeat(3, auto);
+    }
+
+    .searchbar {
+      align-self: flex-end;
+      margin-bottom: 1ex;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .controls {
+      align-items: stretch;
+    }
+
+    .inputs {
+      grid-template-columns: auto;
+    }
+
+    .searchbar {
+      width: auto;
+      align-self: stretch;
+    }
   }
 </style>
 
