@@ -1,11 +1,11 @@
 
 /**
- * @sveltech/routify 1.9.0
- * File generated Mon Jul 13 2020 14:57:24 GMT+0200 (Central European Summer Time)
+ * @sveltech/routify 1.9.10
+ * File generated Tue Dec 01 2020 23:43:18 GMT+0100 (Central European Standard Time)
  */
 
-export const __version = "1.9.0"
-export const __timestamp = "2020-07-13T12:57:24.329Z"
+export const __version = "1.9.10"
+export const __timestamp = "2020-12-01T22:43:18.402Z"
 
 //buildRoutes
 import { buildClientTree } from "@sveltech/routify/runtime/buildRoutes"
@@ -65,6 +65,174 @@ export const _tree = {
       "path": "/",
       "id": "__layout",
       "component": () => import('../src/pages/_layout.svelte').then(m => m.default)
+    },
+    {
+      "isFile": false,
+      "isDir": true,
+      "ext": "",
+      "children": [
+        {
+          "isFile": true,
+          "isDir": false,
+          "ext": "svelte",
+          "isLayout": true,
+          "isReset": false,
+          "isIndex": false,
+          "isFallback": false,
+          "isPage": false,
+          "ownMeta": {},
+          "meta": {
+            "preload": false,
+            "prerender": true,
+            "precache-order": false,
+            "precache-proximity": true,
+            "recursive": true
+          },
+          "path": "/about",
+          "id": "_about__layout",
+          "component": () => import('../src/pages/about/_layout.svelte').then(m => m.default)
+        },
+        {
+          "isFile": true,
+          "isDir": false,
+          "ext": "svx",
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": true,
+          "isFallback": false,
+          "isPage": true,
+          "ownMeta": {},
+          "meta": {
+            "preload": false,
+            "prerender": true,
+            "precache-order": false,
+            "precache-proximity": true,
+            "recursive": true
+          },
+          "path": "/about/index",
+          "id": "_about_index",
+          "component": () => import('../src/pages/about/index.svx').then(m => m.default)
+        }
+      ],
+      "isLayout": false,
+      "isReset": false,
+      "isIndex": false,
+      "isFallback": false,
+      "isPage": false,
+      "ownMeta": {},
+      "meta": {
+        "preload": false,
+        "prerender": true,
+        "precache-order": false,
+        "precache-proximity": true,
+        "recursive": true
+      },
+      "path": "/about"
+    },
+    {
+      "isFile": false,
+      "isDir": true,
+      "ext": "",
+      "children": [
+        {
+          "isFile": true,
+          "isDir": false,
+          "ext": "svelte",
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": true,
+          "isFallback": false,
+          "isPage": true,
+          "ownMeta": {},
+          "meta": {
+            "preload": false,
+            "prerender": true,
+            "precache-order": false,
+            "precache-proximity": true,
+            "recursive": true
+          },
+          "path": "/components/index",
+          "id": "_components_index",
+          "component": () => import('../src/pages/components/index.svelte').then(m => m.default)
+        }
+      ],
+      "isLayout": false,
+      "isReset": false,
+      "isIndex": false,
+      "isFallback": false,
+      "isPage": false,
+      "ownMeta": {},
+      "meta": {
+        "preload": false,
+        "prerender": true,
+        "precache-order": false,
+        "precache-proximity": true,
+        "recursive": true
+      },
+      "path": "/components"
+    },
+    {
+      "isFile": false,
+      "isDir": true,
+      "ext": "",
+      "children": [
+        {
+          "isFile": true,
+          "isDir": false,
+          "ext": "svelte",
+          "isLayout": true,
+          "isReset": false,
+          "isIndex": false,
+          "isFallback": false,
+          "isPage": false,
+          "ownMeta": {},
+          "meta": {
+            "preload": false,
+            "prerender": true,
+            "precache-order": false,
+            "precache-proximity": true,
+            "recursive": true
+          },
+          "path": "/help",
+          "id": "_help__layout",
+          "component": () => import('../src/pages/help/_layout.svelte').then(m => m.default)
+        },
+        {
+          "isFile": true,
+          "isDir": false,
+          "ext": "svx",
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": false,
+          "isFallback": false,
+          "isPage": true,
+          "ownMeta": {},
+          "meta": {
+            "preload": false,
+            "prerender": true,
+            "precache-order": false,
+            "precache-proximity": true,
+            "recursive": true
+          },
+          "path": "/help/components",
+          "id": "_help_components",
+          "component": () => import('../src/pages/help/components.svx').then(m => m.default)
+        }
+      ],
+      "isLayout": false,
+      "isReset": false,
+      "isIndex": false,
+      "isFallback": false,
+      "isPage": false,
+      "ownMeta": {},
+      "meta": {
+        "preload": false,
+        "prerender": true,
+        "precache-order": false,
+        "precache-proximity": true,
+        "recursive": true
+      },
+      "path": "/help"
     },
     {
       "isFile": true,
@@ -132,7 +300,7 @@ export const _tree = {
                 "frontmatter": {
                   "title": "Build Setup",
                   "layout": "recipeCategory",
-                  "icon": "/images/icons/recipe.svg"
+                  "icon": "/images/icons/test.svg"
                 },
                 "preload": false,
                 "prerender": true,
@@ -354,7 +522,7 @@ export const _tree = {
                 "frontmatter": {
                   "title": "Component Recipes",
                   "layout": "recipeCategory",
-                  "icon": "/images/icons/recipe.svg"
+                  "icon": "/images/icons/test.svg"
                 },
                 "preload": false,
                 "prerender": true,
@@ -476,7 +644,7 @@ export const _tree = {
                 "frontmatter": {
                   "title": "Design Patterns",
                   "layout": "recipeCategory",
-                  "icon": "/images/icons/recipe.svg"
+                  "icon": "/images/icons/test.svg"
                 },
                 "preload": false,
                 "prerender": true,
@@ -619,7 +787,7 @@ export const _tree = {
                 "frontmatter": {
                   "title": "Other",
                   "layout": "recipeCategory",
-                  "icon": "/images/icons/recipe.svg"
+                  "icon": "/images/icons/test.svg"
                 },
                 "preload": false,
                 "prerender": true,
@@ -664,6 +832,31 @@ export const _tree = {
               "ownMeta": {},
               "meta": {
                 "frontmatter": {
+                  "title": "Dockerize a Sapper App",
+                  "layout": "recipe"
+                },
+                "preload": false,
+                "prerender": true,
+                "precache-order": false,
+                "precache-proximity": true,
+                "recursive": true
+              },
+              "path": "/recipes/publishing-and-deploying/dockerize-a-sapper-app",
+              "id": "_recipes_publishingAndDeploying_dockerizeASapperApp",
+              "component": () => import('../src/pages/recipes/publishing-and-deploying/dockerize-a-sapper-app.svx').then(m => m.default)
+            },
+            {
+              "isFile": true,
+              "isDir": false,
+              "ext": "svx",
+              "isLayout": false,
+              "isReset": false,
+              "isIndex": false,
+              "isFallback": false,
+              "isPage": true,
+              "ownMeta": {},
+              "meta": {
+                "frontmatter": {
                   "title": "Dockerize a Svelte App",
                   "layout": "recipe"
                 },
@@ -691,7 +884,7 @@ export const _tree = {
                 "frontmatter": {
                   "title": "Publishing and Deploying",
                   "layout": "recipeCategory",
-                  "icon": "/images/icons/recipe.svg"
+                  "icon": "/images/icons/test.svg"
                 },
                 "preload": false,
                 "prerender": true,
@@ -738,7 +931,7 @@ export const _tree = {
                 "frontmatter": {
                   "title": "Stores",
                   "layout": "recipeCategory",
-                  "icon": "/images/icons/recipe.svg"
+                  "icon": "/images/icons/test.svg"
                 },
                 "preload": false,
                 "prerender": true,
@@ -785,7 +978,7 @@ export const _tree = {
                 "frontmatter": {
                   "title": "Svelte Language Fundamentals",
                   "layout": "recipeCategory",
-                  "icon": "/images/icons/recipe.svg"
+                  "icon": "/images/icons/test.svg"
                 },
                 "preload": false,
                 "prerender": true,
@@ -932,7 +1125,7 @@ export const _tree = {
                 "frontmatter": {
                   "title": "Testing and Debugging Svelte",
                   "layout": "recipeCategory",
-                  "icon": "/images/icons/recipe.svg"
+                  "icon": "/images/icons/test.svg"
                 },
                 "preload": false,
                 "prerender": true,

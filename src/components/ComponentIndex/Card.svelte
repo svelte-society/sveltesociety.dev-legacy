@@ -8,6 +8,16 @@
   export let stars = 0;
   export let addedOn = new Date();
   export let url = "";
+  export let npm = "";
+  export let repo = "";
+
+  const copyToClipboard = (text) => {
+    navigator.permissions.query({name: "clipboard-write"}).then(result => {
+      if (result.state == "granted" || result.state == "prompt") {
+        navigator.clipboard.writeText(text)
+      }
+    });
+  }
 </script>
 
 <style>
@@ -33,14 +43,23 @@
     display: flex;
     justify-content: space-between;
   }
+  .card__bottom > * {
+    white-space: nowrap;
+  }
+
   .flex-grow {
     flex-grow: 1;
   }
 </style>
 
 <div class="card" class:active>
-  {#if image}<img src={image} alt={title} />{/if}
-  <h1><a href={url}>{title}</a></h1>
+  {#if image}
+    <img src={image} alt={title} />
+  {/if}
+  <h1>
+    <a href={url}>{title}</a>
+    {#if npm}<Tag click={() => copyToClipboard(`npm install ${npm}`)} variant="copy" title="npm install {npm}"/>{/if}
+  </h1>
   <p class="flex-grow">{description}</p>
   <div class="card__tags">
     {#each tags as tag}
@@ -49,8 +68,16 @@
   </div>
   <div class="card__bottom">
     <div>
-      <img src="/github_logo.svg" alt="github logo" />
-      {stars}
+      {#if stars > 0}
+        {#if (repo || url).includes('github')}
+          <img src="/github_logo.svg" alt="github logo" />
+        {:else if (repo || url).includes('gitlab')}
+          <img src="/gitlab_logo.svg" alt="gitlab logo" />
+        {:else}
+          &#9733;
+        {/if}
+        {stars}
+      {/if}
     </div>
     <div>{new Intl.DateTimeFormat('en-Us').format(Date.parse(addedOn))}</div>
   </div>

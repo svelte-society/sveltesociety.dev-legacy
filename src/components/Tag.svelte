@@ -1,6 +1,7 @@
 <script>
   export let title = "";
   export let variant;
+  export let click = undefined
 </script>
 
 <style>
@@ -26,6 +27,12 @@
     color: #158fff;
     background: #ddefff;
   }
+
+  .copy {
+    color: #ff6f01;
+    background: #ffe9cf;
+    cursor: copy;
+  }
 </style>
 
-<div class={variant}>{title}</div>
+<div on:click={click} class={variant}>{title}</div>

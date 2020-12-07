@@ -1,6 +1,6 @@
 <script>
   export const primary = false;
-  let hovered = false;
+  export let active = false;
 </script>
 
 <style>
@@ -12,6 +12,7 @@
     display: flex;
     align-items: center;
     padding: 5px 15px;
+    position: relative;
   }
   div:hover {
     cursor: pointer;
@@ -26,16 +27,34 @@
     mask: url(/right-arrow.svg) no-repeat center;
     background-color: #7e7e93;
   }
-  .arrow.active {
+  div:hover .arrow {
     background-color: var(--color);
+  }
+  .arrow.active {
+    background-color: var(--color-secondary);
+  }
+
+  .popin {
+    display: none;
+    position: absolute;
+    left: calc(100% - 1rem);
+    top: 1rem;
+    z-index: 100;
+    margin: 0;
+    padding: 0;
+    border: 2px solid var(--color);
+    border-radius: 5px;
+    background: white;
+  }
+  div:hover .popin:not(:empty) {
+    display: block;
   }
 </style>
 
-<div
-  on:mouseover={() => (hovered = true)}
-  on:mouseout={() => (hovered = false)}>
+<div on:click>
   <span>
     <slot />
   </span>
-  <div class="arrow" class:active={hovered} />
+  <div class="arrow" class:active />
+  <span class="popin"><slot name="menu"></slot></span>
 </div>
