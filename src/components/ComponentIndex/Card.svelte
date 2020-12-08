@@ -10,6 +10,7 @@
   export let url = "";
   export let npm = "";
   export let repo = "";
+  export let repl = [];
 
   const copyToClipboard = (text) => {
     navigator.permissions.query({name: "clipboard-write"}).then(result => {
@@ -17,6 +18,12 @@
         navigator.clipboard.writeText(text)
       }
     });
+  }
+  const getReplInfo = hash => {
+    return fetch(`https://svelte.dev/repl/${hash}.json`, {
+      headers: {"accept": "application/json"},
+      mode: "cors"
+    }).then(response => response.json())
   }
 </script>
 
@@ -50,6 +57,12 @@
   .flex-grow {
     flex-grow: 1;
   }
+
+  .section-title {
+    color: var(--color-text-secondary);
+    text-transform: uppercase;
+    font-size: 0.9em;
+  }
 </style>
 
 <div class="card" class:active>
@@ -66,6 +79,20 @@
       <Tag title={tag} variant='blue' />
     {/each}
   </div>
+  {#if repl && repl.length > 0}
+    <div class="section-title">REPL</div>
+    <div class="card__tags">
+      {#each repl as hash}
+        {#await getReplInfo(hash)}
+          <Tag title="REPL" variant='red' click={() => window.open(`https://svelte.dev/repl/${hash}`)} />
+        {:then info}
+          <Tag title={info.name} variant='red' click={() => window.open(`https://svelte.dev/repl/${hash}`)} />
+        {:catch e}
+          <Tag title="REPL" variant='red' click={() => window.open(`https://svelte.dev/repl/${hash}`)} />
+        {/await}
+      {/each}
+    </div>
+  {/if}
   <div class="card__bottom">
     <div>
       {#if stars > 0}

@@ -31,8 +31,12 @@
   .copy {
     color: #ff6f01;
     background: #ffe9cf;
-    cursor: copy;
+    cursor: copy!important;
+  }
+
+  .link {
+      cursor: pointer;
   }
 </style>
 
-<div on:click={click} class={variant}>{title}</div>
+<div on:click={click} class:link={click !== undefined} class={variant}>{title}</div>

@@ -31,6 +31,10 @@
     "description": "Svelte tags input is a component to use with Svelte and easily enter tags and customize some functions",
     "image": "",
     "npm": "svelte-tags-input",
+    "repl": [
+      "72eb8ee74ab546cdbcab11e91c965471",
+      "129f603083664aab9e5d10fe867745e2"
+    ],
     "stars": 70,
     "tags": [
       "components and libraries",
@@ -59,6 +63,9 @@
     "description": "Easy use Aovi to validate forms or values in your components",
     "image": "",
     "npm": "aovi-svelte",
+    "repl": [
+      "90668378fbd4427792a5319b70d1f459"
+    ],
     "stars": 2,
     "tags": [
       "forms and validation",
@@ -128,6 +135,10 @@
     "description": "Highly declarative, very tiny (~3.8 Kb), dependency free router",
     "image": "",
     "npm": "tinro",
+    "repl": [
+      "4bc37ff40ada4111b71fe292a4eb90f6",
+      "5673ff403af14411b0cd1785be3d996f"
+    ],
     "stars": 123,
     "tags": [
       "routers"
@@ -196,6 +207,10 @@
     "description": "Infinite Scroll Component to Svelte",
     "image": "",
     "npm": "svelte-infinite-scroll",
+    "repl": [
+      "4863a658f3584b81bbe3d9f54eb67899",
+      "36d00aa55c7c4ff68914ce314f4e1ca4"
+    ],
     "stars": 74,
     "tags": [
       "components and libraries"
@@ -300,6 +315,9 @@
     "description": "A super lightweight, super simple carousel for Svelte 3",
     "image": "",
     "npm": "@beyonk/svelte-carousel",
+    "repl": [
+      "3953567d530b41d087ab7eaa8e7e632a"
+    ],
     "stars": 109,
     "tags": [
       "components and libraries",
@@ -396,6 +414,9 @@
     "description": "Svelte toast notifications that can be used in any JS application",
     "image": "",
     "npm": "@beyonk/svelte-notifications",
+    "repl": [
+      "dd506c546df84c1994a5ae9928ad23b1"
+    ],
     "stars": 114,
     "tags": [
       "components and libraries",
@@ -502,6 +523,10 @@
     "description": "A list with animated drag-n-drop functionality",
     "image": "",
     "npm": "svelte-sortable-list",
+    "repl": [
+      "413e33b7f34049f08e443a31d51f5367",
+      "0b4fd50a87a94efd81b533229b43d941"
+    ],
     "stars": 64,
     "tags": [
       "components and libraries",
@@ -826,6 +851,9 @@
     "description": "A rate component for Svelte apps",
     "image": "",
     "npm": "svelte-rate-it",
+    "repl": [
+      "d0df2df581d9438eabdcd529be759812"
+    ],
     "stars": 27,
     "tags": [
       "components and libraries",
@@ -931,6 +959,9 @@
     "description": "A simple, small, and content-agnostic modal for Svelte",
     "image": "",
     "npm": "svelte-simple-modal",
+    "repl": [
+      "033e824fad0a4e34907666e7196caec4"
+    ],
     "stars": 82,
     "tags": [
       "components and libraries",
@@ -997,6 +1028,18 @@
     "description": "A simple and reusable typewriter effect for your Svelte applications",
     "image": "",
     "npm": "svelte-typewriter",
+    "repl": [
+      "9dfb73bfa9b34aeea4740fa23f5cde8a",
+      "eb6caec159cf454b8f2bc98f3444fa8c",
+      "6008b5aaff6f46e5909c63e795a19f5a",
+      "2002ac9fe1e0433a88a687b3b3d4c58b",
+      "9ddb89942e954a2a90b553356952ff46",
+      "e8b82d83f6c2444b97619238404bcd4d",
+      "d75f38dc86374f7ebd20e1e33d278b09",
+      "9dfb73bfa9b34aeea4740fa23f5cde8a",
+      "1c48ad0ad8d34eb7b6e561d39799ff6e",
+      "145cbf66c396497aa5338846077d53e0"
+    ],
     "stars": 53,
     "tags": [
       "components and libraries"
@@ -1342,6 +1385,9 @@
     "description": "Ever wanted to have reactive css variables in Svelte? What if I tell you there's a way?",
     "image": "",
     "npm": "svelte-css-vars",
+    "repl": [
+      "1522fe3bdf904843a01101d9f900241d"
+    ],
     "stars": 119,
     "tags": [
       "components and libraries"
@@ -1590,6 +1636,9 @@
     "description": "Lottie player component for use with Svelte for viewing Lottie animations.",
     "image": "",
     "npm": "@lottiefiles/svelte-lottie-player",
+    "repl": [
+      "c7c774dba1464389af5d738a9e486658"
+    ],
     "stars": 25,
     "tags": [
       "components and libraries"
@@ -1765,6 +1814,9 @@
     "description": "Form components using Yup for validation",
     "image": "",
     "npm": "sveltejs-forms",
+    "repl": [
+      "8e7deaa261364b4f8b2c0caff1982eeb"
+    ],
     "stars": 126,
     "tags": [
       "components and libraries",
@@ -1779,6 +1831,13 @@
     "description": "Simple, declarative routing for single page apps built with Svelte",
     "image": "",
     "npm": "svelte-navigator",
+    "repl": [
+      "451fd183e0d3403cb7800101f7d799fb",
+      "c81d8f3dff584065a82b2d3ea7cd4aee",
+      "09abb8c287f745169f66f62d51f766d5",
+      "dc82bb89447647edb0d7ed8cbe7999ae",
+      "195011a49a714e22b1a335037e124458"
+    ],
     "stars": 36,
     "tags": [
       "routers"
@@ -2061,6 +2120,9 @@
     "description": "Wrapper for FetchQL, a GraphQL query client",
     "image": "",
     "npm": "svql",
+    "repl": [
+      "57ede36346454489b0f1c57248ee4eb9"
+    ],
     "stars": 35,
     "tags": [
       "components and libraries",
@@ -2075,6 +2137,9 @@
     "description": "Basic router with queryParams and hash-based routing support",
     "image": "",
     "npm": "yrv",
+    "repl": [
+      "0f07c6134b16432591a9a3a0095a80de"
+    ],
     "stars": 101,
     "tags": [
       "routers"
@@ -2141,6 +2206,9 @@
     "description": "IMask input component and action for Svelte 3.",
     "image": "",
     "npm": "svelte-imask",
+    "repl": [
+      "de6a6dcc92ee43d19ad2274599ba34c8"
+    ],
     "stars": 43,
     "tags": [
       "components and libraries",
@@ -2182,6 +2250,9 @@
     "description": "Simple Svelte component which automatically makes its contents scrollable ticker-style if it's necessary.",
     "image": "",
     "npm": "svelte-ticker",
+    "repl": [
+      "89ebabbb47c64fe591c01010de096f93"
+    ],
     "stars": 4,
     "tags": [
       "components and libraries"
@@ -2493,6 +2564,9 @@
     "description": "An accessible dialog component for Svelte apps",
     "image": "",
     "npm": "svelte-accessible-dialog",
+    "repl": [
+      "6c6729de07b04cba8ea3fd413c013137"
+    ],
     "stars": 8,
     "tags": [
       "components and libraries"
@@ -2557,6 +2631,10 @@
     "description": "A select component for Svelte apps",
     "image": "",
     "npm": "svelte-select",
+    "repl": [
+      "a859c2ba7d1744af9c95037c48989193",
+      "3e032a58c3974d07b7818c0f817a06a3"
+    ],
     "stars": 305,
     "tags": [
       "components and libraries",
@@ -2612,6 +2690,9 @@
     "description": "An `<ImgEncoder>` component for editing and compressing profile pictures",
     "image": "",
     "npm": "svelte-image-encoder",
+    "repl": [
+      "cb1ec0dcc5dfaa1e0de3844f3e7348d6"
+    ],
     "stars": 25,
     "tags": [
       "components and libraries",
@@ -2681,6 +2762,9 @@
     "description": "A carousel with touch support",
     "image": "",
     "npm": "svelte-swipe",
+    "repl": [
+      "be477862ac8b4dfea4c8e454e556ef2c"
+    ],
     "stars": 110,
     "tags": [
       "components and libraries",
@@ -2749,6 +2833,11 @@
     "description": "An infinite scroll component for Svelte apps",
     "image": "",
     "npm": "svelte-infinite-loading",
+    "repl": [
+      "c053fb0b13154b07a503ac04e0cb2c66",
+      "73d404d5a26a47db969c4ebc154e8079",
+      "9a04b19fcf5f4da0bead27f1cdf55cfb"
+    ],
     "stars": 27,
     "tags": [
       "components and libraries"
@@ -2889,6 +2978,9 @@
     "description": "A UI component library for Svelte implementing Google's Material Design specification",
     "image": "",
     "npm": "svelte-toolbox",
+    "repl": [
+      "5cf847108884453cbedd5920e919b630"
+    ],
     "stars": 68,
     "tags": [
       "components and libraries",
@@ -2943,6 +3035,9 @@
     "description": "A (very experimental) project to bring WebGL to Svelte",
     "image": "",
     "npm": "@sveltejs/gl",
+    "repl": [
+      "8d6d139a3d634c2fb1e1ff107c123dd5"
+    ],
     "stars": 399,
     "tags": [
       "webgl"
@@ -3010,6 +3105,9 @@
     "description": "A `<Scroller>` component for Svelte apps",
     "image": "",
     "npm": "@sveltejs/svelte-scroller",
+    "repl": [
+      "76846b7ae27b3a21becb64ffd6e9d4a6"
+    ],
     "stars": 131,
     "tags": [
       "components and libraries",
@@ -3038,6 +3136,9 @@
     "description": "A virtual list component for Svelte apps",
     "image": "",
     "npm": "@sveltejs/svelte-virtual-list",
+    "repl": [
+      "f78ddd84a1a540a9a40512df39ef751b"
+    ],
     "stars": 312,
     "tags": [
       "components and libraries",
