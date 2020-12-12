@@ -24,10 +24,13 @@
   .card {
     display: flex;
     flex-direction: column;
-    max-width: 370px;
+    max-width: var(--width-card);
     padding: 14px;
     background: #f3f6f9;
     border-radius: 5px;
+  }
+  .card h1 {
+    word-break: break-word;
   }
   .active,
   .card:hover {
@@ -49,6 +52,16 @@
 
   .flex-grow {
     flex-grow: 1;
+  }
+
+  @media screen and (max-width: 400px) {
+    .card {
+      font-size: 0.9rem;
+    }
+
+    .card h1 {
+      font-size: 24px;
+    }
   }
 </style>
 

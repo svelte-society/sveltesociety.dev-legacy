@@ -49,6 +49,14 @@
   div:hover .popin:not(:empty) {
     display: block;
   }
+
+  @media screen and (max-width: 700px) {
+    .popin {
+      left: 1rem;
+      right: 1rem;
+      top: 100%
+    }
+  }
 </style>
 
 <div on:click>
