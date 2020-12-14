@@ -3572,5 +3572,18 @@
     ],
     "title": "overmind-svelte",
     "url": "https://overmindjs.org"
+  },
+  {
+    "addedOn": "2020-12-14T09:15:00Z",
+    "category": "",
+    "description": "A tiny but mighty list virtualization library for Svelte, with zero dependencies - Supports variable heights/widths, sticky items, scrolling to index, and more!",
+    "image": "",
+    "npm": "svelte-tiny-virtual-list",
+    "stars": 3,
+    "tags": [
+      "components and libraries"
+    ],
+    "title": "svelte-tiny-virtual-list",
+    "url": "https://github.com/Skayo/svelte-tiny-virtual-list"
   }
 ]
