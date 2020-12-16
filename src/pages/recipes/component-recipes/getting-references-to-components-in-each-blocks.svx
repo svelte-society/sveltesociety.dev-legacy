@@ -34,10 +34,10 @@ An alternative is to use an _unique_ key and bind the component to an object, ef
     { id: 1, title: "apple" },
     { id: 2, title: "banana" },
   ];
-  const children = [];
+  const children = {};
 </script>
 
-{#each array as item, i (id)}
-<Child title="{item.title}" bind:this="{children[id]}" />
+{#each array as item, i (item.id)}
+<Child title="{item.title}" bind:this="{children[item.id]}" />
 {/each}
 ```
