@@ -34,7 +34,7 @@ An alternative is to use an _unique_ key and bind the component to an object, ef
     { id: 1, title: "apple" },
     { id: 2, title: "banana" },
   ];
-  const children = [];
+  const children = {};
 </script>
 
 {#each array as item, i (id)}
