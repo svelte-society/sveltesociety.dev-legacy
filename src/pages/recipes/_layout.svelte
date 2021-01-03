@@ -3,11 +3,12 @@
   import { setContext } from 'svelte'
 
   import { layout, page } from "@roxi/routify";
-  const nodes = $layout.children.filter(r => !r.path.includes("/index"));
+  const nodes = $layout.children;
 
   const categories = nodes.map(
     node => node.children.filter(r => r.path.includes("/index"))[0]
   );
+
   setContext('categories', categories)
 </script>
 

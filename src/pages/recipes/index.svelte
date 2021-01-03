@@ -75,6 +75,7 @@
       <h3>Pick a Category to Get Started</h3>
       <div class="categories-wrap">
         {#each categories as category}
+          {#if category}
           <div class="category-style">
             <div class="d-flex list-meta">
               <img src={category.meta.frontmatter.icon} alt="" class="list-icon" />
@@ -83,6 +84,7 @@
             </div>
             <CategoryTree nodes={category.parent.children} />
           </div>
+          {/if}
         {/each}
       </div>
     </div>

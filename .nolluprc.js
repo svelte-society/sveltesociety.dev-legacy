@@ -1,5 +1,5 @@
 module.exports = {
-  hot: false,
+  hot: true,
   contentBase: 'assets',
   publicPath: 'build',
   historyApiFallback: '__app.html',

@@ -67,7 +67,7 @@ export default {
       preprocess: [
         mdsvex({
           layout: {
-            recipe: "./src/layouts/Recipe.svelte",
+            recipe: "./src/pages/recipes/_layout.svelte",
             recipeCategory: "./src/layouts/RecipeCategory.svelte"
           }
         }),

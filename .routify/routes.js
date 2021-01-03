@@ -1,11 +1,11 @@
 
 /**
  * @roxi/routify 2.8.4
- * File generated Sun Jan 03 2021 14:13:52 GMT+0000 (Greenwich Mean Time)
+ * File generated Sun Jan 03 2021 15:51:38 GMT+0000 (Greenwich Mean Time)
  */
 
 export const __version = "2.8.4"
-export const __timestamp = "2021-01-03T14:13:52.258Z"
+export const __timestamp = "2021-01-03T15:51:38.648Z"
 
 //buildRoutes
 import { buildClientTree } from "@roxi/routify/runtime/buildRoutes"
@@ -750,13 +750,13 @@ export const _tree = {
         {
           "isFile": true,
           "isDir": false,
-          "file": "index.svx",
-          "filepath": "/recipes/index.svx",
+          "file": "index.svelte",
+          "filepath": "/recipes/index.svelte",
           "name": "index",
-          "ext": "svx",
+          "ext": "svelte",
           "badExt": false,
-          "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/index.svx",
-          "importPath": "../src/pages/recipes/index.svx",
+          "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/index.svelte",
+          "importPath": "../src/pages/recipes/index.svelte",
           "isLayout": false,
           "isReset": false,
           "isIndex": true,
@@ -770,7 +770,7 @@ export const _tree = {
           },
           "path": "/recipes/index",
           "id": "_recipes_index",
-          "component": () => import('../src/pages/recipes/index.svx').then(m => m.default)
+          "component": () => import('../src/pages/recipes/index.svelte').then(m => m.default)
         },
         {
           "isFile": false,
