@@ -14,7 +14,7 @@
     during our first online event. Do you want give a talk? We welcome all
     levels of talks, you don't have to be a professional speaker.
   </p>
-  <a href="https://forms.gle/H6zbuJn3278Dz5FY9" target="_blank">
+  <a href="https://forms.gle/H6zbuJn3278Dz5FY9" target="_blank" rel="noopener noreferrer">
     <strong>Send proposal</strong>
   </a>
 </article>

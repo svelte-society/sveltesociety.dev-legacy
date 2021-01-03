@@ -4,7 +4,7 @@ layout: recipe
 ---
 ### Reactive assignments
 
-The reactivity system introduced in Svelte 3 has made it easier than ever to trigger updates to the DOM. Despite this, there are a few simple rules that you must always follow. This guide explains how Svelte's reactivity system works, what you can and can't do, as well a few pitfalls to avoid.
+The reactivity system introduced in Svelte 3 has made it easier than ever to trigger updates to the DOM. Despite this, there are a few simple rules that you must always follow. This guide explains how Svelte's reactivity system works, what you can and cannot do, as well a few pitfalls to avoid.
 
 #### Top-level variables
 
@@ -25,7 +25,7 @@ The following works as expected and update the dom:
 <p>{num}</p>
 ```
 
-Svelte can see that there is an assignment to a top-level variable and knows to rerender after the `num` variable is modified.
+Svelte can see that there is an assignment to a top-level variable and knows to re-render after the `num` variable is modified.
 
 #### `each` blocks
 

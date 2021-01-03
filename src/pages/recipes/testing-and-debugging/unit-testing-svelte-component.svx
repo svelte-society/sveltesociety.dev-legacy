@@ -2,7 +2,7 @@
 title: Unit Testing Svelte Components
 layout: recipe
 ---
-_Some assumptions here, thos was pulled from something i wrote and the context was different. Edits will be required._
+_Some assumptions here, this was pulled from something I wrote and the context was different. Edits will be required._
 
 When testing svelte components in a node environment and using them outside of a Svelte application, we will be mostly interacting programmatically with Svelte’s client-side API as well as the helpers found in @testing-library/svelte.
 
@@ -25,9 +25,9 @@ test("should render", () => {
 
 ### Changing component props
 
-A components props can be changed or set by calling the .\$set method of the component itself. results also has a component key which contains the component instance giving us access to svelte’s full client-side API.
+A components props can be changed or set by calling the .\$set method of the component itself. results also has a component key which contains the component instance giving us access to Svelte’s full client-side API.
 
-Svelte schedules all component updates for completion asynchronously in the next microtask. Awaiting the action that triggers that microtask will ensure that the component has been updated before proceeding through the code. This also applies to any Svelte component update, regardless of whether it is programmatically changed (via component.\$set) or via a ‘user’ action (such as clicking a button). For this to work we need to make sure that we make the test’s callback function async, so we can use await in the body.
+Svelte schedules all component updates for completion asynchronously in the next micro-task. Awaiting the action that triggers that micro-task will ensure that the component has been updated before proceeding through the code. This also applies to any Svelte component update, regardless of whether it is programmatically changed (via component.\$set) or via a ‘user’ action (such as clicking a button). For this to work we need to make sure that we make the test’s callback function async, so we can use await in the body.
 
 ```js
 import { render } from "@testing-library/svelte";

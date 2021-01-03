@@ -88,6 +88,5 @@
 <footer class="shaded">
   <div>© Svelte Society 2020</div>
 
-  <div>Want to contribute? Pick up an issue on <a href="https://github.com/svelte-society/sveltesociety.dev" target="_blank">GitHub!</a>
-  </div>
+  <div>Want to contribute? Pick up an issue on <a href="https://github.com/svelte-society/sveltesociety.dev" target="_blank">GitHub</a>!</div>
 </footer>

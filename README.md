@@ -21,7 +21,7 @@ The recipes are written and processed using [Mdsvex](https://mdsvex.com/). Three
 - **Note** To highlight something noteworthy
 - **ReadMore** Use this to wrap extra reading material related to the recipe
 
-**⚠️ Be aware that markdown inside of these components will not be processed, so when putting for instance a link inside use normal HTML markup to do so. ⚠️**
+**⚠️ Be aware that markdown inside of these components will not be processed. So, for instance when placing a link inside use normal HTML markup to do so. ⚠️**
 
 ### Example usage
 
