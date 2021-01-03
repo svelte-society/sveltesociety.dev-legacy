@@ -4,23 +4,23 @@ module.exports = {
   "routifyDir": ".routify",
   "ignore": "",
   "dynamicImports": true,
-  "singleBuild": true,
+  "singleBuild": false,
   "noHashScroll": false,
-  "extensions": [
-    "svelte",
-    "svx",
-    "md"
-  ],
   "distDir": "dist",
   "plugins": {
     "routify-plugin-frontmatter": {
       "extensions": [
         "md",
-        "svx",
-        "svelte"
+        "svx"
       ]
     }
   },
   "hashScroll": true,
-  "started": "2020-12-01T22:43:18.358Z"
+  "extensions": [
+    "svelte",
+    "html",
+    "svx",
+    "md"
+  ],
+  "started": "2021-01-03T14:13:52.205Z"
 }

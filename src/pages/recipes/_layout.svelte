@@ -2,7 +2,7 @@
   import CategoryTree from "@/components/recipes/CategoryTree.svelte";
   import { setContext } from 'svelte'
 
-  import { layout, page } from "@sveltech/routify";
+  import { layout, page } from "@roxi/routify";
   const nodes = $layout.children.filter(r => !r.path.includes("/index"));
 
   const categories = nodes.map(

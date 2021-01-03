@@ -1,5 +1,5 @@
 <script>
-  import { metatags } from "@sveltech/routify";
+  import { metatags } from "@roxi/routify";
   export let title,
     description = "";
 

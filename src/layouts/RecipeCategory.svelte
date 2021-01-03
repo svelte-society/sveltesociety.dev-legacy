@@ -1,6 +1,6 @@
 <script>
-  import { layout, page, metatags } from "@sveltech/routify";
-  const nodes = $layout.parent.children.filter(r => !r.path.includes("/index"));
+  import { layout, page, metatags } from "@roxi/routify";
+  const nodes = $layout.children.filter(r => !r.path.includes("/index"));
   export let title,
     description = "";
 

@@ -1,5 +1,5 @@
 <script>
-  import { metatags, page } from "@sveltech/routify";
+  import { metatags, page } from "@roxi/routify";
   metatags.template(
     "title",
     (title) => `${title ? ` ${title} - ` : ""}Svelte Society`
