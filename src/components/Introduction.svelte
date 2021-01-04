@@ -31,8 +31,7 @@
   <p>
     In the meantime, you can checkout
     <a href="https://sveltesummit.com">Svelte Summit</a>, 
-    our next online conference. It's free! And we have lots of speakers lined
-    up.
+    our previous online conference. It is free and we have all of the speaker's recorded talks available.
   </p>
   <img src="introduction.svg" alt="Live Conversation Application Preview" />
 </section>

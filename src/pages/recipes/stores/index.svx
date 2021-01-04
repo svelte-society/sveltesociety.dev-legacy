@@ -170,7 +170,7 @@ See it in action below. The following example uses the `synced` store to convert
   );
 
   if (initialCelsius && initialFahrenheit) {
-    console.error('You can only set one inital temperature. Please set initialCelsius or initialFahrenheit but not both.')
+    console.error('You can only set one initial temperature. Please set initialCelsius or initialFahrenheit but not both.')
   } else if (initialCelsius) {
     $C = initialCelsius
   } else if (initialFahrenheit) {

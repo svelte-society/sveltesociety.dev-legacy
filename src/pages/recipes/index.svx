@@ -43,7 +43,7 @@
     display: block;
     margin: 0;
   }
-  .recipies-block {
+  .recipes-block {
     background: #f3f6f9;
   }
   .list-meta {
@@ -69,7 +69,7 @@
     </p>
   </div>
 </div>
-<section class="recipies-block">
+<section class="recipes-block">
   <div class="navigation-block my-1">
     <div class="navigation-content">
       <h3>Pick a Category to Get Started</h3>

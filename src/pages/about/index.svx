@@ -26,18 +26,18 @@ All attendees, speakers, sponsors, instructors, and volunteers at our events are
 
 If you have questions or feedback about this Code of Conduct please [contact the organizers](https://discord.gg/tnu54nB).
 
-### No Harrassment
+### No Harassment
 
 Harassment includes offensive verbal or written comments related to sex, gender identity or expression, sexual orientation, disability, physical appearance, age, race, nationality, or religious beliefs, deliberate intimidation, threats, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention. Sexual language and imagery is not appropriate for any Svelte Society event or communication channel. Community members asked to stop any harassing behavior are expected to comply immediately.
 
-If a community member engages in harassing behavior, Svelte Society organizers may take any action they deem appropriate, including warning the offender, expulsion from the Svelte Society community, and/or removal from an event. If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact an Svelte Society organizer immediately, or as soon as you feel comfortable doing so.
+If a community member engages in harassing behavior, Svelte Society organizers may take any action they deem appropriate, including warning the offender, expulsion from the Svelte Society community, and/or removal from an event. If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a Svelte Society organizer immediately, or as soon as you feel comfortable doing so.
 
 
 ### Diversity and Inclusion
 
 Svelte is for everyone. Svelte Society understands that it needs to have representative voices from a range of diverse backgrounds for the Svelte community to thrive. This is reflected in the Svelte Society Discord and Twitter.
 
-However, a lot of work remains to be done. The original Svelte Society meetups and Svelte Society Day France had women co-organizers, and Svelte events have had some speakers from under-represented minorities. But to date we have yet to have under-represented minorities on the Svelte Society organizer roster. If you are interested in helping us meet this goal, please [get in touch](https://discord.gg/tnu54nB).
+However, a lot of work remains to be done. The original Svelte Society meetups and Svelte Society Day France had women co-organizers, and Svelte events have had some speakers from under-represented minorities. However, to date we have yet to have under-represented minorities on the Svelte Society organizer roster. If you are interested in helping us meet this goal, please [get in touch](https://discord.gg/tnu54nB).
 
 ### Acknowledgements
 
