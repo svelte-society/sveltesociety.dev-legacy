@@ -3,6 +3,7 @@ title: Build Setup
 layout: recipeCategory
 icon: /images/icons/test.svg
 ---
+<!-- routify:options index=1 -->
 
 ## Using Svelte with other technologies (e.g. PostCSS, SCSS, TypeScript, and Babel)
 

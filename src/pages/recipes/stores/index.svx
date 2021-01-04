@@ -3,7 +3,7 @@ title: Stores
 layout: recipeCategory
 icon: /images/icons/test.svg
 ---
-
+<!-- routify:options index=1 -->
 <script>
   import Warning from '../../../components/recipes/Warning.svelte'
 </script>

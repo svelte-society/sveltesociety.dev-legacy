@@ -4,7 +4,7 @@ module.exports = {
   "routifyDir": ".routify",
   "ignore": "",
   "dynamicImports": true,
-  "singleBuild": false,
+  "singleBuild": true,
   "noHashScroll": false,
   "distDir": "dist",
   "plugins": {
@@ -17,10 +17,10 @@ module.exports = {
   },
   "hashScroll": true,
   "extensions": [
-    "svelte",
     "html",
-    "svx",
-    "md"
+    "svelte",
+    "md",
+    "svx"
   ],
-  "started": "2021-01-03T15:51:38.596Z"
+  "started": "2021-01-04T14:41:33.564Z"
 }
