@@ -1,5 +1,5 @@
 <script>
-  import { page } from "@sveltech/routify";
+  import { page } from "@roxi/routify";
 </script>
 
 <style>

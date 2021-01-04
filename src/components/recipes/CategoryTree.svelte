@@ -1,6 +1,6 @@
 <script>
   export let nodes;
-  import { page } from "@sveltech/routify";
+  import { page } from "@roxi/routify";
 </script>
 
 <style>
