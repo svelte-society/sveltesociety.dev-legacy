@@ -3585,5 +3585,83 @@
     ],
     "title": "svelte-tiny-virtual-list",
     "url": "https://github.com/Skayo/svelte-tiny-virtual-list"
-  }
+  },
+  {
+    "addedOn": "2021-01-08T20:11:39.581Z",
+    "category": "Forms & User Input",
+    "description": "Drop files(s) or click to browse file system",
+    "image": "",
+    "npm": "@svelte-parts/drop-file",
+    "stars": 1,
+    "tags": [
+      "components and libraries",
+      "inputs and widgets",
+      "component sets",
+      "typescript"
+    ],
+    "title": "@svelte-parts/drop-file",
+    "url": "https://svelte-parts.surge.sh/drop-file"
+  },
+  {
+    "addedOn": "2021-01-08T20:11:39.581Z",
+    "category": "Forms & User Input",
+    "description": "A markdown editor and codemirror wrapper",
+    "image": "",
+    "npm": "@svelte-parts/editor",
+    "stars": 1,
+    "tags": [
+      "components and libraries",
+      "inputs and widgets",
+      "component sets",
+      "typescript"
+    ],
+    "title": "@svelte-parts/editor",
+    "url": "https://svelte-parts.surge.sh/editor"
+  },
+  {
+    "addedOn": "2021-01-08T20:11:39.581Z",
+    "category": "Forms & User Input",
+    "description": "Yet another form component",
+    "image": "",
+    "npm": "@svelte-parts/form",
+    "stars": 1,
+    "tags": [
+      "components and libraries",
+      "forms and validation",
+      "component sets",
+      "typescript"
+    ],
+    "title": "@svelte-parts/form",
+    "url": "https://svelte-parts.surge.sh/form"
+  },
+  {
+    "addedOn": "2021-01-08T20:11:39.581Z",
+    "category": "",
+    "description": "SVG icons from feather icons, maki icons and octicons",
+    "image": "",
+    "npm": "@svelte-parts/icons",
+    "stars": 1,
+    "tags": [
+      "components and libraries",
+      "fonts and icons",
+      "component sets"
+    ],
+    "title": "@svelte-parts/icons",
+    "url": "https://svelte-parts.surge.sh/icons"
+  },
+  {
+    "addedOn": "2021-01-08T20:11:39.581Z",
+    "category": "",
+    "description": "Allow pan and zoom on images",
+    "image": "",
+    "npm": "@svelte-parts/zoom",
+    "stars": 1,
+    "tags": [
+      "components and libraries",
+      "component sets",
+      "typescript"
+    ],
+    "title": "@svelte-parts/zoom",
+    "url": "https://svelte-parts.surge.sh/zoom"
+  },
 ]
