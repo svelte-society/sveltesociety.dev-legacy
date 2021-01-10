@@ -82,6 +82,7 @@
         <li><a href="/">HOME</a></li>
         <li><a href="/recipes">RECIPES</a></li>
         <li><a href="/components">COMPONENTS</a></li>
+        <li><a href="/events">EVENTS</a></li>
         <li><a href="/about">ABOUT</a></li>
       </ul>
     </nav>
