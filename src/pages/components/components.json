@@ -3663,5 +3663,19 @@
     ],
     "title": "@svelte-parts/zoom",
     "url": "https://svelte-parts.surge.sh/zoom"
+  },
+  {
+    "addedOn": "2021-01-12T15:59:39.581Z",
+    "category": "Integration",
+    "description": "Use Appwrite in Svelte components",
+    "image": "",
+    "npm": "svelte-appwrite",
+    "stars": 11,
+    "tags": [
+      "components and libraries",
+      "component sets"
+    ],
+    "title": "svelte-appwrite",
+    "url": "https://github.com/appwrite/sdk-for-svelte"
   }
 ]
