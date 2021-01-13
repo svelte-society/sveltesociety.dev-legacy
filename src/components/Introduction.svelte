@@ -21,7 +21,7 @@
     <a
       href="https://github.com/svelte-society/sveltesociety.dev"
       target="_blank">
-      github repository.
+      GitHub repository.
     </a>
     You can also come talk to us on the
     <a href="https://discord.gg/FFYDNp5" target="_blank">Svelte discord</a>
