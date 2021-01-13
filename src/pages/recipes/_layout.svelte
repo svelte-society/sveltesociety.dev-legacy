@@ -43,8 +43,7 @@
       }
   }
   :global(article blockquote) {
-    background: #ff3e01;
-    opacity: 0.2;
+    background: rgba(255, 62, 1, 0.2);
     border-radius: 5px 0px 0px 5px;
     color: black;
     border-left: 2px solid #ff3e01;
