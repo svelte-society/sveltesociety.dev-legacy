@@ -68,7 +68,8 @@ export default {
         mdsvex({
           layout: {
             recipe: "./src/layouts/Recipe.svelte",
-            recipeCategory: "./src/layouts/RecipeCategory.svelte"
+            recipeCategory: "./src/layouts/RecipeCategory.svelte",
+            eventPage: "./src/layouts/Event.svelte"
           }
         }),
         autoPreprocess({
@@ -155,7 +156,8 @@ export default {
         // mdsvex({
         //   layout: {
         //     recipe: "./src/layouts/Recipe.svelte",
-        //     recipeCategory: "./src/layouts/RecipeCategory.svelte"
+        //     recipeCategory: "./src/layouts/RecipeCategory.svelte",
+        //     eventPage: "./src/layouts/Event.svelte"
         //   }
         // })
 //       ],

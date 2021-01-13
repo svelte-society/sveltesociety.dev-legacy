@@ -1,6 +1,8 @@
 [
   "/about/index",
   "/components/index",
+  "/events/index",
+  "/events/summit2020",
   "/help/components",
   "/index",
   "/recipes/build-setup/transpiling-es6-to-es5-for-legacy-browser-support",

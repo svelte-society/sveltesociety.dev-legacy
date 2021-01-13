@@ -1,11 +1,11 @@
 
 /**
- * @roxi/routify 2.8.4
- * File generated Mon Jan 04 2021 15:14:54 GMT+0000 (Greenwich Mean Time)
+ * @roxi/routify 2.8.5
+ * File generated Mon Jan 11 2021 09:25:48 GMT+0100 (Mitteleuropäische Normalzeit)
  */
 
-export const __version = "2.8.4"
-export const __timestamp = "2021-01-04T15:14:54.551Z"
+export const __version = "2.8.5"
+export const __timestamp = "2021-01-11T08:25:48.635Z"
 
 //buildRoutes
 import { buildClientTree } from "@roxi/routify/runtime/buildRoutes"
@@ -22,7 +22,7 @@ export const _tree = {
   "filepath": "/_layout.svelte",
   "root": true,
   "ownMeta": {},
-  "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/_layout.svelte",
+  "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/_layout.svelte",
   "children": [
     {
       "isFile": true,
@@ -32,7 +32,7 @@ export const _tree = {
       "name": "_fallback",
       "ext": "svelte",
       "badExt": false,
-      "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/_fallback.svelte",
+      "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/_fallback.svelte",
       "importPath": "../src/pages/_fallback.svelte",
       "isLayout": false,
       "isReset": false,
@@ -57,7 +57,7 @@ export const _tree = {
       "name": "_layout",
       "ext": "svelte",
       "badExt": false,
-      "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/about/_layout.svelte",
+      "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/about/_layout.svelte",
       "children": [
         {
           "isFile": true,
@@ -67,7 +67,7 @@ export const _tree = {
           "name": "index",
           "ext": "svx",
           "badExt": false,
-          "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/about/index.svx",
+          "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/about/index.svx",
           "importPath": "../src/pages/about/index.svx",
           "isLayout": false,
           "isReset": false,
@@ -109,7 +109,7 @@ export const _tree = {
       "name": "components",
       "ext": "",
       "badExt": false,
-      "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/components",
+      "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/components",
       "children": [
         {
           "isFile": true,
@@ -119,7 +119,7 @@ export const _tree = {
           "name": "index",
           "ext": "svelte",
           "badExt": false,
-          "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/components/index.svelte",
+          "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/components/index.svelte",
           "importPath": "../src/pages/components/index.svelte",
           "isLayout": false,
           "isReset": false,
@@ -154,11 +154,94 @@ export const _tree = {
       "isFile": true,
       "isDir": true,
       "file": "_layout.svelte",
+      "filepath": "/events/_layout.svelte",
+      "name": "_layout",
+      "ext": "svelte",
+      "badExt": false,
+      "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/events/_layout.svelte",
+      "children": [
+        {
+          "isFile": true,
+          "isDir": false,
+          "file": "index.svelte",
+          "filepath": "/events/index.svelte",
+          "name": "index",
+          "ext": "svelte",
+          "badExt": false,
+          "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/events/index.svelte",
+          "importPath": "../src/pages/events/index.svelte",
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": true,
+          "isFallback": false,
+          "isPage": true,
+          "ownMeta": {},
+          "meta": {
+            "recursive": true,
+            "preload": false,
+            "prerender": true
+          },
+          "path": "/events/index",
+          "id": "_events_index",
+          "component": () => import('../src/pages/events/index.svelte').then(m => m.default)
+        },
+        {
+          "isFile": true,
+          "isDir": false,
+          "file": "summit2020.svx",
+          "filepath": "/events/summit2020.svx",
+          "name": "summit2020",
+          "ext": "svx",
+          "badExt": false,
+          "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/events/summit2020.svx",
+          "importPath": "../src/pages/events/summit2020.svx",
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": false,
+          "isFallback": false,
+          "isPage": true,
+          "ownMeta": {},
+          "meta": {
+            "frontmatter": {
+              "title": "Svelte Summit 2020",
+              "layout": "eventPage",
+              "date": "18.10.2020",
+              "isPast": true
+            },
+            "recursive": true,
+            "preload": false,
+            "prerender": true
+          },
+          "path": "/events/summit2020",
+          "id": "_events_summit2020",
+          "component": () => import('../src/pages/events/summit2020.svx').then(m => m.default)
+        }
+      ],
+      "isLayout": true,
+      "isReset": false,
+      "isIndex": false,
+      "isFallback": false,
+      "isPage": false,
+      "importPath": "../src/pages/events/_layout.svelte",
+      "ownMeta": {},
+      "meta": {
+        "recursive": true,
+        "preload": false,
+        "prerender": true
+      },
+      "path": "/events",
+      "id": "_events__layout",
+      "component": () => import('../src/pages/events/_layout.svelte').then(m => m.default)
+    },
+    {
+      "isFile": true,
+      "isDir": true,
+      "file": "_layout.svelte",
       "filepath": "/help/_layout.svelte",
       "name": "_layout",
       "ext": "svelte",
       "badExt": false,
-      "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/help/_layout.svelte",
+      "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/help/_layout.svelte",
       "children": [
         {
           "isFile": true,
@@ -168,7 +251,7 @@ export const _tree = {
           "name": "components",
           "ext": "svx",
           "badExt": false,
-          "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/help/components.svx",
+          "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/help/components.svx",
           "importPath": "../src/pages/help/components.svx",
           "isLayout": false,
           "isReset": false,
@@ -210,7 +293,7 @@ export const _tree = {
       "name": "index",
       "ext": "svelte",
       "badExt": false,
-      "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/index.svelte",
+      "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/index.svelte",
       "importPath": "../src/pages/index.svelte",
       "isLayout": false,
       "isReset": false,
@@ -235,7 +318,7 @@ export const _tree = {
       "name": "_layout",
       "ext": "svelte",
       "badExt": false,
-      "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/_layout.svelte",
+      "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/_layout.svelte",
       "children": [
         {
           "isFile": false,
@@ -245,7 +328,7 @@ export const _tree = {
           "name": "build-setup",
           "ext": "",
           "badExt": false,
-          "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/build-setup",
+          "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/build-setup",
           "children": [
             {
               "isFile": true,
@@ -255,7 +338,7 @@ export const _tree = {
               "name": "transpiling-es6-to-es5-for-legacy-browser-support",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/build-setup/transpiling-es6-to-es5-for-legacy-browser-support.svx",
+              "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/build-setup/transpiling-es6-to-es5-for-legacy-browser-support.svx",
               "importPath": "../src/pages/recipes/build-setup/transpiling-es6-to-es5-for-legacy-browser-support.svx",
               "isLayout": false,
               "isReset": false,
@@ -284,7 +367,7 @@ export const _tree = {
               "name": "using-future-js-syntax-in-svelte-using-babel",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/build-setup/using-future-js-syntax-in-svelte-using-babel.svx",
+              "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/build-setup/using-future-js-syntax-in-svelte-using-babel.svx",
               "importPath": "../src/pages/recipes/build-setup/using-future-js-syntax-in-svelte-using-babel.svx",
               "isLayout": false,
               "isReset": false,
@@ -313,7 +396,7 @@ export const _tree = {
               "name": "using-postcss-with-svelte",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/build-setup/using-postcss-with-svelte.svx",
+              "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/build-setup/using-postcss-with-svelte.svx",
               "importPath": "../src/pages/recipes/build-setup/using-postcss-with-svelte.svx",
               "isLayout": false,
               "isReset": false,
@@ -342,7 +425,7 @@ export const _tree = {
               "name": "using-typescript-with-svelte",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/build-setup/using-typescript-with-svelte.svx",
+              "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/build-setup/using-typescript-with-svelte.svx",
               "importPath": "../src/pages/recipes/build-setup/using-typescript-with-svelte.svx",
               "isLayout": false,
               "isReset": false,
@@ -371,7 +454,7 @@ export const _tree = {
               "name": "writing-your-own-preprocessors",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/build-setup/writing-your-own-preprocessors.svx",
+              "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/build-setup/writing-your-own-preprocessors.svx",
               "importPath": "../src/pages/recipes/build-setup/writing-your-own-preprocessors.svx",
               "isLayout": false,
               "isReset": false,
@@ -400,7 +483,7 @@ export const _tree = {
               "name": "index",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/build-setup/index.svx",
+              "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/build-setup/index.svx",
               "importPath": "../src/pages/recipes/build-setup/index.svx",
               "isLayout": false,
               "isReset": false,
@@ -447,7 +530,7 @@ export const _tree = {
           "name": "component-recipes",
           "ext": "",
           "badExt": false,
-          "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/component-recipes",
+          "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/component-recipes",
           "children": [
             {
               "isFile": true,
@@ -457,7 +540,7 @@ export const _tree = {
               "name": "form-validation-with-svelte",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/component-recipes/form-validation-with-svelte.svx",
+              "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/component-recipes/form-validation-with-svelte.svx",
               "importPath": "../src/pages/recipes/component-recipes/form-validation-with-svelte.svx",
               "isLayout": false,
               "isReset": false,
@@ -486,7 +569,7 @@ export const _tree = {
               "name": "getting-references-to-components-in-each-blocks",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/component-recipes/getting-references-to-components-in-each-blocks.svx",
+              "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/component-recipes/getting-references-to-components-in-each-blocks.svx",
               "importPath": "../src/pages/recipes/component-recipes/getting-references-to-components-in-each-blocks.svx",
               "isLayout": false,
               "isReset": false,
@@ -515,7 +598,7 @@ export const _tree = {
               "name": "passing-attributes-to-component-dom-element",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/component-recipes/passing-attributes-to-component-dom-element.svx",
+              "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/component-recipes/passing-attributes-to-component-dom-element.svx",
               "importPath": "../src/pages/recipes/component-recipes/passing-attributes-to-component-dom-element.svx",
               "isLayout": false,
               "isReset": false,
@@ -544,7 +627,7 @@ export const _tree = {
               "name": "using-fetch-to-consume-apis",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/component-recipes/using-fetch-to-consume-apis.svx",
+              "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/component-recipes/using-fetch-to-consume-apis.svx",
               "importPath": "../src/pages/recipes/component-recipes/using-fetch-to-consume-apis.svx",
               "isLayout": false,
               "isReset": false,
@@ -573,7 +656,7 @@ export const _tree = {
               "name": "index",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/component-recipes/index.svx",
+              "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/component-recipes/index.svx",
               "importPath": "../src/pages/recipes/component-recipes/index.svx",
               "isLayout": false,
               "isReset": false,
@@ -620,7 +703,7 @@ export const _tree = {
           "name": "design-patterns",
           "ext": "",
           "badExt": false,
-          "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/design-patterns",
+          "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/design-patterns",
           "children": [
             {
               "isFile": true,
@@ -630,7 +713,7 @@ export const _tree = {
               "name": "authentication-with-svelte",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/design-patterns/authentication-with-svelte.svx",
+              "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/design-patterns/authentication-with-svelte.svx",
               "importPath": "../src/pages/recipes/design-patterns/authentication-with-svelte.svx",
               "isLayout": false,
               "isReset": false,
@@ -659,7 +742,7 @@ export const _tree = {
               "name": "routing-with-svelte",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/design-patterns/routing-with-svelte.svx",
+              "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/design-patterns/routing-with-svelte.svx",
               "importPath": "../src/pages/recipes/design-patterns/routing-with-svelte.svx",
               "isLayout": false,
               "isReset": false,
@@ -688,7 +771,7 @@ export const _tree = {
               "name": "server-side-rendering",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/design-patterns/server-side-rendering.svx",
+              "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/design-patterns/server-side-rendering.svx",
               "importPath": "../src/pages/recipes/design-patterns/server-side-rendering.svx",
               "isLayout": false,
               "isReset": false,
@@ -717,7 +800,7 @@ export const _tree = {
               "name": "index",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/design-patterns/index.svx",
+              "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/design-patterns/index.svx",
               "importPath": "../src/pages/recipes/design-patterns/index.svx",
               "isLayout": false,
               "isReset": false,
@@ -764,7 +847,7 @@ export const _tree = {
           "name": "index",
           "ext": "svelte",
           "badExt": false,
-          "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/index.svelte",
+          "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/index.svelte",
           "importPath": "../src/pages/recipes/index.svelte",
           "isLayout": false,
           "isReset": false,
@@ -789,7 +872,7 @@ export const _tree = {
           "name": "other",
           "ext": "",
           "badExt": false,
-          "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/other",
+          "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/other",
           "children": [
             {
               "isFile": true,
@@ -799,7 +882,7 @@ export const _tree = {
               "name": "editable-svg-icon-systems-with-svelte-and-heroicons",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/other/editable-svg-icon-systems-with-svelte-and-heroicons.svx",
+              "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/other/editable-svg-icon-systems-with-svelte-and-heroicons.svx",
               "importPath": "../src/pages/recipes/other/editable-svg-icon-systems-with-svelte-and-heroicons.svx",
               "isLayout": false,
               "isReset": false,
@@ -828,7 +911,7 @@ export const _tree = {
               "name": "index",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/other/index.svx",
+              "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/other/index.svx",
               "importPath": "../src/pages/recipes/other/index.svx",
               "isLayout": false,
               "isReset": false,
@@ -875,7 +958,7 @@ export const _tree = {
           "name": "publishing-and-deploying",
           "ext": "",
           "badExt": false,
-          "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/publishing-and-deploying",
+          "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/publishing-and-deploying",
           "children": [
             {
               "isFile": true,
@@ -885,7 +968,7 @@ export const _tree = {
               "name": "dockerize-a-sapper-app",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/publishing-and-deploying/dockerize-a-sapper-app.svx",
+              "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/publishing-and-deploying/dockerize-a-sapper-app.svx",
               "importPath": "../src/pages/recipes/publishing-and-deploying/dockerize-a-sapper-app.svx",
               "isLayout": false,
               "isReset": false,
@@ -914,7 +997,7 @@ export const _tree = {
               "name": "dockerize-a-svelte-app",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/publishing-and-deploying/dockerize-a-svelte-app.svx",
+              "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/publishing-and-deploying/dockerize-a-svelte-app.svx",
               "importPath": "../src/pages/recipes/publishing-and-deploying/dockerize-a-svelte-app.svx",
               "isLayout": false,
               "isReset": false,
@@ -943,7 +1026,7 @@ export const _tree = {
               "name": "index",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/publishing-and-deploying/index.svx",
+              "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/publishing-and-deploying/index.svx",
               "importPath": "../src/pages/recipes/publishing-and-deploying/index.svx",
               "isLayout": false,
               "isReset": false,
@@ -990,7 +1073,7 @@ export const _tree = {
           "name": "stores",
           "ext": "",
           "badExt": false,
-          "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/stores",
+          "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/stores",
           "children": [
             {
               "isFile": true,
@@ -1000,7 +1083,7 @@ export const _tree = {
               "name": "index",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/stores/index.svx",
+              "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/stores/index.svx",
               "importPath": "../src/pages/recipes/stores/index.svx",
               "isLayout": false,
               "isReset": false,
@@ -1047,7 +1130,7 @@ export const _tree = {
           "name": "svelte-language-fundamentals",
           "ext": "",
           "badExt": false,
-          "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/svelte-language-fundamentals",
+          "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/svelte-language-fundamentals",
           "children": [
             {
               "isFile": true,
@@ -1057,7 +1140,7 @@ export const _tree = {
               "name": "looping",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/svelte-language-fundamentals/looping.svx",
+              "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/svelte-language-fundamentals/looping.svx",
               "importPath": "../src/pages/recipes/svelte-language-fundamentals/looping.svx",
               "isLayout": false,
               "isReset": false,
@@ -1086,7 +1169,7 @@ export const _tree = {
               "name": "passing-values-from-js-to-css",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/svelte-language-fundamentals/passing-values-from-js-to-css.svx",
+              "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/svelte-language-fundamentals/passing-values-from-js-to-css.svx",
               "importPath": "../src/pages/recipes/svelte-language-fundamentals/passing-values-from-js-to-css.svx",
               "isLayout": false,
               "isReset": false,
@@ -1115,7 +1198,7 @@ export const _tree = {
               "name": "reactivity",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/svelte-language-fundamentals/reactivity.svx",
+              "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/svelte-language-fundamentals/reactivity.svx",
               "importPath": "../src/pages/recipes/svelte-language-fundamentals/reactivity.svx",
               "isLayout": false,
               "isReset": false,
@@ -1144,7 +1227,7 @@ export const _tree = {
               "name": "scoped-global-css",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/svelte-language-fundamentals/scoped-global-css.svx",
+              "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/svelte-language-fundamentals/scoped-global-css.svx",
               "importPath": "../src/pages/recipes/svelte-language-fundamentals/scoped-global-css.svx",
               "isLayout": false,
               "isReset": false,
@@ -1173,7 +1256,7 @@ export const _tree = {
               "name": "index",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/svelte-language-fundamentals/index.svx",
+              "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/svelte-language-fundamentals/index.svx",
               "importPath": "../src/pages/recipes/svelte-language-fundamentals/index.svx",
               "isLayout": false,
               "isReset": false,
@@ -1220,7 +1303,7 @@ export const _tree = {
           "name": "testing-and-debugging",
           "ext": "",
           "badExt": false,
-          "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/testing-and-debugging",
+          "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/testing-and-debugging",
           "children": [
             {
               "isFile": true,
@@ -1230,7 +1313,7 @@ export const _tree = {
               "name": "unit-testing-svelte-component",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/testing-and-debugging/unit-testing-svelte-component.svx",
+              "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/testing-and-debugging/unit-testing-svelte-component.svx",
               "importPath": "../src/pages/recipes/testing-and-debugging/unit-testing-svelte-component.svx",
               "isLayout": false,
               "isReset": false,
@@ -1259,7 +1342,7 @@ export const _tree = {
               "name": "index",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/Volumes/Media/ResilioSync/WebProjects/peeling_pixels/sveltesociety.dev/src/pages/recipes/testing-and-debugging/index.svx",
+              "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/recipes/testing-and-debugging/index.svx",
               "importPath": "../src/pages/recipes/testing-and-debugging/index.svx",
               "isLayout": false,
               "isReset": false,
