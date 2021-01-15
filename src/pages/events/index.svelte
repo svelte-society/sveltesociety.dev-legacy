@@ -1,6 +1,14 @@
 <script>
   import { layout, url } from "@roxi/routify";
   import societys from "./societys.json";
+
+  let events = $layout.children;
+  console.log(events);
+
+  let sortedEvents = events.sort(
+    (a, b) =>
+      Date.parse(b.meta.frontmatter.date) - Date.parse(a.meta.frontmatter.date)
+  );
 </script>
 
 <svelte:head>
@@ -9,7 +17,7 @@
 
 <div class="wrapper">
   <div class="event-wrapper">
-    {#each $layout.children as node}
+    {#each sortedEvents as node}
       <figure class="event-tile">
         {#if node.meta.frontmatter.isPast === true}
           <span class="past-event">Past event</span>
@@ -24,7 +32,7 @@
     {#each societys as society}
       <p class="society">{society.country}</p>
       {#if society.twitter}
-        <p>
+        <span class="twitter-wrapper">
           <svg
             class="twittericon"
             viewBox="0 0 21 16"
@@ -35,7 +43,7 @@
             /></svg
           >
           <a href="https://twitter.com/{society.twitter}">{society.twitter}</a>
-        </p>
+        </span>
       {/if}
 
       <ul class="society">
@@ -75,12 +83,18 @@
   p.society {
     margin-bottom: 0;
   }
+  .twitter-wrapper {
+    padding: 4px 20px;
+    display: flex;
+    justify-items: start;
+  }
   .twittericon {
-    padding-top: 5px;
+    padding-right: 4px;
     width: 19px;
     height: 19px;
     color: #60a5fa;
     fill: currentColor;
+    place-self: center;
   }
   .event-tile {
     --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
