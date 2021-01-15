@@ -1,11 +1,11 @@
 
 /**
  * @roxi/routify 2.8.5
- * File generated Mon Jan 11 2021 09:25:48 GMT+0100 (Mitteleuropäische Normalzeit)
+ * File generated Thu Jan 14 2021 17:43:14 GMT+0100 (Mitteleuropäische Normalzeit)
  */
 
 export const __version = "2.8.5"
-export const __timestamp = "2021-01-11T08:25:48.635Z"
+export const __timestamp = "2021-01-14T16:43:14.446Z"
 
 //buildRoutes
 import { buildClientTree } from "@roxi/routify/runtime/buildRoutes"
@@ -163,6 +163,37 @@ export const _tree = {
         {
           "isFile": true,
           "isDir": false,
+          "file": "frsocietyday2020.svx",
+          "filepath": "/events/frsocietyday2020.svx",
+          "name": "frsocietyday2020",
+          "ext": "svx",
+          "badExt": false,
+          "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/events/frsocietyday2020.svx",
+          "importPath": "../src/pages/events/frsocietyday2020.svx",
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": false,
+          "isFallback": false,
+          "isPage": true,
+          "ownMeta": {},
+          "meta": {
+            "frontmatter": {
+              "title": "Svelte Society Day 2020 France",
+              "layout": "eventPage",
+              "date": "27.09.2020",
+              "isPast": true
+            },
+            "recursive": true,
+            "preload": false,
+            "prerender": true
+          },
+          "path": "/events/frsocietyday2020",
+          "id": "_events_frsocietyday2020",
+          "component": () => import('../src/pages/events/frsocietyday2020.svx').then(m => m.default)
+        },
+        {
+          "isFile": true,
+          "isDir": false,
           "file": "index.svelte",
           "filepath": "/events/index.svelte",
           "name": "index",
@@ -184,6 +215,37 @@ export const _tree = {
           "path": "/events/index",
           "id": "_events_index",
           "component": () => import('../src/pages/events/index.svelte').then(m => m.default)
+        },
+        {
+          "isFile": true,
+          "isDir": false,
+          "file": "societyday2020.svx",
+          "filepath": "/events/societyday2020.svx",
+          "name": "societyday2020",
+          "ext": "svx",
+          "badExt": false,
+          "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/events/societyday2020.svx",
+          "importPath": "../src/pages/events/societyday2020.svx",
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": false,
+          "isFallback": false,
+          "isPage": true,
+          "ownMeta": {},
+          "meta": {
+            "frontmatter": {
+              "title": "Svelte Society Day 2020",
+              "layout": "eventPage",
+              "date": "26.04.2020",
+              "isPast": true
+            },
+            "recursive": true,
+            "preload": false,
+            "prerender": true
+          },
+          "path": "/events/societyday2020",
+          "id": "_events_societyday2020",
+          "component": () => import('../src/pages/events/societyday2020.svx').then(m => m.default)
         },
         {
           "isFile": true,
