@@ -1,7 +1,7 @@
 ---
 title: Svelte Society Day 2020
 layout: eventPage
-date: 26.04.2020
+date: 2020-04-26
 isPast: true
 ---
 
