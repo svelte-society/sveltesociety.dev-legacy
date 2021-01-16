@@ -15,6 +15,11 @@
     "githuburl": "https://github.com/svelte-meetup-hamburg/meetups/issues"
   },
   {
+    "name": "Amsterdam SvelteJS",
+    "country": "🇳🇱 Netherlands",
+    "url": "https://www.meetup.com/Amsterdam-SvelteJS/"
+  },
+  {
     "name": "Svelte Society Stockholm",
     "country": "🇸🇪 Sweden",
     "twitter":"@kevmodrome",
