@@ -1,11 +1,11 @@
 
 /**
  * @roxi/routify 2.8.5
- * File generated Thu Jan 14 2021 17:43:14 GMT+0100 (Mitteleuropäische Normalzeit)
+ * File generated Sat Jan 16 2021 12:10:09 GMT+0100 (Mitteleuropäische Normalzeit)
  */
 
 export const __version = "2.8.5"
-export const __timestamp = "2021-01-14T16:43:14.446Z"
+export const __timestamp = "2021-01-16T11:10:09.825Z"
 
 //buildRoutes
 import { buildClientTree } from "@roxi/routify/runtime/buildRoutes"
@@ -180,7 +180,7 @@ export const _tree = {
             "frontmatter": {
               "title": "Svelte Society Day 2020 France",
               "layout": "eventPage",
-              "date": "27.09.2020",
+              "date": "2020-09-27",
               "isPast": true
             },
             "recursive": true,
@@ -236,7 +236,7 @@ export const _tree = {
             "frontmatter": {
               "title": "Svelte Society Day 2020",
               "layout": "eventPage",
-              "date": "26.04.2020",
+              "date": "2020-04-26",
               "isPast": true
             },
             "recursive": true,
@@ -267,7 +267,7 @@ export const _tree = {
             "frontmatter": {
               "title": "Svelte Summit 2020",
               "layout": "eventPage",
-              "date": "18.10.2020",
+              "date": "2020-10-18",
               "isPast": true
             },
             "recursive": true,
@@ -371,6 +371,34 @@ export const _tree = {
       "path": "/index",
       "id": "_index",
       "component": () => import('../src/pages/index.svelte').then(m => m.default)
+    },
+    {
+      "isFile": true,
+      "isDir": false,
+      "file": "licenses.svx",
+      "filepath": "/licenses.svx",
+      "name": "licenses",
+      "ext": "svx",
+      "badExt": false,
+      "absolutePath": "/Users/dietrich/Desktop/dev/contrib/sveltesociety.dev/src/pages/licenses.svx",
+      "importPath": "../src/pages/licenses.svx",
+      "isLayout": false,
+      "isReset": false,
+      "isIndex": false,
+      "isFallback": false,
+      "isPage": true,
+      "ownMeta": {},
+      "meta": {
+        "frontmatter": {
+          "title": "License information"
+        },
+        "recursive": true,
+        "preload": false,
+        "prerender": true
+      },
+      "path": "/licenses",
+      "id": "_licenses",
+      "component": () => import('../src/pages/licenses.svx').then(m => m.default)
     },
     {
       "isFile": true,

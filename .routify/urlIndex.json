@@ -7,6 +7,7 @@
   "/events/summit2020",
   "/help/components",
   "/index",
+  "/licenses",
   "/recipes/build-setup/transpiling-es6-to-es5-for-legacy-browser-support",
   "/recipes/build-setup/using-future-js-syntax-in-svelte-using-babel",
   "/recipes/build-setup/using-postcss-with-svelte",
