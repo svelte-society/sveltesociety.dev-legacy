@@ -9,7 +9,6 @@ Svelte Society is the global Svelte community organization. It started as a seri
 - Twitter: https://twitter.com/sveltesociety
 - [~20 meetups across 3 continents](https://twitter.com/SvelteSociety/status/1235264100600631296?s=20)
 
-
 ## Svelte Society Code of Conduct
 
 All interaction on any platform associated with Svelte Society is subject to a Code of Conduct, enforced by Svelte maintainers and Svelte Society organizers. Even though it'd be great if we lived in a world where this wasn't an issue, Code of Conducts are required to ensure that everyone can attend events without reservations.
@@ -28,7 +27,6 @@ Harassment includes offensive verbal or written comments related to sex, gender 
 
 If a community member engages in harassing behavior, Svelte Society organizers may take any action they deem appropriate, including warning the offender, expulsion from the Svelte Society community, and/or removal from an event. If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a Svelte Society organizer immediately, or as soon as you feel comfortable doing so.
 
-
 ### Diversity and Inclusion
 
 Svelte is for everyone. Svelte Society understands that it needs to have representative voices from a range of diverse backgrounds for the Svelte community to thrive. This is reflected in the Svelte Society Discord and Twitter.
@@ -38,3 +36,7 @@ However, a lot of work remains to be done. The original Svelte Society meetups a
 ### Acknowledgements
 
 Special thanks to [VueMeetups](https://events.vuejs.org/code-of-conduct/#english) for the basis of this Code of Conduct.
+
+## License information
+
+The license information can be found [here](https://sveltesociety.dev/licenses).
