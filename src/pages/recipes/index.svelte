@@ -39,9 +39,24 @@
     background: #ecf6ff;
     padding: 1rem;
   }
-  button {
+  a.button {
+    text-decoration: none;
     display: block;
     margin: 0;
+	  border-radius: var(--border-radius);
+  	display: inline-block;
+	  font-size: medium;
+	  font-weight: bold;
+	  margin: 1.5rem 0 0.5rem 0;
+    padding: 1rem 2rem;
+    background-color: var(--color-secondary);
+	  border: 2px solid var(--color-secondary);
+	  color: var(--color-bg);
+  }
+  
+  a.button:hover {
+	  cursor: pointer;
+	  filter: brightness(var(--hover-brightness));
   }
   .recipes-block {
     background: #f3f6f9;
@@ -108,11 +123,10 @@
   <div class="signup-block my-1">
     <h3>Do you want to write a recipe?</h3>
     <p>
-      We’re looking for new recipes and recipe authors. Are you interested? Sign
-      up below!
+      We’re looking for new recipes and recipe authors. Are you interested? Just submit a issue with a recipe below!
     </p>
-    <button>Sign up</button>
-  </div>
+    <a href="https://github.com/svelte-society/sveltesociety.dev/issues/new" class="button">Submit</a>
+    </div>
   <div class="my-1">
     <h3>Where to get started</h3>
     <p>
