@@ -5,6 +5,7 @@ This repository contains the source code for the Svelte Society website. It is c
 Technologies used:
 * Routify
 * MDSveX
+* [RemixIcon](https://icones.js.org/collection/ri)
 * Cloudflare Worker Site
 
 ## Contributing
