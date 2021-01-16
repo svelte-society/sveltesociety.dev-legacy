@@ -5,6 +5,9 @@
         date,
         isPast = "";
 
+    let rawDate = new Date(date)
+    let formattedDate = rawDate.toDateString()
+
     $: metatags.title = title + " Event";
     $: metatags.description = description;
 </script>
@@ -36,5 +39,5 @@
 
 {#if isPast === true}<span class="past-event">Past event</span>{/if}
 <h1>{title}</h1>
-<p class="dateslot">{date}</p>
+<p class="dateslot">{formattedDate}</p>
 <slot />
