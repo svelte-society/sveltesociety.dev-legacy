@@ -9,6 +9,12 @@
     "url": "https://www.downtomeet.com/Svelte-Dublin"
   },
   {
+    "name": "Sveltejs Meetup Hamburg",
+    "country": "🇩🇪 Germany",
+    "url": "https://www.meetup.com/de-DE/Svelte-js-Meetup-Hamburg/",
+    "githuburl": "https://github.com/svelte-meetup-hamburg/meetups/issues"
+  },
+  {
     "name": "Svelte Society Stockholm",
     "country": "🇸🇪 Sweden",
     "twitter":"@kevmodrome",
