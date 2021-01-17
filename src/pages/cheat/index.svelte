@@ -3,6 +3,8 @@ import CheatSheetCard from '@/components/CheatSheetCard.svelte';
 import { HighlightSvelte } from 'svelte-highlight';
 import { cheatSheet } from './cheat-sheet.js';
 
+
+
 </script>
 
 <style>
@@ -10,7 +12,7 @@ import { cheatSheet } from './cheat-sheet.js';
 main {
     display: flex;
     flex-wrap: wrap;
-    max-width: 100%;
+    max-width: fit-content;
 }
 
 main :global(.card) {
@@ -21,7 +23,7 @@ main :global(.card) {
 
 @media (max-width: 960px) {
     main > :global(.card) {
-        width: 95%;
+        max-width: 95%;
     }
 }
 </style>
