@@ -33,7 +33,13 @@
           <span class="past-event">Past event</span>
         {/if}
         <h2><a href={$url(node.path)}> {node.meta.frontmatter.title} </a></h2>
-        <p>{formatDate(node.meta.frontmatter.date)}</p>
+        <p>
+          <span class="icon-wrapper"
+            ><Icon name="calendar" width="24em" height="24em" />{formatDate(
+              node.meta.frontmatter.date
+            )}</span
+          >
+        </p>
       </figure>
     {/each}
   </div>
@@ -47,13 +53,14 @@
         <li>
           <span class="icon-wrapper">
             <Icon name="globe" />
-            <a href={society.url}>{society.name}</a>
+            <a href={society.url} target="_blank">{society.name}</a>
           </span>
         </li>
         {#if society.twitter}
           <span class="icon-wrapper">
             <Icon name="twitter" />
-            <a href="https://twitter.com/{society.twitter}">{society.twitter}</a
+            <a href="https://twitter.com/{society.twitter}" target="_blank"
+              >{society.twitter}</a
             >
           </span>
         {/if}
@@ -63,7 +70,7 @@
             <li>
               <span class="icon-wrapper">
                 <Icon name="github" />
-                <a href={society.githuburl}>GitHub</a>
+                <a href={society.githuburl} target="_blank">GitHub</a>
               </span>
             </li>
           </ul>
