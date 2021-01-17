@@ -2301,6 +2301,18 @@
     "url": "https://github.com/plrenaudin/svelte-storez"
   },
   {
+    "addedOn": "2021-01-15T22:22:22Z",
+    "category": "Stores",
+    "description": "Template for client side svelte store",
+    "image": "https://raw.githubusercontent.com/gitbreaker222/SvelteStore/master/docs/Svelte%20Store%20Logo%20transparent.svg",
+    "tags": [
+      "components and libraries",
+      "stores and state"
+    ],
+    "title": "SvelteStore",
+    "url": "https://github.com/gitbreaker222/SvelteStore"
+  },
+  {
     "addedOn": "2020-09-29T14:39:13Z",
     "category": "",
     "description": "A markdown preprocessor for Svelte",
