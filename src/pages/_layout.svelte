@@ -112,6 +112,6 @@
     <a
     class="ghlink"
       href="https://github.com/svelte-society/sveltesociety.dev"
-      target="_blank">GitHub</a>!
+      target="_blank" rel="noopener">GitHub</a>!
   </div>
 </footer>

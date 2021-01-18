@@ -47,13 +47,13 @@
         <li>
           <span class="icon-wrapper">
             <Icon name="globe" />
-            <a href={society.url}>{society.name}</a>
+            <a href={society.url} rel="noopener">{society.name}</a>
           </span>
         </li>
         {#if society.twitter}
           <span class="icon-wrapper">
             <Icon name="twitter" />
-            <a href="https://twitter.com/{society.twitter}">{society.twitter}</a
+            <a href="https://twitter.com/{society.twitter}" rel="noopener">{society.twitter}</a
             >
           </span>
         {/if}
@@ -63,7 +63,7 @@
             <li>
               <span class="icon-wrapper">
                 <Icon name="github" />
-                <a href={society.githuburl}>GitHub</a>
+                <a href={society.githuburl} rel="noopener">GitHub</a>
               </span>
             </li>
           </ul>

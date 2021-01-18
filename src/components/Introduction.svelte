@@ -20,17 +20,17 @@
     for prime-time! If you're interested in helping out checkout the
     <a
       href="https://github.com/svelte-society/sveltesociety.dev"
-      target="_blank">
+      target="_blank" rel="noopener">
       GitHub repository.
     </a>
     You can also come talk to us on the
-    <a href="https://discord.gg/FFYDNp5" target="_blank">Svelte discord</a>
+    <a href="https://discord.gg/FFYDNp5" target="_blank" rel="noopener">Svelte discord</a>
     if you want further guidance.
   </h2>
 
   <p>
     In the meantime, you can checkout
-    <a href="https://sveltesummit.com">Svelte Summit</a>, 
+    <a href="https://sveltesummit.com" rel="noopener">Svelte Summit</a>, 
     our previous online conference. It is free and we have all of the speaker's recorded talks available.
   </p>
   <img src="introduction.svg" alt="Live Conversation Application Preview" />
