@@ -3,8 +3,6 @@ import CheatSheetCard from '@/components/CheatSheetCard.svelte';
 import { HighlightSvelte } from 'svelte-highlight';
 import { cheatSheet } from './cheat-sheet.js';
 
-
-
 </script>
 
 <style>
