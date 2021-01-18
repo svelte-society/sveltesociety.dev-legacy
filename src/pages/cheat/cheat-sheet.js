@@ -115,7 +115,7 @@ export const cheatSheet = [
 </script>
 
 <button on:click={() => myDiv.innerText = 'My text'}>
-	Click
+  Click
 </button>
 
 <div bind:this={myDiv}/>
