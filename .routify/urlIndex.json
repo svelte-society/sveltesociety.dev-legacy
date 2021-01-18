@@ -1,5 +1,6 @@
 [
   "/about/index",
+  "/cheat/index",
   "/components/index",
   "/events/frsocietyday2020",
   "/events/index",
@@ -35,6 +36,7 @@
   "/recipes/svelte-language-fundamentals/reactivity",
   "/recipes/svelte-language-fundamentals/scoped-global-css",
   "/recipes/svelte-language-fundamentals/index",
+  "/recipes/testing-and-debugging/benchmarking-svelte-components",
   "/recipes/testing-and-debugging/unit-testing-svelte-component",
   "/recipes/testing-and-debugging/index"
 ]
