@@ -112,8 +112,11 @@ export const cheatSheet = [
 ::Element Binding
 <script>
   let myDiv
-  myDiv.innerText = 'My text'
 </script>
+
+<button on:click={() => myDiv.innerText = 'My text'}>
+	Click
+</button>
 
 <div bind:this={myDiv}/>
 `
