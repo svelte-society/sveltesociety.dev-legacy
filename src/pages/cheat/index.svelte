@@ -12,7 +12,7 @@ import { cheatSheet } from './cheat-sheet.js';
 main {
     display: flex;
     flex-wrap: wrap;
-    max-width: fit-content;
+    max-width: 100%;
 }
 
 main :global(.card) {
