@@ -40,8 +40,8 @@ export const cheatSheet = [
    
 <p>
   {isShowing 
-    ? 'NOW YOU SEE ME' 
-    : 'NOW YOU DON\`T SEE ME'}
+    ? 'NOW YOU SEE ME 👀' 
+    : 'NOW YOU DON\`T SEE ME 🙈'}
 </p>
 
 <p>My e-mail is {email}</p>
