@@ -30,8 +30,10 @@ export const cheatSheet = [
   {
     title: "Expressions",
     content: `<script>
-    let isShowing = true
-    let cat = 'cat'
+  let isShowing = true
+  let cat = 'cat'
+  let user = {name: 'John Wick'}
+  let email = 'professionalkiller@gmail.com'
 </script>
 
 <p>2 + 2 = {2 + 2}</p>
