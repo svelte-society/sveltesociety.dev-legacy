@@ -391,20 +391,17 @@ onMount(() => {
     title: "Reactive Expressions",
     content:
 `<script>
-  export let num 
-  let count = 0
-  
-  $: squared = num * num
-  $: cubed = squared * num
+let num = 0
+$: squared = num * num
+$: cubed = squared * num
 </script>
 
 <p>
-  {count}
-  <button on:click={() => count++}>
-    Increment
-  </button>
+<button on:click={() => num = num + 1}>
+  Increment: {num}
+</button>
 </p>
-<p>{square}</p>
+<p>{squared}</p>
 <p>{cubed}</p>
 `
   },
