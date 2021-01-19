@@ -24,5 +24,11 @@
     "country": "🇸🇪 Sweden",
     "twitter":"@kevmodrome",
     "url": "https://www.downtomeet.com/Svelte-Society-Stockholm"
+  },
+  {
+    "name": "Brazil Svelte Meetup",
+    "country": "🇧🇷 Brazil",
+    "twitter":"@sveltebrasil",
+    "url": "https://t.me/sveltebrasil"
   }
 ]
