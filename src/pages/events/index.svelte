@@ -53,14 +53,13 @@
         <li>
           <span class="icon-wrapper">
             <Icon name="globe" />
-            <a href={society.url} target="_blank">{society.name}</a>
+            <a href={society.url} rel="noopener">{society.name}</a>
           </span>
         </li>
         {#if society.twitter}
           <span class="icon-wrapper">
             <Icon name="twitter" />
-            <a href="https://twitter.com/{society.twitter}" target="_blank"
-              >{society.twitter}</a
+            <a href="https://twitter.com/{society.twitter}" rel="noopener">{society.twitter}</a
             >
           </span>
         {/if}

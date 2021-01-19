@@ -1,5 +1,6 @@
 <script>
-  import { metatags, page, prefetch } from "@roxi/routify";
+  import { metatags,page,prefetch } from "@roxi/routify";
+
   metatags.template(
     "title",
     (title) => `${title ? ` ${title} - ` : ""}Svelte Society`
@@ -96,6 +97,7 @@
         <li><a href="/" use:prefetch>HOME</a></li>
         <li><a href="/recipes" use:prefetch>RECIPES</a></li>
         <li><a href="/components" use:prefetch>COMPONENTS</a></li>
+        <li><a href="/cheat" use:prefetch>CHEAT SHEET</a></li>
         <li><a href="/events" use:prefetch>EVENTS</a></li>
         <li><a href="/about"use:prefetch>ABOUT</a></li>
       </ul>
@@ -112,6 +114,6 @@
     <a
     class="ghlink"
       href="https://github.com/svelte-society/sveltesociety.dev"
-      target="_blank">GitHub</a>!
+      target="_blank" rel="noopener">GitHub</a>!
   </div>
 </footer>
