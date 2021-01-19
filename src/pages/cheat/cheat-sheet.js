@@ -391,6 +391,37 @@ onMount(() => {
     alert('count is dangerously high!')
     count = 9
   }
+
+  let foo, bar, baz
+
+  $: quux = foo + bar
+  $: console.log(quux)
+
+  $: {
+    // block expression
+  }
+
+  $: if (quux > 10) {
+    // actually any ->
+  } else {
+    // js expression
+  }
+
+  $: for (let i = 0; i < baz; i++) {
+    // any js expression
+  }
+
+  // function declaration too
+  $: grunt = arg => quux / arg * baz
+
+  $: { // this would also work
+    if (quux < 10) break $
+    baz++
+  }
+
+  $: (async () => { // and even this
+    bar = await Promise.resolve(foo%2)
+  })()
 </script>
 `
   },
