@@ -391,9 +391,9 @@ onMount(() => {
     title: "Reactive Expressions",
     content:
 `<script>
-let num = 0
-$: squared = num * num
-$: cubed = squared * num
+  let num = 0
+  $: squared = num * num
+  $: cubed = squared * num
 </script>
 
 <button on:click={() => num = num + 1}>
