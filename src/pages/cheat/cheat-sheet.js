@@ -63,7 +63,7 @@ export const cheatSheet = [
   {title}
 </a>
 
-::Shorthand
+// Shorthand
 <a {href} style={\`color: \${color}\`} >
   {title}
 </a>
@@ -84,7 +84,7 @@ export const cheatSheet = [
     title: "Two Way Bind",
     content: `<MyInput bind:value={value} />
 
-::Shorthand
+// Shorthand
 <MyInput bind:value />
 
 <select multiple bind:value={fillings}>
@@ -111,7 +111,7 @@ export const cheatSheet = [
   bind:group={fillings} 
   value="Beans" />
 
-::Element Binding
+// Element Binding
 <script>
   let myDiv
 </script>
@@ -124,6 +124,22 @@ export const cheatSheet = [
 `
   },
   {
+    title: 'Use action',
+    content: `<script>
+  function myFunction(node) {
+    // the node has been mounted in the DOM
+    return {
+      destroy() {
+        // the node has been removed from the DOM
+      }
+    };
+  }
+</script>
+
+<div use:myFunction></div>
+    `
+  },
+  {
     title: "Conditional Render",
     content: `{#if condition}
   <p>Condition is true</p>
@@ -133,7 +149,7 @@ export const cheatSheet = [
   <p>Any Condition is true</p>
 {/if}
 
-::Re render
+// Re render
 {#key value}
 	<div transition:fade>{value}</div>
 {/key}
@@ -184,7 +200,7 @@ export const cheatSheet = [
   },
   {
     title: "Forwarding Event",
-    content: `::Widget.svelte
+    content: `// Widget.svelte
 <script>
   import { createEventDispatcher } from "svelte";
   const dispatch = createEventDispatcher();
@@ -192,7 +208,7 @@ export const cheatSheet = [
 <button on:click={() => dispatch('message', { text: 'Hello!' })} />
 <button on:click>Press me</button>
 
-::App.svelte
+// App.svelte
 <script>
 import Widget from '.Widget.svelte'
 </script>
@@ -304,7 +320,7 @@ import Widget from '.Widget.svelte'
 </div>
 
 
-::Match class
+// Match class
 
 <div class:active>...</div>
 `
@@ -319,13 +335,12 @@ import onMount from 'svelte'
 
 onMount(() => {
   console.log('Mounting')
-
   return () => (consolo.log('going out'))
 })
 </script>
 
 
-::Other lifecycle functions
+// Other lifecycle functions
 [
   onMount(() => {}),
   beforeUpdate(() => {}),
@@ -359,7 +374,6 @@ onMount(() => {
     content:
 `<script>
   import { fade } from "svelte/transition";
-
   export let condition;
 </script>
 
@@ -369,7 +383,7 @@ onMount(() => {
   </div>
 {/if}
 
-::Other transitions
+// Other transitions
 [Blur, Scale, Fly, Draw, Slide]
 `
   },
@@ -377,10 +391,21 @@ onMount(() => {
     title: "Reactive Expressions",
     content:
 `<script>
-  export let num let count = 0
-  $: squared = num * num count = 9
+  export let num 
+  let count = 0
+  
+  $: squared = num * num
   $: cubed = squared * num
 </script>
+
+<p>
+  {count}
+  <button on:click={() => count++}>
+    Increment
+  </button>
+</p>
+<p>{square}</p>
+<p>{cubed}</p>
 `
   },
   {
