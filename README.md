@@ -1,6 +1,6 @@
 # Svelte Society Site
 
-This repository contains the source code for the Svelte Society website. It is comprised of a couple of different pieces that are important to understand when contributing. TODO: Fill this in
+This repository contains the source code for the Svelte Society website. It is comprised of a couple of different pieces that are important to understand when contributing.
 
 Technologies used:
 * Routify
