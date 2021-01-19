@@ -46,3 +46,7 @@ This is regular text
   Click <a href="/">here</a> to read more about this.
 </ReadMore>
 ```
+
+## License
+
+[MIT](LICENSE)
