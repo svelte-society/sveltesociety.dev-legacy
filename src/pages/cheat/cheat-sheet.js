@@ -396,11 +396,10 @@ $: squared = num * num
 $: cubed = squared * num
 </script>
 
-<p>
 <button on:click={() => num = num + 1}>
   Increment: {num}
 </button>
-</p>
+
 <p>{squared}</p>
 <p>{cubed}</p>
 `
