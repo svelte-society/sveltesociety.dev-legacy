@@ -2,6 +2,7 @@
   "name": "svelte-society",
   "description": "Svelte Society Website",
   "version": "0.2.0",
+  "license": "MIT",
   "@comments scripts": {
     "dev": "develop with blazing fast rebuilds",
     "dev:features": "develop with features like SSR and serviceworker enabled",
