@@ -29,7 +29,7 @@ main :global(.card) {
 <main>
     {#each cheatSheet as item}
         <CheatSheetCard title={item.title}>
-            <HighlightSvelte code={item.content.replace(/::/g, '//')} />
+            <HighlightSvelte code={item.content} />
         </CheatSheetCard>
     {/each}
 </main>
