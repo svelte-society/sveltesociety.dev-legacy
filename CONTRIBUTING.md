@@ -10,7 +10,7 @@ Technologies used:
 
 ## Contributing
 
-Find an issue worth pursuing and pull down the repo. Run `yarn` followed by `yarn dev`. You can now access the site at `localhost:5000`.
+Find an issue worth pursuing and pull down the repo. Run `npm i` followed by `npm run dev dev`. You can now access the site at `localhost:5000`.
 
 If you want to expand the site or do larger work, such as adding new sections to the site, please come to the [Discord](https://discord.gg/JcvNM8p) and discuss it with us first. Otherwise you might be doing work that will not get merged and that is not fun for anyone!
 ## How to contribute
