@@ -1,48 +1,18 @@
-# Svelte Society Site
+### Svelte
 
-This repository contains the source code for the Svelte Society website. It is comprised of a couple of different pieces that are important to understand when contributing.
+The burgeoning description of Svelte beginning to take hold across the web is this: "Cybernetically enhanced web apps" but what does that mean exactly and how did it come to be described in such a cool, and maybe slightly mysterious, way? 
 
-Technologies used:
-* Routify
-* MDSveX
-* [RemixIcon](https://icones.js.org/collection/ri)
-* Cloudflare Worker Site
+Svelte started out as Ractive.js but in November 2016 version 1 was released under its current moniker. Since those humble beginnings it has grown in popularity exponentially.
 
-## Contributing
+The explosive growth can likely be attributed to two things. First the approachability of the code base. It is easy to understand and takes a short amount of time to grasp before one can start building some seriously cool web apps with it. Second Svelte apps are fast, very fast. The compiled finished product is much much smaller than almost any other framework language out there. 
 
-Find an issue worth pursuing and pull down the repo. Run `yarn` followed by `yarn dev`. You can now access the site at `localhost:5000`.
+The benefits of Svelte are many and its drawbacks are few. However, if you are reading this then you probably already know this on one level or another. 
 
-If you want to expand the site or do larger work, such as adding new sections to the site, please come to the [Discord](https://discord.gg/JcvNM8p) and discuss it with us first. Otherwise you might be doing work that won't get merged and that's not fun for anyone!
+## Where do we go from here?
 
-## Recipes
+The purpose of Svelte Society is to capitalize on the strengths of Svelte by creating a centralized community and a resource for both the seasoned developer and the code newbie just breaking into the scene. The aim of Svelte Society is to address perhaps the largest drawback to Svelte: its lack of usage and support network (according to the State of JavaScript 2019 only 7.8% of respondents had used Svelte.).
 
-The recipes are written and processed using [Mdsvex](https://mdsvex.com/). Three helper components are provided, located in `src/components/recipes` that can be used to highlight certain parts of a recipe.
+## Getting Involved
 
-- **Warning** Can be used to inform a reader of common pitfall or point to take extra care
-- **Note** To highlight something noteworthy
-- **ReadMore** Use this to wrap extra reading material related to the recipe
+If you would like to get involved with the active global community in shaping the future of Svelte.js please take a look at the CONTRIBUTING.md and be sure to adhere to our friendly standards laid out in the CODE_OF_CONDUCT.md. If you have any questions or need help please reach out on our Discord channel or connect with a Svelte meetup in your region.
 
-**⚠️ Be aware that markdown inside of these components will not be processed. So, for instance when placing a link inside use normal HTML markup to do so. ⚠️**
-
-### Example usage
-
-```md
----
-title: Sample
----
-
-<script>
-  import ReadMore from '../../../components/recipes/ReadMore.svelte'
-  import Warning from '../../../components/recipes/Warning.svelte'
-</script>
-
-This is regular text
-
-<Warning>
-    This is text within the block
-</Warning>
-
-<ReadMore>
-  Click <a href="/">here</a> to read more about this.
-</ReadMore>
-```
