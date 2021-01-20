@@ -1,8 +1,10 @@
 ## Svelte
 
-The burgeoning description of Svelte beginning to take hold across the web is this: "Cybernetically enhanced web apps" but what does that mean exactly and how did it come to be described in such a cool, and maybe slightly mysterious, way? 
+> cybernetics (noun) - The science of communications and automatic control systems in both machines and living things.
 
-> cybernetics (noun) - the science of communications and automatic control systems in both machines and living things.
+The burgeoning description of Svelte beginning to take hold across the web is this: *"Cybernetically enhanced web apps."* but what does that mean exactly and how did it come to be described in such a cool, and maybe slightly mysterious, way? 
+
+---
 
 Svelte started out as Ractive.js but in November 2016 version 1 was released under its current moniker. Since those humble beginnings it has grown exponentially in popularity.
 
