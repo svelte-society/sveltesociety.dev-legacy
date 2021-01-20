@@ -4,7 +4,6 @@
   import societys from "./societys.json";
 
   let events = $layout.children;
-  console.log(events);
 
   // sort events by date
   let sortedEvents = events.sort(
@@ -59,7 +58,8 @@
         {#if society.twitter}
           <span class="icon-wrapper">
             <Icon name="twitter" />
-            <a href="https://twitter.com/{society.twitter}" rel="noopener">{society.twitter}</a
+            <a href="https://twitter.com/{society.twitter}" rel="noopener"
+              >{society.twitter}</a
             >
           </span>
         {/if}
@@ -129,5 +129,23 @@
     padding: 0.3rem;
     border-radius: 0.6rem;
     margin-bottom: 1rem;
+  }
+
+  /* mobile design */
+  @media only screen and (max-width: 768px) {
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+    .society-wrapper {
+      flex: 0 1 auto;
+      margin-top: 5%;
+      padding: 2rem;
+
+      --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+        0 4px 6px -2px rgba(0, 0, 0, 0.05);
+      box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+        var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    }
   }
 </style>
