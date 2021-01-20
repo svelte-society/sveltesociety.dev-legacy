@@ -1,51 +1,27 @@
-# Svelte Society Site
+## Svelte
 
-This repository contains the source code for the Svelte Society website. It is comprised of a couple of different pieces that are important to understand when contributing. TODO: Fill this in
+> cybernetics (noun) - The science of communications and automatic control systems in both machines and living things.
 
-Technologies used:
-* Routify
-* MDSveX
-* [RemixIcon](https://icones.js.org/collection/ri)
-* Cloudflare Worker Site
+The burgeoning description of Svelte beginning to take hold across the web is this: *"Cybernetically enhanced web apps."* but what does that mean exactly and how did it come to be described in such a cool, and maybe slightly mysterious, way? 
 
-## Contributing
-
-Find an issue worth pursuing and pull down the repo. Run `yarn` followed by `yarn dev`. You can now access the site at `localhost:5000`.
-
-If you want to expand the site or do larger work, such as adding new sections to the site, please come to the [Discord](https://discord.gg/JcvNM8p) and discuss it with us first. Otherwise you might be doing work that won't get merged and that's not fun for anyone!
-
-## Recipes
-
-The recipes are written and processed using [Mdsvex](https://mdsvex.com/). Three helper components are provided, located in `src/components/recipes` that can be used to highlight certain parts of a recipe.
-
-- **Warning** Can be used to inform a reader of common pitfall or point to take extra care
-- **Note** To highlight something noteworthy
-- **ReadMore** Use this to wrap extra reading material related to the recipe
-
-**⚠️ Be aware that markdown inside of these components will not be processed. So, for instance when placing a link inside use normal HTML markup to do so. ⚠️**
-
-### Example usage
-
-```md
----
-title: Sample
 ---
 
-<script>
-  import ReadMore from '../../../components/recipes/ReadMore.svelte'
-  import Warning from '../../../components/recipes/Warning.svelte'
-</script>
+Svelte started out as Ractive.js but in November 2016 version 1 was released under its current moniker. Since those humble beginnings it has grown exponentially in popularity.
 
-This is regular text
+The explosive growth can likely be attributed to two things. First, the approachability of the code base. It is easy to understand and takes a short amount of time to grasp before one can start building some seriously cool web apps with it. Second, Svelte apps are fast, very fast. The compiled finished product is much much smaller than almost any other framework language out there. 
 
-<Warning>
-    This is text within the block
-</Warning>
+The benefits of Svelte are many and its drawbacks are few. However, if you are reading this then you probably already know this on one level or another. 
 
-<ReadMore>
-  Click <a href="/">here</a> to read more about this.
-</ReadMore>
-```
+### Where do we go from here?
+
+The purpose of Svelte Society is to capitalize on the strengths of Svelte by creating a centralized community and a resource for both the seasoned developer and the code newbie just breaking into the scene. While capitalizing on Svelte's strengths this will enable the community to address Svelte's only drawbacks: 
+
+- The frameworks lack of usage (according to the [State of JavaScript 2019](https://2019.stateofjs.com/front-end-frameworks/svelte/) only 7.8% of respondents had used Svelte.).
+- The lack of tooling (check out our ever growing [cookbook](https://sveltesociety.dev/recipes) and if you have any ideas we would love to hear them).
+
+### Getting Involved
+
+If you would like to get involved with the active global community in shaping the future of Svelte.js please take a look at the CONTRIBUTING.md and be sure to adhere to our friendly standards laid out in the CODE_OF_CONDUCT.md. If you have any questions or need help please reach out on our [Discord channel](https://discord.gg/MKNUW7wXka) or connect with a Svelte [meetup](https://twitter.com/SvelteSociety/status/1235264100600631296?s=20) in your region.
 
 ## License
 
