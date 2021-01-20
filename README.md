@@ -10,7 +10,7 @@ The benefits of Svelte are many and its drawbacks are few. However, if you are r
 
 ### Where do we go from here?
 
-The purpose of Svelte Society is to capitalize on the strengths of Svelte by creating a centralized community and a resource for both the seasoned developer and the code newbie just breaking into the scene. The aim of Svelte Society is to address Sveltes only drawbacks: 
+The purpose of Svelte Society is to capitalize on the strengths of Svelte by creating a centralized community and a resource for both the seasoned developer and the code newbie just breaking into the scene. The aim of Svelte Society is to address Svelte's only drawbacks: 
 
 - The frameworks lack of usage (according to the [State of JavaScript 2019](https://2019.stateofjs.com/front-end-frameworks/svelte/) only 7.8% of respondents had used Svelte.).
 - The lack of tooling (check out our ever growing [cookbook](https://sveltesociety.dev/recipes) and if you have any ideas we would love to hear them).
