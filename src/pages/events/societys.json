@@ -1,4 +1,9 @@
-[{
+[
+  {
+    "continent": "🇪🇺 Europe",
+    "type": "contintent"
+  },
+  {
     "name": "London Svelte Meetup",
     "country": "🇬🇧 Great Britain",
     "url": "https://www.meetup.com/svelte/"
@@ -20,21 +25,26 @@
     "url": "https://www.meetup.com/Amsterdam-SvelteJS/"
   },
   {
+    "name": "Svelte Bergen",
+    "country": "🇳🇴 Norway",
+    "twitter": "@stephanevanraes",
+    "url": "https://www.downtomeet.com/Svelte-Bergen"
+  },  
+  {
     "name": "Svelte Society Stockholm",
     "country": "🇸🇪 Sweden",
     "twitter":"@kevmodrome",
     "url": "https://www.downtomeet.com/Svelte-Society-Stockholm"
   },
   {
+    "continent": "South America",
+    "type": "contintent"
+  },
+  {
     "name": "Brazil Svelte Meetup",
     "country": "🇧🇷 Brazil",
     "twitter":"@sveltebrasil",
-    "url": "https://t.me/sveltebrasil"
-  },
-  {
-    "name": "Svelte Bergen",
-    "country": "🇳🇴 Norway",
-    "twitter": "@stephanevanraes",
-    "url": "https://www.downtomeet.com/Svelte-Bergen"
-  }   
+    "url": "https://www.sympla.com.br/meetup-svelte-brasil__850420",
+    "telegram": "https://t.me/sveltebrasil"
+  } 
 ]
