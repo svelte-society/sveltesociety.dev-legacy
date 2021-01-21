@@ -1,7 +1,7 @@
 <script>
   import { layout, url } from "@roxi/routify";
   import Icon from "@/components/Icon.svelte";
-  import societys from "./societys.json";
+  import societies from "./societies.json";
 
   let events = $layout.children;
 
@@ -46,35 +46,47 @@
   <!--society section-->
   <div class="society-wrapper">
     <h5>Societys arround the world</h5>
-    {#each societys as society}
-      <p class="society">{society.country}</p>
-      <ul class="society">
-        <li>
-          <span class="icon-wrapper">
-            <Icon name="globe" />
-            <a href={society.url} rel="noopener">{society.name}</a>
-          </span>
-        </li>
-        {#if society.twitter}
-          <span class="icon-wrapper">
-            <Icon name="twitter" />
-            <a href="https://twitter.com/{society.twitter}" rel="noopener"
-              >{society.twitter}</a
+    {#each societies as society}
+      {#if society.continent}
+        <h6 class="continent">{society.continent}</h6>
+      {:else}
+        <p class="society">{society.country}</p>
+        <ul class="society">
+          <li>
+            <span class="icon-wrapper">
+              <Icon name="globe" />
+              <a href={society.url} rel="noopener">{society.name}</a>
+            </span>
+          </li>
+          {#if society.twitter}
+            <span class="icon-wrapper">
+              <Icon name="twitter" />
+              <a href="https://twitter.com/{society.twitter}" rel="noopener"
+                >{society.twitter}</a
+              >
+            </span>
+          {/if}
+          {#if society.telegram}
+            <span class="icon-wrapper"
+              ><Icon name="telegram" />
+              <a href={society.telegram} target="_blank" rel="noopener"
+                >Join on Telegram</a
+              ></span
             >
-          </span>
-        {/if}
+          {/if}
 
-        {#if society.githuburl}
-          <ul style="list-style-type:none;">
+          {#if society.githuburl}
             <li>
               <span class="icon-wrapper">
                 <Icon name="github" />
-                <a href={society.githuburl} target="_blank">GitHub</a>
+                <a href={society.githuburl} target="_blank" rel="noopener"
+                  >GitHub</a
+                >
               </span>
             </li>
-          </ul>
-        {/if}
-      </ul>
+          {/if}
+        </ul>
+      {/if}
     {/each}
   </div>
 </div>
@@ -101,6 +113,11 @@
       var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 
     border-radius: 0.5rem;
+  }
+
+  h6.continent {
+    font-size: 25px;
+    color: #64748b;
   }
   ul.society {
     margin-top: 0;
