@@ -1,17 +1,62 @@
 
 /**
- * @roxi/routify 2.8.4
- * File generated Tue Jan 19 2021 10:39:03 GMT-0300 (Brasilia Standard Time)
+ * @roxi/routify 2.10.4
+ * File generated Thu Jan 21 2021 21:20:20 GMT+0530 (India Standard Time)
  */
 
-export const __version = "2.8.4"
-export const __timestamp = "2021-01-19T13:39:03.329Z"
+export const __version = "2.10.4"
+export const __timestamp = "2021-01-21T15:50:20.724Z"
 
 //buildRoutes
 import { buildClientTree } from "@roxi/routify/runtime/buildRoutes"
 
 //imports
-
+import __fallback from '../src/pages/_fallback.svelte'
+import _about_index from '../src/pages/about/index.svx'
+import _about__layout from '../src/pages/about/_layout.svelte'
+import _cheatsheet_index from '../src/pages/cheatsheet/index.svelte'
+import _components_index from '../src/pages/components/index.svelte'
+import _events_frsocietyday2020 from '../src/pages/events/frsocietyday2020.svx'
+import _events_index from '../src/pages/events/index.svelte'
+import _events_societyday2020 from '../src/pages/events/societyday2020.svx'
+import _events_summit2020 from '../src/pages/events/summit2020.svx'
+import _events__layout from '../src/pages/events/_layout.svelte'
+import _help_components from '../src/pages/help/components.svx'
+import _help__layout from '../src/pages/help/_layout.svelte'
+import _index from '../src/pages/index.svelte'
+import _licenses from '../src/pages/licenses.svx'
+import _recipes_buildSetup_transpilingEs6ToEs5ForLegacyBrowserSupport from '../src/pages/recipes/build-setup/transpiling-es6-to-es5-for-legacy-browser-support.svx'
+import _recipes_buildSetup_usingFutureJsSyntaxInSvelteUsingBabel from '../src/pages/recipes/build-setup/using-future-js-syntax-in-svelte-using-babel.svx'
+import _recipes_buildSetup_usingPostcssWithSvelte from '../src/pages/recipes/build-setup/using-postcss-with-svelte.svx'
+import _recipes_buildSetup_usingTypescriptWithSvelte from '../src/pages/recipes/build-setup/using-typescript-with-svelte.svx'
+import _recipes_buildSetup_writingYourOwnPreprocessors from '../src/pages/recipes/build-setup/writing-your-own-preprocessors.svx'
+import _recipes_buildSetup_index from '../src/pages/recipes/build-setup/index.svx'
+import _recipes_componentRecipes_formValidationWithSvelte from '../src/pages/recipes/component-recipes/form-validation-with-svelte.svx'
+import _recipes_componentRecipes_gettingReferencesToComponentsInEachBlocks from '../src/pages/recipes/component-recipes/getting-references-to-components-in-each-blocks.svx'
+import _recipes_componentRecipes_passingAttributesToComponentDomElement from '../src/pages/recipes/component-recipes/passing-attributes-to-component-dom-element.svx'
+import _recipes_componentRecipes_usingFetchToConsumeApis from '../src/pages/recipes/component-recipes/using-fetch-to-consume-apis.svx'
+import _recipes_componentRecipes_index from '../src/pages/recipes/component-recipes/index.svx'
+import _recipes_designPatterns_authenticationWithSvelte from '../src/pages/recipes/design-patterns/authentication-with-svelte.svx'
+import _recipes_designPatterns_routingWithSvelte from '../src/pages/recipes/design-patterns/routing-with-svelte.svx'
+import _recipes_designPatterns_serverSideRendering from '../src/pages/recipes/design-patterns/server-side-rendering.svx'
+import _recipes_designPatterns_index from '../src/pages/recipes/design-patterns/index.svx'
+import _recipes_index from '../src/pages/recipes/index.svelte'
+import _recipes_other_editableSvgIconSystemsWithSvelteAndHeroicons from '../src/pages/recipes/other/editable-svg-icon-systems-with-svelte-and-heroicons.svx'
+import _recipes_other_index from '../src/pages/recipes/other/index.svx'
+import _recipes_publishingAndDeploying_dockerizeASapperApp from '../src/pages/recipes/publishing-and-deploying/dockerize-a-sapper-app.svx'
+import _recipes_publishingAndDeploying_dockerizeASvelteApp from '../src/pages/recipes/publishing-and-deploying/dockerize-a-svelte-app.svx'
+import _recipes_publishingAndDeploying_index from '../src/pages/recipes/publishing-and-deploying/index.svx'
+import _recipes_stores_index from '../src/pages/recipes/stores/index.svx'
+import _recipes_svelteLanguageFundamentals_looping from '../src/pages/recipes/svelte-language-fundamentals/looping.svx'
+import _recipes_svelteLanguageFundamentals_passingValuesFromJsToCss from '../src/pages/recipes/svelte-language-fundamentals/passing-values-from-js-to-css.svx'
+import _recipes_svelteLanguageFundamentals_reactivity from '../src/pages/recipes/svelte-language-fundamentals/reactivity.svx'
+import _recipes_svelteLanguageFundamentals_scopedGlobalCss from '../src/pages/recipes/svelte-language-fundamentals/scoped-global-css.svx'
+import _recipes_svelteLanguageFundamentals_index from '../src/pages/recipes/svelte-language-fundamentals/index.svx'
+import _recipes_testingAndDebugging_benchmarkingSvelteComponents from '../src/pages/recipes/testing-and-debugging/benchmarking-svelte-components.svx'
+import _recipes_testingAndDebugging_unitTestingSvelteComponent from '../src/pages/recipes/testing-and-debugging/unit-testing-svelte-component.svx'
+import _recipes_testingAndDebugging_index from '../src/pages/recipes/testing-and-debugging/index.svx'
+import _recipes__layout from '../src/pages/recipes/_layout.svelte'
+import __layout from '../src/pages/_layout.svelte'
 
 //options
 export const options = {}
@@ -22,7 +67,7 @@ export const _tree = {
   "filepath": "/_layout.svelte",
   "root": true,
   "ownMeta": {},
-  "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/_layout.svelte",
+  "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/_layout.svelte",
   "children": [
     {
       "isFile": true,
@@ -32,7 +77,7 @@ export const _tree = {
       "name": "_fallback",
       "ext": "svelte",
       "badExt": false,
-      "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/_fallback.svelte",
+      "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/_fallback.svelte",
       "importPath": "../src/pages/_fallback.svelte",
       "isLayout": false,
       "isReset": false,
@@ -47,7 +92,7 @@ export const _tree = {
       },
       "path": "/_fallback",
       "id": "__fallback",
-      "component": () => import('../src/pages/_fallback.svelte').then(m => m.default)
+      "component": () => __fallback
     },
     {
       "isFile": true,
@@ -57,7 +102,7 @@ export const _tree = {
       "name": "_layout",
       "ext": "svelte",
       "badExt": false,
-      "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/about/_layout.svelte",
+      "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/about/_layout.svelte",
       "children": [
         {
           "isFile": true,
@@ -67,7 +112,7 @@ export const _tree = {
           "name": "index",
           "ext": "svx",
           "badExt": false,
-          "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/about/index.svx",
+          "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/about/index.svx",
           "importPath": "../src/pages/about/index.svx",
           "isLayout": false,
           "isReset": false,
@@ -82,7 +127,7 @@ export const _tree = {
           },
           "path": "/about/index",
           "id": "_about_index",
-          "component": () => import('../src/pages/about/index.svx').then(m => m.default)
+          "component": () => _about_index
         }
       ],
       "isLayout": true,
@@ -99,28 +144,28 @@ export const _tree = {
       },
       "path": "/about",
       "id": "_about__layout",
-      "component": () => import('../src/pages/about/_layout.svelte').then(m => m.default)
+      "component": () => _about__layout
     },
     {
       "isFile": false,
       "isDir": true,
-      "file": "cheat",
-      "filepath": "/cheat",
-      "name": "cheat",
+      "file": "cheatsheet",
+      "filepath": "/cheatsheet",
+      "name": "cheatsheet",
       "ext": "",
       "badExt": false,
-      "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/cheat",
+      "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/cheatsheet",
       "children": [
         {
           "isFile": true,
           "isDir": false,
           "file": "index.svelte",
-          "filepath": "/cheat/index.svelte",
+          "filepath": "/cheatsheet/index.svelte",
           "name": "index",
           "ext": "svelte",
           "badExt": false,
-          "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/cheat/index.svelte",
-          "importPath": "../src/pages/cheat/index.svelte",
+          "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/cheatsheet/index.svelte",
+          "importPath": "../src/pages/cheatsheet/index.svelte",
           "isLayout": false,
           "isReset": false,
           "isIndex": true,
@@ -132,9 +177,9 @@ export const _tree = {
             "preload": false,
             "prerender": true
           },
-          "path": "/cheat/index",
-          "id": "_cheat_index",
-          "component": () => import('../src/pages/cheat/index.svelte').then(m => m.default)
+          "path": "/cheatsheet/index",
+          "id": "_cheatsheet_index",
+          "component": () => _cheatsheet_index
         }
       ],
       "isLayout": false,
@@ -148,7 +193,7 @@ export const _tree = {
         "preload": false,
         "prerender": true
       },
-      "path": "/cheat"
+      "path": "/cheatsheet"
     },
     {
       "isFile": false,
@@ -158,7 +203,7 @@ export const _tree = {
       "name": "components",
       "ext": "",
       "badExt": false,
-      "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/components",
+      "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/components",
       "children": [
         {
           "isFile": true,
@@ -168,7 +213,7 @@ export const _tree = {
           "name": "index",
           "ext": "svelte",
           "badExt": false,
-          "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/components/index.svelte",
+          "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/components/index.svelte",
           "importPath": "../src/pages/components/index.svelte",
           "isLayout": false,
           "isReset": false,
@@ -183,7 +228,7 @@ export const _tree = {
           },
           "path": "/components/index",
           "id": "_components_index",
-          "component": () => import('../src/pages/components/index.svelte').then(m => m.default)
+          "component": () => _components_index
         }
       ],
       "isLayout": false,
@@ -207,7 +252,7 @@ export const _tree = {
       "name": "_layout",
       "ext": "svelte",
       "badExt": false,
-      "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/events/_layout.svelte",
+      "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/events/_layout.svelte",
       "children": [
         {
           "isFile": true,
@@ -217,7 +262,7 @@ export const _tree = {
           "name": "frsocietyday2020",
           "ext": "svx",
           "badExt": false,
-          "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/events/frsocietyday2020.svx",
+          "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/events/frsocietyday2020.svx",
           "importPath": "../src/pages/events/frsocietyday2020.svx",
           "isLayout": false,
           "isReset": false,
@@ -238,7 +283,7 @@ export const _tree = {
           },
           "path": "/events/frsocietyday2020",
           "id": "_events_frsocietyday2020",
-          "component": () => import('../src/pages/events/frsocietyday2020.svx').then(m => m.default)
+          "component": () => _events_frsocietyday2020
         },
         {
           "isFile": true,
@@ -248,7 +293,7 @@ export const _tree = {
           "name": "index",
           "ext": "svelte",
           "badExt": false,
-          "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/events/index.svelte",
+          "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/events/index.svelte",
           "importPath": "../src/pages/events/index.svelte",
           "isLayout": false,
           "isReset": false,
@@ -263,7 +308,7 @@ export const _tree = {
           },
           "path": "/events/index",
           "id": "_events_index",
-          "component": () => import('../src/pages/events/index.svelte').then(m => m.default)
+          "component": () => _events_index
         },
         {
           "isFile": true,
@@ -273,7 +318,7 @@ export const _tree = {
           "name": "societyday2020",
           "ext": "svx",
           "badExt": false,
-          "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/events/societyday2020.svx",
+          "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/events/societyday2020.svx",
           "importPath": "../src/pages/events/societyday2020.svx",
           "isLayout": false,
           "isReset": false,
@@ -294,7 +339,7 @@ export const _tree = {
           },
           "path": "/events/societyday2020",
           "id": "_events_societyday2020",
-          "component": () => import('../src/pages/events/societyday2020.svx').then(m => m.default)
+          "component": () => _events_societyday2020
         },
         {
           "isFile": true,
@@ -304,7 +349,7 @@ export const _tree = {
           "name": "summit2020",
           "ext": "svx",
           "badExt": false,
-          "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/events/summit2020.svx",
+          "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/events/summit2020.svx",
           "importPath": "../src/pages/events/summit2020.svx",
           "isLayout": false,
           "isReset": false,
@@ -325,7 +370,7 @@ export const _tree = {
           },
           "path": "/events/summit2020",
           "id": "_events_summit2020",
-          "component": () => import('../src/pages/events/summit2020.svx').then(m => m.default)
+          "component": () => _events_summit2020
         }
       ],
       "isLayout": true,
@@ -342,7 +387,7 @@ export const _tree = {
       },
       "path": "/events",
       "id": "_events__layout",
-      "component": () => import('../src/pages/events/_layout.svelte').then(m => m.default)
+      "component": () => _events__layout
     },
     {
       "isFile": true,
@@ -352,7 +397,7 @@ export const _tree = {
       "name": "_layout",
       "ext": "svelte",
       "badExt": false,
-      "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/help/_layout.svelte",
+      "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/help/_layout.svelte",
       "children": [
         {
           "isFile": true,
@@ -362,7 +407,7 @@ export const _tree = {
           "name": "components",
           "ext": "svx",
           "badExt": false,
-          "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/help/components.svx",
+          "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/help/components.svx",
           "importPath": "../src/pages/help/components.svx",
           "isLayout": false,
           "isReset": false,
@@ -377,7 +422,7 @@ export const _tree = {
           },
           "path": "/help/components",
           "id": "_help_components",
-          "component": () => import('../src/pages/help/components.svx').then(m => m.default)
+          "component": () => _help_components
         }
       ],
       "isLayout": true,
@@ -394,7 +439,7 @@ export const _tree = {
       },
       "path": "/help",
       "id": "_help__layout",
-      "component": () => import('../src/pages/help/_layout.svelte').then(m => m.default)
+      "component": () => _help__layout
     },
     {
       "isFile": true,
@@ -404,7 +449,7 @@ export const _tree = {
       "name": "index",
       "ext": "svelte",
       "badExt": false,
-      "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/index.svelte",
+      "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/index.svelte",
       "importPath": "../src/pages/index.svelte",
       "isLayout": false,
       "isReset": false,
@@ -419,7 +464,7 @@ export const _tree = {
       },
       "path": "/index",
       "id": "_index",
-      "component": () => import('../src/pages/index.svelte').then(m => m.default)
+      "component": () => _index
     },
     {
       "isFile": true,
@@ -429,7 +474,7 @@ export const _tree = {
       "name": "licenses",
       "ext": "svx",
       "badExt": false,
-      "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/licenses.svx",
+      "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/licenses.svx",
       "importPath": "../src/pages/licenses.svx",
       "isLayout": false,
       "isReset": false,
@@ -448,7 +493,7 @@ export const _tree = {
       },
       "path": "/licenses",
       "id": "_licenses",
-      "component": () => import('../src/pages/licenses.svx').then(m => m.default)
+      "component": () => _licenses
     },
     {
       "isFile": true,
@@ -458,7 +503,7 @@ export const _tree = {
       "name": "_layout",
       "ext": "svelte",
       "badExt": false,
-      "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/_layout.svelte",
+      "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/_layout.svelte",
       "children": [
         {
           "isFile": false,
@@ -468,7 +513,7 @@ export const _tree = {
           "name": "build-setup",
           "ext": "",
           "badExt": false,
-          "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/build-setup",
+          "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/build-setup",
           "children": [
             {
               "isFile": true,
@@ -478,7 +523,7 @@ export const _tree = {
               "name": "transpiling-es6-to-es5-for-legacy-browser-support",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/build-setup/transpiling-es6-to-es5-for-legacy-browser-support.svx",
+              "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/build-setup/transpiling-es6-to-es5-for-legacy-browser-support.svx",
               "importPath": "../src/pages/recipes/build-setup/transpiling-es6-to-es5-for-legacy-browser-support.svx",
               "isLayout": false,
               "isReset": false,
@@ -497,7 +542,7 @@ export const _tree = {
               },
               "path": "/recipes/build-setup/transpiling-es6-to-es5-for-legacy-browser-support",
               "id": "_recipes_buildSetup_transpilingEs6ToEs5ForLegacyBrowserSupport",
-              "component": () => import('../src/pages/recipes/build-setup/transpiling-es6-to-es5-for-legacy-browser-support.svx').then(m => m.default)
+              "component": () => _recipes_buildSetup_transpilingEs6ToEs5ForLegacyBrowserSupport
             },
             {
               "isFile": true,
@@ -507,7 +552,7 @@ export const _tree = {
               "name": "using-future-js-syntax-in-svelte-using-babel",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/build-setup/using-future-js-syntax-in-svelte-using-babel.svx",
+              "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/build-setup/using-future-js-syntax-in-svelte-using-babel.svx",
               "importPath": "../src/pages/recipes/build-setup/using-future-js-syntax-in-svelte-using-babel.svx",
               "isLayout": false,
               "isReset": false,
@@ -526,7 +571,7 @@ export const _tree = {
               },
               "path": "/recipes/build-setup/using-future-js-syntax-in-svelte-using-babel",
               "id": "_recipes_buildSetup_usingFutureJsSyntaxInSvelteUsingBabel",
-              "component": () => import('../src/pages/recipes/build-setup/using-future-js-syntax-in-svelte-using-babel.svx').then(m => m.default)
+              "component": () => _recipes_buildSetup_usingFutureJsSyntaxInSvelteUsingBabel
             },
             {
               "isFile": true,
@@ -536,7 +581,7 @@ export const _tree = {
               "name": "using-postcss-with-svelte",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/build-setup/using-postcss-with-svelte.svx",
+              "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/build-setup/using-postcss-with-svelte.svx",
               "importPath": "../src/pages/recipes/build-setup/using-postcss-with-svelte.svx",
               "isLayout": false,
               "isReset": false,
@@ -555,7 +600,7 @@ export const _tree = {
               },
               "path": "/recipes/build-setup/using-postcss-with-svelte",
               "id": "_recipes_buildSetup_usingPostcssWithSvelte",
-              "component": () => import('../src/pages/recipes/build-setup/using-postcss-with-svelte.svx').then(m => m.default)
+              "component": () => _recipes_buildSetup_usingPostcssWithSvelte
             },
             {
               "isFile": true,
@@ -565,7 +610,7 @@ export const _tree = {
               "name": "using-typescript-with-svelte",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/build-setup/using-typescript-with-svelte.svx",
+              "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/build-setup/using-typescript-with-svelte.svx",
               "importPath": "../src/pages/recipes/build-setup/using-typescript-with-svelte.svx",
               "isLayout": false,
               "isReset": false,
@@ -584,7 +629,7 @@ export const _tree = {
               },
               "path": "/recipes/build-setup/using-typescript-with-svelte",
               "id": "_recipes_buildSetup_usingTypescriptWithSvelte",
-              "component": () => import('../src/pages/recipes/build-setup/using-typescript-with-svelte.svx').then(m => m.default)
+              "component": () => _recipes_buildSetup_usingTypescriptWithSvelte
             },
             {
               "isFile": true,
@@ -594,7 +639,7 @@ export const _tree = {
               "name": "writing-your-own-preprocessors",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/build-setup/writing-your-own-preprocessors.svx",
+              "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/build-setup/writing-your-own-preprocessors.svx",
               "importPath": "../src/pages/recipes/build-setup/writing-your-own-preprocessors.svx",
               "isLayout": false,
               "isReset": false,
@@ -613,7 +658,7 @@ export const _tree = {
               },
               "path": "/recipes/build-setup/writing-your-own-preprocessors",
               "id": "_recipes_buildSetup_writingYourOwnPreprocessors",
-              "component": () => import('../src/pages/recipes/build-setup/writing-your-own-preprocessors.svx').then(m => m.default)
+              "component": () => _recipes_buildSetup_writingYourOwnPreprocessors
             },
             {
               "isFile": true,
@@ -623,7 +668,7 @@ export const _tree = {
               "name": "index",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/build-setup/index.svx",
+              "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/build-setup/index.svx",
               "importPath": "../src/pages/recipes/build-setup/index.svx",
               "isLayout": false,
               "isReset": false,
@@ -646,7 +691,7 @@ export const _tree = {
               },
               "path": "/recipes/build-setup/index",
               "id": "_recipes_buildSetup_index",
-              "component": () => import('../src/pages/recipes/build-setup/index.svx').then(m => m.default)
+              "component": () => _recipes_buildSetup_index
             }
           ],
           "isLayout": false,
@@ -670,7 +715,7 @@ export const _tree = {
           "name": "component-recipes",
           "ext": "",
           "badExt": false,
-          "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/component-recipes",
+          "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/component-recipes",
           "children": [
             {
               "isFile": true,
@@ -680,7 +725,7 @@ export const _tree = {
               "name": "form-validation-with-svelte",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/component-recipes/form-validation-with-svelte.svx",
+              "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/component-recipes/form-validation-with-svelte.svx",
               "importPath": "../src/pages/recipes/component-recipes/form-validation-with-svelte.svx",
               "isLayout": false,
               "isReset": false,
@@ -699,7 +744,7 @@ export const _tree = {
               },
               "path": "/recipes/component-recipes/form-validation-with-svelte",
               "id": "_recipes_componentRecipes_formValidationWithSvelte",
-              "component": () => import('../src/pages/recipes/component-recipes/form-validation-with-svelte.svx').then(m => m.default)
+              "component": () => _recipes_componentRecipes_formValidationWithSvelte
             },
             {
               "isFile": true,
@@ -709,7 +754,7 @@ export const _tree = {
               "name": "getting-references-to-components-in-each-blocks",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/component-recipes/getting-references-to-components-in-each-blocks.svx",
+              "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/component-recipes/getting-references-to-components-in-each-blocks.svx",
               "importPath": "../src/pages/recipes/component-recipes/getting-references-to-components-in-each-blocks.svx",
               "isLayout": false,
               "isReset": false,
@@ -728,7 +773,7 @@ export const _tree = {
               },
               "path": "/recipes/component-recipes/getting-references-to-components-in-each-blocks",
               "id": "_recipes_componentRecipes_gettingReferencesToComponentsInEachBlocks",
-              "component": () => import('../src/pages/recipes/component-recipes/getting-references-to-components-in-each-blocks.svx').then(m => m.default)
+              "component": () => _recipes_componentRecipes_gettingReferencesToComponentsInEachBlocks
             },
             {
               "isFile": true,
@@ -738,7 +783,7 @@ export const _tree = {
               "name": "passing-attributes-to-component-dom-element",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/component-recipes/passing-attributes-to-component-dom-element.svx",
+              "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/component-recipes/passing-attributes-to-component-dom-element.svx",
               "importPath": "../src/pages/recipes/component-recipes/passing-attributes-to-component-dom-element.svx",
               "isLayout": false,
               "isReset": false,
@@ -757,7 +802,7 @@ export const _tree = {
               },
               "path": "/recipes/component-recipes/passing-attributes-to-component-dom-element",
               "id": "_recipes_componentRecipes_passingAttributesToComponentDomElement",
-              "component": () => import('../src/pages/recipes/component-recipes/passing-attributes-to-component-dom-element.svx').then(m => m.default)
+              "component": () => _recipes_componentRecipes_passingAttributesToComponentDomElement
             },
             {
               "isFile": true,
@@ -767,7 +812,7 @@ export const _tree = {
               "name": "using-fetch-to-consume-apis",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/component-recipes/using-fetch-to-consume-apis.svx",
+              "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/component-recipes/using-fetch-to-consume-apis.svx",
               "importPath": "../src/pages/recipes/component-recipes/using-fetch-to-consume-apis.svx",
               "isLayout": false,
               "isReset": false,
@@ -786,7 +831,7 @@ export const _tree = {
               },
               "path": "/recipes/component-recipes/using-fetch-to-consume-apis",
               "id": "_recipes_componentRecipes_usingFetchToConsumeApis",
-              "component": () => import('../src/pages/recipes/component-recipes/using-fetch-to-consume-apis.svx').then(m => m.default)
+              "component": () => _recipes_componentRecipes_usingFetchToConsumeApis
             },
             {
               "isFile": true,
@@ -796,7 +841,7 @@ export const _tree = {
               "name": "index",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/component-recipes/index.svx",
+              "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/component-recipes/index.svx",
               "importPath": "../src/pages/recipes/component-recipes/index.svx",
               "isLayout": false,
               "isReset": false,
@@ -819,7 +864,7 @@ export const _tree = {
               },
               "path": "/recipes/component-recipes/index",
               "id": "_recipes_componentRecipes_index",
-              "component": () => import('../src/pages/recipes/component-recipes/index.svx').then(m => m.default)
+              "component": () => _recipes_componentRecipes_index
             }
           ],
           "isLayout": false,
@@ -843,7 +888,7 @@ export const _tree = {
           "name": "design-patterns",
           "ext": "",
           "badExt": false,
-          "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/design-patterns",
+          "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/design-patterns",
           "children": [
             {
               "isFile": true,
@@ -853,7 +898,7 @@ export const _tree = {
               "name": "authentication-with-svelte",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/design-patterns/authentication-with-svelte.svx",
+              "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/design-patterns/authentication-with-svelte.svx",
               "importPath": "../src/pages/recipes/design-patterns/authentication-with-svelte.svx",
               "isLayout": false,
               "isReset": false,
@@ -872,7 +917,7 @@ export const _tree = {
               },
               "path": "/recipes/design-patterns/authentication-with-svelte",
               "id": "_recipes_designPatterns_authenticationWithSvelte",
-              "component": () => import('../src/pages/recipes/design-patterns/authentication-with-svelte.svx').then(m => m.default)
+              "component": () => _recipes_designPatterns_authenticationWithSvelte
             },
             {
               "isFile": true,
@@ -882,7 +927,7 @@ export const _tree = {
               "name": "routing-with-svelte",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/design-patterns/routing-with-svelte.svx",
+              "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/design-patterns/routing-with-svelte.svx",
               "importPath": "../src/pages/recipes/design-patterns/routing-with-svelte.svx",
               "isLayout": false,
               "isReset": false,
@@ -901,7 +946,7 @@ export const _tree = {
               },
               "path": "/recipes/design-patterns/routing-with-svelte",
               "id": "_recipes_designPatterns_routingWithSvelte",
-              "component": () => import('../src/pages/recipes/design-patterns/routing-with-svelte.svx').then(m => m.default)
+              "component": () => _recipes_designPatterns_routingWithSvelte
             },
             {
               "isFile": true,
@@ -911,7 +956,7 @@ export const _tree = {
               "name": "server-side-rendering",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/design-patterns/server-side-rendering.svx",
+              "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/design-patterns/server-side-rendering.svx",
               "importPath": "../src/pages/recipes/design-patterns/server-side-rendering.svx",
               "isLayout": false,
               "isReset": false,
@@ -930,7 +975,7 @@ export const _tree = {
               },
               "path": "/recipes/design-patterns/server-side-rendering",
               "id": "_recipes_designPatterns_serverSideRendering",
-              "component": () => import('../src/pages/recipes/design-patterns/server-side-rendering.svx').then(m => m.default)
+              "component": () => _recipes_designPatterns_serverSideRendering
             },
             {
               "isFile": true,
@@ -940,7 +985,7 @@ export const _tree = {
               "name": "index",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/design-patterns/index.svx",
+              "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/design-patterns/index.svx",
               "importPath": "../src/pages/recipes/design-patterns/index.svx",
               "isLayout": false,
               "isReset": false,
@@ -963,7 +1008,7 @@ export const _tree = {
               },
               "path": "/recipes/design-patterns/index",
               "id": "_recipes_designPatterns_index",
-              "component": () => import('../src/pages/recipes/design-patterns/index.svx').then(m => m.default)
+              "component": () => _recipes_designPatterns_index
             }
           ],
           "isLayout": false,
@@ -987,7 +1032,7 @@ export const _tree = {
           "name": "index",
           "ext": "svelte",
           "badExt": false,
-          "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/index.svelte",
+          "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/index.svelte",
           "importPath": "../src/pages/recipes/index.svelte",
           "isLayout": false,
           "isReset": false,
@@ -1002,7 +1047,7 @@ export const _tree = {
           },
           "path": "/recipes/index",
           "id": "_recipes_index",
-          "component": () => import('../src/pages/recipes/index.svelte').then(m => m.default)
+          "component": () => _recipes_index
         },
         {
           "isFile": false,
@@ -1012,7 +1057,7 @@ export const _tree = {
           "name": "other",
           "ext": "",
           "badExt": false,
-          "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/other",
+          "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/other",
           "children": [
             {
               "isFile": true,
@@ -1022,7 +1067,7 @@ export const _tree = {
               "name": "editable-svg-icon-systems-with-svelte-and-heroicons",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/other/editable-svg-icon-systems-with-svelte-and-heroicons.svx",
+              "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/other/editable-svg-icon-systems-with-svelte-and-heroicons.svx",
               "importPath": "../src/pages/recipes/other/editable-svg-icon-systems-with-svelte-and-heroicons.svx",
               "isLayout": false,
               "isReset": false,
@@ -1041,7 +1086,7 @@ export const _tree = {
               },
               "path": "/recipes/other/editable-svg-icon-systems-with-svelte-and-heroicons",
               "id": "_recipes_other_editableSvgIconSystemsWithSvelteAndHeroicons",
-              "component": () => import('../src/pages/recipes/other/editable-svg-icon-systems-with-svelte-and-heroicons.svx').then(m => m.default)
+              "component": () => _recipes_other_editableSvgIconSystemsWithSvelteAndHeroicons
             },
             {
               "isFile": true,
@@ -1051,7 +1096,7 @@ export const _tree = {
               "name": "index",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/other/index.svx",
+              "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/other/index.svx",
               "importPath": "../src/pages/recipes/other/index.svx",
               "isLayout": false,
               "isReset": false,
@@ -1074,7 +1119,7 @@ export const _tree = {
               },
               "path": "/recipes/other/index",
               "id": "_recipes_other_index",
-              "component": () => import('../src/pages/recipes/other/index.svx').then(m => m.default)
+              "component": () => _recipes_other_index
             }
           ],
           "isLayout": false,
@@ -1098,7 +1143,7 @@ export const _tree = {
           "name": "publishing-and-deploying",
           "ext": "",
           "badExt": false,
-          "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/publishing-and-deploying",
+          "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/publishing-and-deploying",
           "children": [
             {
               "isFile": true,
@@ -1108,7 +1153,7 @@ export const _tree = {
               "name": "dockerize-a-sapper-app",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/publishing-and-deploying/dockerize-a-sapper-app.svx",
+              "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/publishing-and-deploying/dockerize-a-sapper-app.svx",
               "importPath": "../src/pages/recipes/publishing-and-deploying/dockerize-a-sapper-app.svx",
               "isLayout": false,
               "isReset": false,
@@ -1127,7 +1172,7 @@ export const _tree = {
               },
               "path": "/recipes/publishing-and-deploying/dockerize-a-sapper-app",
               "id": "_recipes_publishingAndDeploying_dockerizeASapperApp",
-              "component": () => import('../src/pages/recipes/publishing-and-deploying/dockerize-a-sapper-app.svx').then(m => m.default)
+              "component": () => _recipes_publishingAndDeploying_dockerizeASapperApp
             },
             {
               "isFile": true,
@@ -1137,7 +1182,7 @@ export const _tree = {
               "name": "dockerize-a-svelte-app",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/publishing-and-deploying/dockerize-a-svelte-app.svx",
+              "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/publishing-and-deploying/dockerize-a-svelte-app.svx",
               "importPath": "../src/pages/recipes/publishing-and-deploying/dockerize-a-svelte-app.svx",
               "isLayout": false,
               "isReset": false,
@@ -1156,7 +1201,7 @@ export const _tree = {
               },
               "path": "/recipes/publishing-and-deploying/dockerize-a-svelte-app",
               "id": "_recipes_publishingAndDeploying_dockerizeASvelteApp",
-              "component": () => import('../src/pages/recipes/publishing-and-deploying/dockerize-a-svelte-app.svx').then(m => m.default)
+              "component": () => _recipes_publishingAndDeploying_dockerizeASvelteApp
             },
             {
               "isFile": true,
@@ -1166,7 +1211,7 @@ export const _tree = {
               "name": "index",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/publishing-and-deploying/index.svx",
+              "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/publishing-and-deploying/index.svx",
               "importPath": "../src/pages/recipes/publishing-and-deploying/index.svx",
               "isLayout": false,
               "isReset": false,
@@ -1189,7 +1234,7 @@ export const _tree = {
               },
               "path": "/recipes/publishing-and-deploying/index",
               "id": "_recipes_publishingAndDeploying_index",
-              "component": () => import('../src/pages/recipes/publishing-and-deploying/index.svx').then(m => m.default)
+              "component": () => _recipes_publishingAndDeploying_index
             }
           ],
           "isLayout": false,
@@ -1213,7 +1258,7 @@ export const _tree = {
           "name": "stores",
           "ext": "",
           "badExt": false,
-          "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/stores",
+          "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/stores",
           "children": [
             {
               "isFile": true,
@@ -1223,7 +1268,7 @@ export const _tree = {
               "name": "index",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/stores/index.svx",
+              "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/stores/index.svx",
               "importPath": "../src/pages/recipes/stores/index.svx",
               "isLayout": false,
               "isReset": false,
@@ -1246,7 +1291,7 @@ export const _tree = {
               },
               "path": "/recipes/stores/index",
               "id": "_recipes_stores_index",
-              "component": () => import('../src/pages/recipes/stores/index.svx').then(m => m.default)
+              "component": () => _recipes_stores_index
             }
           ],
           "isLayout": false,
@@ -1270,7 +1315,7 @@ export const _tree = {
           "name": "svelte-language-fundamentals",
           "ext": "",
           "badExt": false,
-          "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/svelte-language-fundamentals",
+          "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/svelte-language-fundamentals",
           "children": [
             {
               "isFile": true,
@@ -1280,7 +1325,7 @@ export const _tree = {
               "name": "looping",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/svelte-language-fundamentals/looping.svx",
+              "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/svelte-language-fundamentals/looping.svx",
               "importPath": "../src/pages/recipes/svelte-language-fundamentals/looping.svx",
               "isLayout": false,
               "isReset": false,
@@ -1299,7 +1344,7 @@ export const _tree = {
               },
               "path": "/recipes/svelte-language-fundamentals/looping",
               "id": "_recipes_svelteLanguageFundamentals_looping",
-              "component": () => import('../src/pages/recipes/svelte-language-fundamentals/looping.svx').then(m => m.default)
+              "component": () => _recipes_svelteLanguageFundamentals_looping
             },
             {
               "isFile": true,
@@ -1309,7 +1354,7 @@ export const _tree = {
               "name": "passing-values-from-js-to-css",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/svelte-language-fundamentals/passing-values-from-js-to-css.svx",
+              "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/svelte-language-fundamentals/passing-values-from-js-to-css.svx",
               "importPath": "../src/pages/recipes/svelte-language-fundamentals/passing-values-from-js-to-css.svx",
               "isLayout": false,
               "isReset": false,
@@ -1328,7 +1373,7 @@ export const _tree = {
               },
               "path": "/recipes/svelte-language-fundamentals/passing-values-from-js-to-css",
               "id": "_recipes_svelteLanguageFundamentals_passingValuesFromJsToCss",
-              "component": () => import('../src/pages/recipes/svelte-language-fundamentals/passing-values-from-js-to-css.svx').then(m => m.default)
+              "component": () => _recipes_svelteLanguageFundamentals_passingValuesFromJsToCss
             },
             {
               "isFile": true,
@@ -1338,7 +1383,7 @@ export const _tree = {
               "name": "reactivity",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/svelte-language-fundamentals/reactivity.svx",
+              "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/svelte-language-fundamentals/reactivity.svx",
               "importPath": "../src/pages/recipes/svelte-language-fundamentals/reactivity.svx",
               "isLayout": false,
               "isReset": false,
@@ -1357,7 +1402,7 @@ export const _tree = {
               },
               "path": "/recipes/svelte-language-fundamentals/reactivity",
               "id": "_recipes_svelteLanguageFundamentals_reactivity",
-              "component": () => import('../src/pages/recipes/svelte-language-fundamentals/reactivity.svx').then(m => m.default)
+              "component": () => _recipes_svelteLanguageFundamentals_reactivity
             },
             {
               "isFile": true,
@@ -1367,7 +1412,7 @@ export const _tree = {
               "name": "scoped-global-css",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/svelte-language-fundamentals/scoped-global-css.svx",
+              "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/svelte-language-fundamentals/scoped-global-css.svx",
               "importPath": "../src/pages/recipes/svelte-language-fundamentals/scoped-global-css.svx",
               "isLayout": false,
               "isReset": false,
@@ -1386,7 +1431,7 @@ export const _tree = {
               },
               "path": "/recipes/svelte-language-fundamentals/scoped-global-css",
               "id": "_recipes_svelteLanguageFundamentals_scopedGlobalCss",
-              "component": () => import('../src/pages/recipes/svelte-language-fundamentals/scoped-global-css.svx').then(m => m.default)
+              "component": () => _recipes_svelteLanguageFundamentals_scopedGlobalCss
             },
             {
               "isFile": true,
@@ -1396,7 +1441,7 @@ export const _tree = {
               "name": "index",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/svelte-language-fundamentals/index.svx",
+              "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/svelte-language-fundamentals/index.svx",
               "importPath": "../src/pages/recipes/svelte-language-fundamentals/index.svx",
               "isLayout": false,
               "isReset": false,
@@ -1419,7 +1464,7 @@ export const _tree = {
               },
               "path": "/recipes/svelte-language-fundamentals/index",
               "id": "_recipes_svelteLanguageFundamentals_index",
-              "component": () => import('../src/pages/recipes/svelte-language-fundamentals/index.svx').then(m => m.default)
+              "component": () => _recipes_svelteLanguageFundamentals_index
             }
           ],
           "isLayout": false,
@@ -1443,7 +1488,7 @@ export const _tree = {
           "name": "testing-and-debugging",
           "ext": "",
           "badExt": false,
-          "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/testing-and-debugging",
+          "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/testing-and-debugging",
           "children": [
             {
               "isFile": true,
@@ -1453,7 +1498,7 @@ export const _tree = {
               "name": "benchmarking-svelte-components",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/testing-and-debugging/benchmarking-svelte-components.svx",
+              "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/testing-and-debugging/benchmarking-svelte-components.svx",
               "importPath": "../src/pages/recipes/testing-and-debugging/benchmarking-svelte-components.svx",
               "isLayout": false,
               "isReset": false,
@@ -1472,7 +1517,7 @@ export const _tree = {
               },
               "path": "/recipes/testing-and-debugging/benchmarking-svelte-components",
               "id": "_recipes_testingAndDebugging_benchmarkingSvelteComponents",
-              "component": () => import('../src/pages/recipes/testing-and-debugging/benchmarking-svelte-components.svx').then(m => m.default)
+              "component": () => _recipes_testingAndDebugging_benchmarkingSvelteComponents
             },
             {
               "isFile": true,
@@ -1482,7 +1527,7 @@ export const _tree = {
               "name": "unit-testing-svelte-component",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/testing-and-debugging/unit-testing-svelte-component.svx",
+              "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/testing-and-debugging/unit-testing-svelte-component.svx",
               "importPath": "../src/pages/recipes/testing-and-debugging/unit-testing-svelte-component.svx",
               "isLayout": false,
               "isReset": false,
@@ -1501,7 +1546,7 @@ export const _tree = {
               },
               "path": "/recipes/testing-and-debugging/unit-testing-svelte-component",
               "id": "_recipes_testingAndDebugging_unitTestingSvelteComponent",
-              "component": () => import('../src/pages/recipes/testing-and-debugging/unit-testing-svelte-component.svx').then(m => m.default)
+              "component": () => _recipes_testingAndDebugging_unitTestingSvelteComponent
             },
             {
               "isFile": true,
@@ -1511,7 +1556,7 @@ export const _tree = {
               "name": "index",
               "ext": "svx",
               "badExt": false,
-              "absolutePath": "/home/snowmanlabs/Documents/svelte/sveltesociety.dev/src/pages/recipes/testing-and-debugging/index.svx",
+              "absolutePath": "/Users/shrijikondan/Desktop/shriji/svelte-core/SSD-contributions/sveltesociety.dev/src/pages/recipes/testing-and-debugging/index.svx",
               "importPath": "../src/pages/recipes/testing-and-debugging/index.svx",
               "isLayout": false,
               "isReset": false,
@@ -1534,7 +1579,7 @@ export const _tree = {
               },
               "path": "/recipes/testing-and-debugging/index",
               "id": "_recipes_testingAndDebugging_index",
-              "component": () => import('../src/pages/recipes/testing-and-debugging/index.svx').then(m => m.default)
+              "component": () => _recipes_testingAndDebugging_index
             }
           ],
           "isLayout": false,
@@ -1565,7 +1610,7 @@ export const _tree = {
       },
       "path": "/recipes",
       "id": "_recipes__layout",
-      "component": () => import('../src/pages/recipes/_layout.svelte').then(m => m.default)
+      "component": () => _recipes__layout
     }
   ],
   "isLayout": true,
@@ -1585,7 +1630,7 @@ export const _tree = {
   },
   "path": "/",
   "id": "__layout",
-  "component": () => import('../src/pages/_layout.svelte').then(m => m.default)
+  "component": () => __layout
 }
 
 
