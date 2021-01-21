@@ -30,5 +30,11 @@
     "country": "🇧🇷 Brazil",
     "twitter":"@sveltebrasil",
     "url": "https://t.me/sveltebrasil"
-  }
+  },
+  {
+    "name": "Svelte Bergen",
+    "country": "🇳🇴 Norway",
+    "twitter:" "@stephanevanraes",
+    "url": "https://www.downtomeet.com/Svelte-Bergen"
+  }   
 ]
