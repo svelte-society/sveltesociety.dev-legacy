@@ -1,7 +1,7 @@
 <script>
   import { layout, url } from "@roxi/routify";
   import Icon from "@/components/Icon.svelte";
-  import societys from "./societys.json";
+  import societies from "./societies.json";
 
   let events = $layout.children;
 
@@ -46,7 +46,7 @@
   <!--society section-->
   <div class="society-wrapper">
     <h5>Societys arround the world</h5>
-    {#each societys as society}
+    {#each societies as society}
       {#if society.continent}
         <h6 class="continent">{society.continent}</h6>
       {:else}
