@@ -5,7 +5,7 @@
 
   metatags.template(
     "title",
-    (title) => `${title ? ` ${title} - ` : ""}Svelte Society`
+    (title) => `${title=='Index' ? ` Home` :`${title}`} - Svelte Society`
   );
   const capitalize = (str) => str.charAt(0).toUpperCase() + str.slice(1);
   $: metatags.title = capitalize($page.title);
