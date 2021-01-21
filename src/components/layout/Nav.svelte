@@ -1,7 +1,5 @@
 <script>
   import { prefetch, isActive, url } from "@roxi/routify";
-  console.log($isActive("/cheat"));
-
   const links = [
     ["/index", "home"],
     ["/recipes", "recipes"],
