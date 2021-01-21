@@ -1,5 +1,15 @@
 <script>
-  import { prefetch } from "@roxi/routify";
+  import { prefetch, isActive, url } from "@roxi/routify";
+  console.log($isActive("/cheat"));
+
+  const links = [
+    ["/index", "home"],
+    ["/recipes", "recipes"],
+    ["/components", "components"],
+    ["/cheatsheet", "cheat sheet"],
+    ["/events", "events"],
+    ["/about", "about"],
+  ];
 </script>
 
 <div class="shaded" id="title">
@@ -10,12 +20,13 @@
         <h1>SVELTE SOCIETY</h1>
       </div>
       <ul>
-        <li><a href="/" use:prefetch>HOME</a></li>
-        <li><a href="/recipes" use:prefetch>RECIPES</a></li>
-        <li><a href="/components" use:prefetch>COMPONENTS</a></li>
-        <li><a href="/cheat" use:prefetch>CHEAT SHEET</a></li>
-        <li><a href="/events" use:prefetch>EVENTS</a></li>
-        <li><a href="/about" use:prefetch>ABOUT</a></li>
+        {#each links as [path, name]}
+          <li>
+            <a href={$url(path)} class:active={$isActive(path)} use:prefetch>
+              {name}
+            </a>
+          </li>
+        {/each}
       </ul>
     </nav>
   </header>
@@ -51,12 +62,17 @@
     color: black;
     font-size: 19px;
   }
+  li a {
+    text-transform: uppercase;
+  }
 
   li a:hover {
     text-decoration: none;
     border-bottom: 4px solid var(--color);
   }
-
+  .active {
+    border-bottom: 4px solid var(--color);
+  }
   .logo {
     display: flex;
     align-items: center;
