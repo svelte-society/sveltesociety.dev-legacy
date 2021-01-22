@@ -1,7 +1,9 @@
 ---
 title: Testing and Debugging Svelte
 layout: recipeCategory
-icon: /images/icons/test.svg
+icon: "bug"
 ---
+
 <!-- routify:options index=1 -->
+
 Some description of this category should go here.
