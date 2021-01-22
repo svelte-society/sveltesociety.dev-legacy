@@ -15,7 +15,7 @@
     <nav>
       <div class="logo">
         <a href="/"> <img alt="Svelte Society Logo" src="/logo.svg" /> </a>
-        <h1>SVELTE SOCIETY</h1>
+        <h1><a href="/">SVELTE SOCIETY</a></h1>
       </div>
       <ul>
         {#each links as [path, name]}
@@ -31,6 +31,10 @@
 </div>
 
 <style>
+  h1 a {
+    font-size: inherit;
+    text-decoration: none;
+  }
   .shaded {
     max-width: 100%;
     background: #f3f6f9;
