@@ -41,10 +41,10 @@
     "type": "contintent"
   },
   {
-    "name": "Brazil Svelte Meetup",
+    "name": "Svelte Brasil",
     "country": "🇧🇷 Brazil",
     "twitter":"@sveltebrasil",
-    "url": "https://www.sympla.com.br/meetup-svelte-brasil__850420",
+    "url": "https://sveltebrasil.dev/",
     "telegram": "https://t.me/sveltebrasil"
   } 
 ]
