@@ -1,7 +1,9 @@
 ---
 title: Component Recipes
 layout: recipeCategory
-icon: /images/icons/test.svg
+icon: "code"
 ---
+
 <!-- routify:options index=1 -->
+
 Some description of this category should go here.
