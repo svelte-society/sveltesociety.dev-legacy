@@ -892,18 +892,6 @@
   {
     "addedOn": "2020-09-29T14:39:13Z",
     "category": "Boilerplate",
-    "description": "Svelte with materializecss + tailwindcss",
-    "image": "",
-    "stars": 0,
-    "tags": [
-      "templates"
-    ],
-    "title": "fabiohvp/svelte-template",
-    "url": "https://github.com/fabiohvp/svelte-template"
-  },
-  {
-    "addedOn": "2020-09-29T14:39:13Z",
-    "category": "Boilerplate",
     "description": "Typescript + Storybook + Webpack boilerplate",
     "image": "",
     "stars": 35,
@@ -1530,19 +1518,6 @@
     ],
     "title": "svelte-jest",
     "url": "https://github.com/ktsn/svelte-jest"
-  },
-  {
-    "addedOn": "2020-09-29T14:39:13Z",
-    "category": "Boilerplate",
-    "description": "A base for building electron apps with secure and reasonable defaults",
-    "image": "",
-    "stars": 1,
-    "tags": [
-      "templates",
-      "electron"
-    ],
-    "title": "electron-svelte-boilerplate",
-    "url": "https://github.com/kwangure/electron-svelte-boilerplate"
   },
   {
     "addedOn": "2020-09-29T14:39:13Z",
@@ -2645,19 +2620,6 @@
     ],
     "title": "generator-svelte",
     "url": "https://github.com/Samuel-Martineau/generator-svelte"
-  },
-  {
-    "addedOn": "2020-09-29T14:39:13Z",
-    "category": "Design System",
-    "description": "Svelte Bootstrap with Material Design",
-    "image": "",
-    "stars": 38,
-    "tags": [
-      "components and libraries",
-      "component sets"
-    ],
-    "title": "MDBSvelte",
-    "url": "https://github.com/SauravKanchan/mdbsvelte"
   },
   {
     "addedOn": "2020-09-29T14:39:13Z",
