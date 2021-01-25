@@ -1,8 +1,6 @@
 <script>
-  import CategoryTree from "@/components/recipes/CategoryTree.svelte";
   import { setContext } from "svelte";
-
-  import { layout, page } from "@roxi/routify";
+  import { layout } from "@roxi/routify";
   const nodes = $layout.children;
 
   const categories = nodes.map(
