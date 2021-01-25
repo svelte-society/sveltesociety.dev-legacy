@@ -1,6 +1,15 @@
 <script>
-  import { page, metatags } from "@roxi/routify";
-  const nodes = $page.parent.children.filter(r => !r.path.includes("/index"));
+  import { metatags, layout, page } from "@roxi/routify";
+  import CategoryTree from "@/components/recipes/CategoryTree.svelte";
+  const nodes = $layout.children;
+
+  const categories = nodes.map(
+    (node) => node.children.filter((r) => r.path.includes("/index"))[0]
+  );
+  const childrenNodes = $page.parent.children.filter(
+    (r) => !r.path.includes("/index")
+  );
+
   export let title,
     description = "";
 
@@ -11,14 +20,76 @@
   $: metatags["twitter:description"] = description;
 </script>
 
-<h1>{title}</h1>
+<main>
+  <div class="TOC">
+    <h1>Table of Contents</h1>
+    {#each categories as node}
+      <div class="TOCLink" class:active={$page.path.includes(node.parent.path)}>
+        <img src={node.meta.frontmatter.icon} alt="" />
+        <a href={node.parent.path}>{node.meta.frontmatter.title}</a>
+      </div>
+      {#if $page.path.includes(node.parent.path)}
+        <CategoryTree nodes={node.parent.children} />
+      {/if}
+    {/each}
+  </div>
+  <article>
+    <h1>{title}</h1>
+    <slot />
 
-<slot />
+    <ul>
+      {#each childrenNodes as node}
+        <li>
+          <a href={node.path}>{node.meta.frontmatter.title}</a>
+        </li>
+      {/each}
+    </ul>
+  </article>
+</main>
 
-<ul>
-  {#each nodes as node}
-    <li>
-      <a href={node.path}>{node.meta.frontmatter.title}</a>
-    </li>
-  {/each}
-</ul>
+<style>
+  .TOCLink {
+    align-items: baseline;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 10px;
+    padding: 1rem 0;
+    border-bottom: 1px solid #d0deec;
+    font-size: 1.1em;
+  }
+  .TOCLink.active a {
+    font-weight: bold;
+  }
+  .TOCLink img {
+    height: 1em;
+  }
+  @media (min-width: 1024px) {
+    main {
+      display: flex;
+    }
+  }
+  main {
+    margin: 0 auto;
+    max-width: var(--width-content);
+    padding: 2rem 1rem;
+  }
+  .TOC {
+    margin-right: 2rem;
+    flex: 1;
+    font-family: Overpass;
+    line-height: 150%;
+  }
+  .TOC :global(a) {
+    color: #2e2e35;
+    font-weight: normal;
+  }
+  article {
+    flex: 3;
+    overflow-x: hidden;
+  }
+  @media (min-width: 1024px) {
+    article {
+      margin-left: 2rem;
+    }
+  }
+</style>
