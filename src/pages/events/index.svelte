@@ -75,6 +75,15 @@
             >
           {/if}
 
+          {#if society.youtube}
+            <span class="icon-wrapper"
+              ><Icon name="youtube" />
+              <a href={society.youtube} target="_blank" rel="noopener"
+                >{society.name} YouTube Channel</a
+              ></span
+            >
+          {/if}
+
           {#if society.githuburl}
             <li>
               <span class="icon-wrapper">
