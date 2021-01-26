@@ -1,6 +1,7 @@
 <script>
   import { layout, url } from "@roxi/routify";
   import Icon from "@/components/Icon.svelte";
+  import WarningHero from "@/components/layout/WarningHero.svelte";
   import societies from "./societies.json";
 
   let events = $layout.children;
@@ -23,6 +24,11 @@
   <title>Events</title>
 </svelte:head>
 
+<WarningHero
+  content="As you are mot likely aware of, the corona virus pandemic is currently affecting the globe. Since we can't hold our events with live-audiences, we thought it might be a good idea to make use of varous technologies to deliver the same thing - but online."
+  icon="virus"
+/>
+
 <div class="wrapper">
   <!--event section-->
   <div class="event-wrapper">
@@ -34,7 +40,7 @@
         <h2><a href={$url(node.path)}> {node.meta.frontmatter.title} </a></h2>
         <p>
           <span class="icon-wrapper"
-            ><Icon name="calendar" width="24em" height="24em" />{formatDate(
+            ><Icon name="calendar" width="25px" height="25px" />{formatDate(
               node.meta.frontmatter.date
             )}</span
           >
