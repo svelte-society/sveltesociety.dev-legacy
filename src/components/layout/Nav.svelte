@@ -1,5 +1,5 @@
 <script>
-  import { prefetch, isActive, url } from "@roxi/routify";
+  import { isActive, url } from "@roxi/routify";
   const links = [
     ["/index", "home"],
     ["/recipes", "recipes"],
@@ -20,7 +20,7 @@
       <ul>
         {#each links as [path, name]}
           <li>
-            <a href={$url(path)} class:active={$isActive(path)} use:prefetch>
+            <a href={$url(path)} class:active={$isActive(path)}>
               {name}
             </a>
           </li>
