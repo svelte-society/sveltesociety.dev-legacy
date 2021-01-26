@@ -2,24 +2,23 @@
   import Icon from "@/components/Icon.svelte";
 
   let hide = false;
-  export let content,
-    icon = "";
+  export let icon = "";
 </script>
 
 {#if !hide}
-  <figure>
+  <div>
     <span class="icon-wrapper"
       ><Icon name={icon} width="6rem" height="6rem" /></span
     >
-    <slot></slot>
+    <slot />
     <button class="close-hero" on:click={() => (hide = true)}
       ><span class="icon-wrapper"><Icon name="close" /></span></button
     >
-  </figure>
+  </div>
 {/if}
 
 <style>
-  figure {
+  div {
     margin: 7px;
     padding: 4px;
     border: 3px solid #f43f5e;
