@@ -6,7 +6,7 @@
     icon = "";
 </script>
 
-{#if hide != true}
+{#if !hide}
   <figure>
     <span class="icon-wrapper"
       ><Icon name={icon} width="6rem" height="6rem" /></span
