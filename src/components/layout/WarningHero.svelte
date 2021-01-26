@@ -11,7 +11,7 @@
     <span class="icon-wrapper"
       ><Icon name={icon} width="6rem" height="6rem" /></span
     >
-    <p>{content}</p>
+    <slot></slot>
     <button class="close-hero" on:click={() => (hide = true)}
       ><span class="icon-wrapper"><Icon name="close" /></span></button
     >
