@@ -18,7 +18,7 @@ jobs:
           npm install dotenv node-fetch
           git checkout package-lock.json
       - name: Fetch
-        run: node update-stars.js
+        run: node scripts/update-stars.js
       - name: Store
         uses: mikeal/publish-to-github-action@master
         env:

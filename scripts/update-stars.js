@@ -4,10 +4,7 @@ const path = require("path");
 const fetch = require("node-fetch");
 require("dotenv").config();
 
-const pathToData = path.join(
-  __dirname,
-  "/src/pages/components/components.json"
-);
+const pathToData = path.resolve("./src/pages/components/components.json");
 const components = JSON.parse(fs.readFileSync(pathToData));
 
 (async function () {
