@@ -25,9 +25,10 @@
 </svelte:head>
 
 <WarningHero
-  content="As you are mot likely aware of, the corona virus pandemic is currently affecting the globe. Since we can't hold our events with live-audiences, we thought it might be a good idea to make use of varous technologies to deliver the same thing - but online."
   icon="virus"
-/>
+>
+  <p>Due to the coronavirus pandemic, we can't currently hold events with live audiences. Instead, we are holding many events online.</p>
+</WarningHero>
 
 <div class="wrapper">
   <!--event section-->
