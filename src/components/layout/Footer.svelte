@@ -50,4 +50,9 @@
       font-size: 15px;
     }
   }
+  @media print {
+    footer {
+      display: none;
+    }
+  }
 </style>
