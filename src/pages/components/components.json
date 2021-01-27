@@ -3651,5 +3651,19 @@
     ],
     "title": "svelte-appwrite",
     "url": "https://github.com/appwrite/sdk-for-svelte"
+  },
+  {
+    "addedOn": "2021-01-28T00:20:00Z",
+    "category": "Routers",
+    "description": "Light one-component router for Svelte",
+    "image": "",
+    "npm": "svelte-micro",
+    "stars": 16,
+    "tags": [
+      "components and libraries",
+      "routing"
+    ],
+    "title": "svelte-micro",
+    "url": "https://github.com/ayndqy/svelte-micro"
   }
 ]
