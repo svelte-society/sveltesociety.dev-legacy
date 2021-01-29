@@ -2279,7 +2279,7 @@
     "addedOn": "2021-01-15T22:22:22Z",
     "category": "Stores",
     "description": "Template for client side svelte store",
-    "image": "https://raw.githubusercontent.com/gitbreaker222/SvelteStore/master/docs/Svelte%20Store%20Logo%20transparent.svg",
+    "image": "https://raw.githubusercontent.com/gitbreaker222/SvelteStore/master/docs/Svelte%20Store%20Logo.png",
     "tags": [
       "components and libraries",
       "stores and state"
