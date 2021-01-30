@@ -84,4 +84,10 @@
     width: 92px;
     height: 92px;
   }
+
+  @media print {
+    .shaded{
+      display: none;
+    }
+  }
 </style>
