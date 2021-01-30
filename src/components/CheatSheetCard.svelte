@@ -1,7 +1,6 @@
 <script>
   import { HighlightSvelte } from "svelte-highlight";
 
-
   export let title = "";
   export let content = "";
   export let doc = "";
@@ -57,6 +56,7 @@
   .links > a {
     font-size: 1.25rem;
     margin-left: 10px;
+    text-decoration: none;
   }
 
   .card > .content {
