@@ -1,23 +1,31 @@
 <script>
-  export let title = ''
+  import { HighlightSvelte } from "svelte-highlight";
+
+
+  export let title = "";
+  export let content = "";
+  export let doc = "";
+  export let repl = "";
 </script>
-  
+
 <style>
   .card {
     box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.3);
     border: var(--m1) solid var(--color);
     width: fit-content;
+    border-radius: 10px;
   }
 
   .card > .title {
     background-color: var(--color);
     padding: var(--m10);
-    color: #ffffff;    
+    color: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 48px;
     max-width: 100%;
+    border-radius: 10px 10px 0 0;
   }
 
   .title > h2 {
@@ -39,9 +47,21 @@
     margin-left: 20px;
   }
 
-  .card > section {
+  .card > .links {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    padding-bottom: 0;
+  }
+
+  .links > a {
+    font-size: 1.25rem;
+    margin-left: 10px;
+  }
+
+  .card > .content {
     display: block;
-    padding: var(--m10);
+    padding: 0 var(--m10);
     height: calc(100% - 48px);
     overflow-x: auto;
     font-size: 0.8rem;
@@ -59,7 +79,13 @@
     <h2>{title}</h2>
     <span class="circles" />
   </header>
-  <section>
-    <slot>Content</slot>
+
+  <section class="links">
+    <a href={doc} target="_blank" title="Go to documentation">📃</a>
+    <a href={repl} target="_blank" title="See in REPL">💻</a>
+  </section>
+
+  <section class="content">
+    <HighlightSvelte code={content} />
   </section>
 </div>
