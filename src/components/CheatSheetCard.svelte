@@ -5,6 +5,13 @@
   export let content = "";
   export let doc = "";
   export let repl = "";
+  let component;
+
+  function copy() {
+    const element = document.getElementById(title).firstChild
+    navigator.clipboard.writeText(element.innerText)
+  }
+
 </script>
 
 <style>
@@ -81,11 +88,12 @@
   </header>
 
   <section class="links">
+    <a href on:click|preventDefault={copy}  title="Copy to clipborad">📋</a>
     <a href={doc} target="_blank" title="Go to documentation">📃</a>
     <a href={repl} target="_blank" title="See in REPL">💻</a>
   </section>
 
   <section class="content">
-    <HighlightSvelte code={content} />
+    <HighlightSvelte id={title} code={content} />
   </section>
 </div>
