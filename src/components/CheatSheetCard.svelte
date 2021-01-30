@@ -9,7 +9,9 @@
 
   function copy() {
     const element = document.getElementById(title).firstChild
-    navigator.clipboard.writeText(element.innerText)
+    if(navigator.clipboard) {
+      navigator.clipboard.writeText(element.innerText)
+    }
   }
 
 </script>
@@ -88,7 +90,10 @@
   </header>
 
   <section class="links">
-    <a href on:click|preventDefault={copy}  title="Copy to clipborad">📋</a>
+    {#if navigator.clipboard}
+      <a href on:click|preventDefault={copy}  title="Copy to clipborad">📋</a>
+    {/if}
+    
     <a href={doc} target="_blank" title="Go to documentation">📃</a>
     <a href={repl} target="_blank" title="See in REPL">💻</a>
   </section>
