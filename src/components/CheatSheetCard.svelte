@@ -1,16 +1,20 @@
 <script>
   import { HighlightSvelte } from "svelte-highlight";
+  import { fly } from "svelte/transition";
 
   export let title = "";
   export let content = "";
   export let doc = "";
   export let repl = "";
-  let component;
+
+  let isCopied = false;
 
   function copy() {
     const element = document.getElementById(title).firstChild
     if(navigator.clipboard) {
       navigator.clipboard.writeText(element.innerText)
+      isCopied = true
+      setTimeout(() => isCopied = false, 3000)
     }
   }
 
@@ -60,12 +64,16 @@
     justify-content: flex-end;
     padding: 10px;
     padding-bottom: 0;
+    color: var(--color-red);
+    font-size: 0.8rem;
   }
 
   .links > a {
     font-size: 1.25rem;
-    margin-left: 10px;
+    margin-left: 20px;
     text-decoration: none;
+    
+
   }
 
   .card > .content {
@@ -90,10 +98,13 @@
   </header>
 
   <section class="links">
-    {#if navigator.clipboard}
-      <a href on:click|preventDefault={copy}  title="Copy to clipborad">📋</a>
+    {#if isCopied}
+      <span transition:fly={{ x: 20 }}>
+        Copied to clipboard
+      </span>
     {/if}
     
+    <a href on:click|preventDefault={copy}  title="Copy to clipborad">📋</a>
     <a href={doc} target="_blank" title="Go to documentation">📃</a>
     <a href={repl} target="_blank" title="See in REPL">💻</a>
   </section>
