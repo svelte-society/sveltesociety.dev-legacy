@@ -14,7 +14,7 @@
     if(navigator.clipboard) {
       navigator.clipboard.writeText(element.innerText)
       isCopied = true
-      setTimeout(() => isCopied = false, 3000)
+      setTimeout(() => isCopied = false, 1500)
     }
   }
 
