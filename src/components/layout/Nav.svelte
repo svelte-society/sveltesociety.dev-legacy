@@ -20,7 +20,11 @@
       <ul>
         {#each links as [path, name]}
           <li>
-            <a href={$url(path)} class:active={$isActive(path)}>
+            <a
+              href={$url(path)}
+              class:active={$isActive(path)}
+              class="nav-item"
+            >
               {name}
             </a>
           </li>
@@ -34,10 +38,16 @@
   h1 a {
     font-size: inherit;
     text-decoration: none;
+    font-weight: lighter;
+    letter-spacing: 0.4rem;
   }
   .shaded {
     max-width: 100%;
     background: #f3f6f9;
+  }
+  a.nav-item {
+    letter-spacing: 0.05rem;
+    font-weight: lighter;
   }
 
   header {
@@ -86,7 +96,7 @@
   }
 
   @media print {
-    .shaded{
+    .shaded {
       display: none;
     }
   }
