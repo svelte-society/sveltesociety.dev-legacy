@@ -3651,5 +3651,17 @@
     ],
     "title": "svelte-appwrite",
     "url": "https://github.com/appwrite/sdk-for-svelte"
+  },
+  {
+    "addedOn": "2021-02-02T18:08:37.886Z",
+    "category": "Developer Experience",
+    "description": "Vscode extension to sort your CSS properties, and make them easy to read",
+    "image": "",
+    "stars": 0,
+      "tags": [
+        "editor tools"
+     ],
+     "title": "vscode-css-sort",
+     "url": "https://github.com/apriliandi246/vscode-css-sort"
   }
 ]
