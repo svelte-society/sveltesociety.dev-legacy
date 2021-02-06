@@ -3653,6 +3653,20 @@
     "url": "https://github.com/appwrite/sdk-for-svelte"
   },
   {
+    "addedOn": "2021-02-06T14:00:39.581Z",
+    "category": "",
+    "description": "svelte-pdf provides a component for rendering PDF documents using PDF.js",
+    "image": "",
+    "npm": "svelte-pdf",
+    "stars": 41,
+    "tags": [
+      "components and libraries",
+      "pdf"
+    ],
+    "title": "svelte-pdf",
+    "url": "https://github.com/vinodnimbalkar/svelte-pdf"
+  },
+  {
     "addedOn": "2021-02-02T18:08:37.886Z",
     "category": "Developer Experience",
     "description": "Vscode extension to sort your CSS properties, and make them easy to read",
