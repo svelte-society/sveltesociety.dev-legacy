@@ -29,11 +29,11 @@
     "country": "🇳🇴 Norway",
     "twitter": "@stephanevanraes",
     "url": "https://www.downtomeet.com/Svelte-Bergen"
-  },  
+  },
   {
     "name": "Svelte Society Stockholm",
     "country": "🇸🇪 Sweden",
-    "twitter":"@kevmodrome",
+    "twitter": "@kevmodrome",
     "url": "https://www.downtomeet.com/Svelte-Society-Stockholm"
   },
   {
@@ -44,8 +44,9 @@
     "name": "Svelte Brasil",
     "country": "🇧🇷 Brazil",
     "telegram": "https://t.me/sveltebrasil",
-    "twitter":"@sveltebrasil",
+    "twitter": "@sveltebrasil",
     "url": "https://sveltebrasil.dev/",
-    "youtube": "https://www.youtube.com/channel/UCp8jamqJRGg86eMnewxjWng"
-  } 
+    "youtube": "https://www.youtube.com/channel/UCp8jamqJRGg86eMnewxjWng",
+    "githuburl": "https://github.com/svelte-brasil"
+  }
 ]
