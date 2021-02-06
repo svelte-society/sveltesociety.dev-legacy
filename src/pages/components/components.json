@@ -2279,7 +2279,7 @@
     "addedOn": "2021-01-15T22:22:22Z",
     "category": "Stores",
     "description": "Template for client side svelte store",
-    "image": "https://raw.githubusercontent.com/gitbreaker222/SvelteStore/master/docs/Svelte%20Store%20Logo%20transparent.svg",
+    "image": "https://raw.githubusercontent.com/gitbreaker222/SvelteStore/master/docs/Svelte%20Store%20Logo.png",
     "tags": [
       "components and libraries",
       "stores and state"
@@ -3665,5 +3665,30 @@
     ],
     "title": "svelte-pdf",
     "url": "https://github.com/vinodnimbalkar/svelte-pdf"
+  },
+    "addedOn": "2021-02-02T18:08:37.886Z",
+    "category": "Developer Experience",
+    "description": "Vscode extension to sort your CSS properties, and make them easy to read",
+    "image": "",
+    "stars": 0,
+      "tags": [
+        "editor tools"
+     ],
+     "title": "vscode-css-sort",
+     "url": "https://github.com/apriliandi246/vscode-css-sort"
+  },
+  {
+    "addedOn": "2021-01-28T00:20:00Z",
+    "category": "Routers",
+    "description": "Light one-component router for Svelte",
+    "image": "",
+    "npm": "svelte-micro",
+    "stars": 16,
+    "tags": [
+      "components and libraries",
+      "routing"
+    ],
+    "title": "svelte-micro",
+    "url": "https://github.com/ayndqy/svelte-micro"
   }
 ]

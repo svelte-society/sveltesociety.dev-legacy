@@ -1,6 +1,7 @@
 <script>
   import { layout, url } from "@roxi/routify";
   import Icon from "@/components/Icon.svelte";
+  import WarningHero from "@/components/layout/WarningHero.svelte";
   import societies from "./societies.json";
 
   let events = $layout.children;
@@ -23,6 +24,12 @@
   <title>Events</title>
 </svelte:head>
 
+<WarningHero
+  icon="virus"
+>
+  <p>Due to the coronavirus pandemic, we can't currently hold events with live audiences. Instead, we are holding many events online.</p>
+</WarningHero>
+
 <div class="wrapper">
   <!--event section-->
   <div class="event-wrapper">
@@ -34,7 +41,7 @@
         <h2><a href={$url(node.path)}> {node.meta.frontmatter.title} </a></h2>
         <p>
           <span class="icon-wrapper"
-            ><Icon name="calendar" width="24em" height="24em" />{formatDate(
+            ><Icon name="calendar" width="25px" height="25px" />{formatDate(
               node.meta.frontmatter.date
             )}</span
           >
@@ -71,6 +78,15 @@
               ><Icon name="telegram" />
               <a href={society.telegram} target="_blank" rel="noopener"
                 >Join on Telegram</a
+              ></span
+            >
+          {/if}
+
+          {#if society.youtube}
+            <span class="icon-wrapper"
+              ><Icon name="youtube" />
+              <a href={society.youtube} target="_blank" rel="noopener"
+                >{society.name} YouTube Channel</a
               ></span
             >
           {/if}
