@@ -1,0 +1,26 @@
+name: Update component stars
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # once a day
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+        with:
+          ref: staging
+      - name: Install
+        run: |
+          touch .env
+          echo GITHUB_TOKEN=${{secrets.GITHUB_TOKEN}} >> .env
+          npm install dotenv node-fetch
+          git checkout package-lock.json
+      - name: Fetch
+        run: node scripts/update-stars.js
+      - name: Store
+        uses: mikeal/publish-to-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH_NAME: staging
