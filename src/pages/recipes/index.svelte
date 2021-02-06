@@ -28,8 +28,8 @@
               <div class="d-flex list-meta">
                 <Icon
                   name={category.meta.frontmatter.icon}
-                  width="8em"
-                  height="8em"
+                  width="2em"
+                  height="2em"
                 />
                 <a href={category.parent.path} class="list-title"
                   >{category.meta.frontmatter.title}</a

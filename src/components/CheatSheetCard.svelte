@@ -6,19 +6,37 @@
   export let content = "";
   export let doc = "";
   export let repl = "";
-
   let isCopied = false;
-
   function copy() {
-    const element = document.getElementById(title).firstChild
-    if(navigator.clipboard) {
-      navigator.clipboard.writeText(element.innerText)
-      isCopied = true
-      setTimeout(() => isCopied = false, 1500)
+    const element = document.getElementById(title).firstChild;
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(element.innerText);
+      isCopied = true;
+      setTimeout(() => (isCopied = false), 1500);
     }
   }
-
 </script>
+
+<div class="card">
+  <header class="title">
+    <h2>{title}</h2>
+    <span class="circles" />
+  </header>
+
+  <section class="links">
+    {#if isCopied}
+      <span transition:fly={{ x: 20 }}> Copied to clipboard </span>
+    {/if}
+
+    <a href on:click|preventDefault={copy} title="Copy to clipborad">📋</a>
+    <a href={doc} target="_blank" title="Go to documentation">📃</a>
+    <a href={repl} target="_blank" title="See in REPL">💻</a>
+  </section>
+
+  <section class="content">
+    <HighlightSvelte id={title} code={content} />
+  </section>
+</div>
 
 <style>
   .card {
@@ -27,7 +45,6 @@
     width: fit-content;
     border-radius: 10px;
   }
-
   .card > .title {
     background-color: var(--color);
     padding: var(--m10);
@@ -39,14 +56,12 @@
     max-width: 100%;
     border-radius: 10px 10px 0 0;
   }
-
   .title > h2 {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
     font-size: 1.5em;
   }
-
   .title > .circles {
     display: block;
     width: var(--m18);
@@ -58,7 +73,6 @@
     margin-right: 50px;
     margin-left: 20px;
   }
-
   .card > .links {
     display: flex;
     justify-content: flex-end;
@@ -67,15 +81,11 @@
     color: var(--color-red);
     font-size: 0.8rem;
   }
-
   .links > a {
     font-size: 1.25rem;
     margin-left: 20px;
     text-decoration: none;
-    
-
   }
-
   .card > .content {
     display: block;
     padding: 0 var(--m10);
@@ -83,33 +93,9 @@
     overflow-x: auto;
     font-size: 0.8rem;
   }
-
   @media (max-width: 484px) {
     .title > h2 {
       font-size: 0.8em;
     }
   }
 </style>
-
-<div class="card">
-  <header class="title">
-    <h2>{title}</h2>
-    <span class="circles" />
-  </header>
-
-  <section class="links">
-    {#if isCopied}
-      <span transition:fly={{ x: 20 }}>
-        Copied to clipboard
-      </span>
-    {/if}
-    
-    <a href on:click|preventDefault={copy}  title="Copy to clipborad">📋</a>
-    <a href={doc} target="_blank" title="Go to documentation">📃</a>
-    <a href={repl} target="_blank" title="See in REPL">💻</a>
-  </section>
-
-  <section class="content">
-    <HighlightSvelte id={title} code={content} />
-  </section>
-</div>
