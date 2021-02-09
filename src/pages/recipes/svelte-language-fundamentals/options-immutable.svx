@@ -14,7 +14,7 @@ because it significantly optimizes child components in a list. This is likely on
 The parent component can opt into mutability, and use mutable data structures like maps, without de-optimizing all of its children.
 
 - Objects, arrays, and functions are mutable variables in JavaScript.
-- Mutations in Svelte are compile to an `$$invalidate` function in the compiled output.
+- Mutations in Svelte are compiled to an `$$invalidate` function in the compiled output.
 - The default option, `immutable: false`, will always treat calls to `$$invalidate` with mutable variables to always be true. 
 In other words, it will always rerender, to ensure correctness in case the variable was modified.
 - Setting `immutable` to `true` opts out of this and relies on simple equality: `a !== b`.
