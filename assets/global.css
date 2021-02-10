@@ -20,7 +20,7 @@
   --hover-brightness: 1.2;
   --justify-important: center;
   --justify-normal: left;
-  --line-height: 170%;
+  --line-height: 1.7;
   --width-card: 370px;
   --width-card-medium: 460px;
   --width-card-wide: 800px;
@@ -33,6 +33,12 @@
   --m10: 0.625rem;
   --m5: 0.3125rem;
   --m1: 0.0625rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 /*
@@ -59,10 +65,10 @@ article aside {
 }
 
 html,
-body {
-  min-height: 100vh;
+body,
+#routify-app {
+  height: 100%;
 }
-
 
 body {
   background: var(--color-bg);
