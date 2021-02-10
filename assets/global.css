@@ -16,7 +16,7 @@
   --color-green: #6ecb44;
   --color-yellow: #ffba29;
   --color-red: #f15856;
-  --font-mono: "Fira Mono", monospace;
+  --font-mono: FiraCode, monospace;
   --hover-brightness: 1.2;
   --justify-important: center;
   --justify-normal: left;
@@ -767,6 +767,11 @@ code {
   font-family: Overpass;
   src: url(fonts/Overpass-Bold.woff2);
   font-weight: bold;
+}
+
+@font-face {
+  font-family: FiraCode;
+  src: url(fonts/FiraCode-Regular.ttf);
 }
 
 .my-1 {
