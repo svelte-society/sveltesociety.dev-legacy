@@ -112,10 +112,6 @@ section aside:hover {
   box-shadow: var(--box-shadow) var(--color-bg-secondary);
 }
 
-section aside img {
-  max-width: 100%;
-}
-
 /* Headers */
 article header,
 div header,
@@ -290,7 +286,7 @@ figure {
   padding: 0;
 }
 
-figure img {
+img {
   max-width: 100%;
 }
 
