@@ -21,7 +21,7 @@ The purpose of Svelte Society is to capitalize on the strengths of Svelte by cre
 
 ### Getting Involved
 
-If you would like to get involved with the active global community in shaping the future of Svelte.js please take a look at the CONTRIBUTING.md and be sure to adhere to our friendly standards laid out in the CODE_OF_CONDUCT.md. If you have any questions or need help please reach out on our [Discord channel](https://discord.gg/MKNUW7wXka) or connect with a Svelte [meetup](https://twitter.com/SvelteSociety/status/1235264100600631296?s=20) in your region.
+If you would like to get involved with the active global community in shaping the future of Svelte.js please take a look at the CONTRIBUTING.md and be sure to adhere to our friendly standards laid out in the CODE_OF_CONDUCT.md. Please note also, that PR's should use our `staging` branch for submitting new contributions. If you have any questions or need help please reach out on our [Discord channel](https://discord.gg/MKNUW7wXka) or connect with a Svelte [meetup](https://twitter.com/SvelteSociety/status/1235264100600631296?s=20) in your region.
 
 ## License
 

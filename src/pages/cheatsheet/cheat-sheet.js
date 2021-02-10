@@ -342,7 +342,7 @@ import Widget from '.Widget.svelte'
    export let active = true
 </script>
 
-<div class={active ? active : ''}  class={type}>
+<div class={active ? 'active' : ''}  class={type}>
 ...
 </div>
 
