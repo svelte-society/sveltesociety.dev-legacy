@@ -1,0 +1,11 @@
+---
+title: Svelte Summit Spring 2021
+layout: eventPage
+date: 2021-04-25
+---
+
+Svelte Summit is an event dedicated to Svelte and everything that is happening in the community. The event will be a day of (exclusive) pre-recorded talks streamed online, syndicated on various platforms including [YouTube](https://youtube.com/SvelteSociety). Specific discussions about the talks and water-cooler chit-chat will be happening live in the [Svelte Discord server](https://discord.gg/daNtanDmsE).
+
+Everyone is welcome, to attend and submit a talk at [sessionize](https://sessionize.com/svelte-summit-spring-2021). Svelte Summit reflects the wider Svelte community as an inclusive and supportive space for people to learn and make friends.
+
+All attendees and speakers are expected to treat [each-other kindly and with respect](https://sveltesociety.dev/about).
