@@ -25,8 +25,24 @@
   ] = `Svelte Society is a community-driven effort to organise and promote SvelteJS.`;
 </script>
 
-<Nav />
+<div class="grid">
+  <div class="content">
+    <Nav />
+    <slot />
+  </div>
+  <div class="footer">
+    <Footer />
+  </div>
+</div>
 
-<slot />
+<style>
+  .grid {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    min-height: 100%;
+  }
 
-<Footer />
+  .footer {
+    grid-row: 2;
+  }
+</style>

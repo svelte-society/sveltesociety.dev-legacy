@@ -69,8 +69,6 @@
     font-weight: lighter;
   }
   img {
-    height: 384;
-    width: 806px;
-    margin: 2rem;
+    margin: 2rem 0;
   }
 </style>
