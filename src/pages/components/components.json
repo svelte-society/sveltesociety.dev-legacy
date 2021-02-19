@@ -1,5 +1,19 @@
 [
   {
+    "title": "svelte-formula",
+    "url": "https://github.com/tanepiper/svelte-formula",
+    "npm": "https://www.npmjs.com/package/svelte-formula",
+    "description": "Zero Configuration Reactive Forms for Svelte",
+    "tags": [
+      "components and libraries",
+      "forms",
+      "reactive forms",
+      "validation"
+    ],
+    "addedOn": "2021-02-19T19:30:00Z",
+    "category": "Forms & User Input"
+  },
+  {
     "addedOn": "2020-09-29T14:39:13Z",
     "category": "Forms & User Input",
     "description": "A lightweight datepicker with neat animations and a unique UX",
