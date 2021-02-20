@@ -3681,13 +3681,12 @@
   {
     "addedOn": "2021-01-28T00:20:00Z",
     "category": "Routers",
-    "description": "Light one-component router for Svelte",
+    "description": "Light & reactive one-component router for Svelte",
     "image": "",
     "npm": "svelte-micro",
-    "stars": 16,
+    "stars": 24,
     "tags": [
-      "components and libraries",
-      "routing"
+      "routers"
     ],
     "title": "svelte-micro",
     "url": "https://github.com/ayndqy/svelte-micro"
