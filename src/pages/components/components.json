@@ -3690,5 +3690,19 @@
     ],
     "title": "svelte-micro",
     "url": "https://github.com/ayndqy/svelte-micro"
+  },
+  {
+    "addedOn": "2021-02-26T23:46:44Z",
+    "category": "component sets",
+    "description": "A set of Fomantic-UI components for Svelte framework",
+    "image": "",
+    "npm": "svantic",
+    "stars": 1,
+    "tags": [
+      "component sets",
+      "components and libraries"
+    ],
+    "title": "svantic",
+    "url": "https://github.com/ryu-man/svantic"
   }
 ]
