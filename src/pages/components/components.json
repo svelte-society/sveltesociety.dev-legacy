@@ -3695,16 +3695,29 @@
   {
     "addedOn": "2021-01-28T00:20:00Z",
     "category": "Routers",
-    "description": "Light one-component router for Svelte",
+    "description": "Light & reactive one-component router for Svelte",
     "image": "",
     "npm": "svelte-micro",
-    "stars": 16,
+    "stars": 24,
     "tags": [
-      "components and libraries",
-      "routing"
+      "routers"
     ],
     "title": "svelte-micro",
     "url": "https://github.com/ayndqy/svelte-micro"
+  },
+  {
+    "addedOn": "2021-02-26T23:46:44Z",
+    "category": "component sets",
+    "description": "A set of Fomantic-UI components for Svelte framework",
+    "image": "",
+    "npm": "svantic",
+    "stars": 1,
+    "tags": [
+      "component sets",
+      "components and libraries"
+    ],
+    "title": "svantic",
+    "url": "https://github.com/ryu-man/svantic"
   },
   {
     "addedOn": "2021-02-20T19:00:00Z",
