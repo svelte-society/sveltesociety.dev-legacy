@@ -3731,5 +3731,19 @@
     ],
     "title": "Undoable store",
     "url": "https://github.com/macfja/svelte-undoable"
+  },
+  {
+    "addedOn": "2021-03-02T19:00:00Z",
+    "category": "User Interaction",
+    "description": "A collection of renderless/headless components for Svelte",
+    "image": "",
+    "npm": "renderless-svelte",
+    "stars": 61,
+    "tags": [
+      "components and libraries",
+      "component sets"
+    ],
+    "title": "Renderless Svelte",
+    "url": "https://github.com/stephane-vanraes/renderless-svelte"
   }
 ]
