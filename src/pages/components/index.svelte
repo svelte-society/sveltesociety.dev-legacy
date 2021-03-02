@@ -142,7 +142,7 @@
 </style>
 
 <main>
-  <h1>This page is not complete yet, below are just placeholders.</h1>
+  <h1>Components</h1>
   <div class="controls">
     <div class="inputs">
       <Button active={filterTag.length > 0}>
