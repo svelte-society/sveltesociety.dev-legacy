@@ -1,5 +1,20 @@
 [
   {
+    "title": "svelte-time-picker",
+    "url": "https://gitlab.com/public-e-soa-com/svelte-time-picker",
+    "npm": "https://www.npmjs.com/package/svelte-time-picker",
+    "description": "Time Picker UI for Svelte, inspired by the MaterialUI React Time Picker",
+    "image": "https://camo.githubusercontent.com/c10e998262061f5565fe7b1a99261980c4761a90109108768a25ba9f0b0512e0/68747470733a2f2f652d736f612e636f6d2f7374702f6d6f64616c2e706e67",
+    "tags": [
+      "components and libraries",
+      "time and date",
+      "time",
+      "picker"
+    ],
+    "addedOn": "2021-03-049T07:27:00Z",
+    "category": "Forms & User Input"
+  },
+  {
     "title": "svelte-formula",
     "url": "https://github.com/tanepiper/svelte-formula",
     "npm": "https://www.npmjs.com/package/svelte-formula",
