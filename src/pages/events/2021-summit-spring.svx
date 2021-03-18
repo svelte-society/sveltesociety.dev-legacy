@@ -9,3 +9,5 @@ Svelte Summit is an event dedicated to Svelte and everything that is happening i
 Everyone is welcome, to attend and submit a talk at [sessionize](https://sessionize.com/svelte-summit-spring-2021). Svelte Summit reflects the wider Svelte community as an inclusive and supportive space for people to learn and make friends.
 
 All attendees and speakers are expected to treat [each-other kindly and with respect](https://sveltesociety.dev/about).
+
+Caught you up? Visit the [summit website](https://sveltesummit.com/)!
