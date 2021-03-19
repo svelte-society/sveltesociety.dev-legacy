@@ -3758,5 +3758,19 @@
     ],
     "title": "Renderless Svelte",
     "url": "https://github.com/stephane-vanraes/renderless-svelte"
+  },
+  {
+    "addedOn": "2021-03-19T20:44:00Z",
+    "category": "Stores",
+    "description": "Set of simple state machines for Svelte applications",
+    "image": "",
+    "npm": "svate",
+    "stars": 1,
+    "tags": [
+      "components and libraries",
+      "stores and state"
+    ],
+    "title": "svate",
+    "url": "https://github.com/AlexxNB/svate"
   }
 ]
