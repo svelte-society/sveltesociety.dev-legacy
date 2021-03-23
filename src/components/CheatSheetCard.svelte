@@ -28,7 +28,7 @@
       <span transition:fly={{ x: 20 }}> Copied to clipboard </span>
     {/if}
 
-    <a href on:click|preventDefault={copy} title="Copy to clipborad">📋</a>
+    <a href on:click|preventDefault={copy} title="Copy to clipboard">📋</a>
     <a href={doc} target="_blank" title="Go to documentation">📃</a>
     <a href={repl} target="_blank" title="See in REPL">💻</a>
   </section>
