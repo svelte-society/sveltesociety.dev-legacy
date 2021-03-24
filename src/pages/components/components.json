@@ -1,5 +1,18 @@
 [
   {
+    "title": "sveltefire",
+    "url": "https://github.com/codediodeio/sveltefire",
+    "npm": "https://www.npmjs.com/package/sveltefire",
+    "description": "Cybernetically enhanced Firebase apps 💪🔥",
+    "image": "",
+    "tags": [
+      "components and libraries",
+      "firebase"
+    ],
+    "addedOn": "2021-03-24T01:02:03Z",
+    "category": "Integration"
+  },
+  {
     "title": "svelte-time-picker",
     "url": "https://gitlab.com/public-e-soa-com/svelte-time-picker",
     "npm": "https://www.npmjs.com/package/svelte-time-picker",
