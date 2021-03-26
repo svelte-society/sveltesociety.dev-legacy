@@ -2,7 +2,7 @@
   {
     "title": "felte",
     "url": "https://felte.dev",
-    "npm": "https://www.npmjs.com/package/felte",
+    "npm": "felte",
     "description": "An extensible form library for Svelte",
     "image": "https://felte.dev/felte-logo-filled.png",
     "tags": [
