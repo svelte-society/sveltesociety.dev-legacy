@@ -4,7 +4,7 @@
     "url": "https://felte.dev",
     "npm": "felte",
     "description": "An extensible form library for Svelte",
-    "image": "https://felte.dev/felte-logo-filled.png",
+    "image": "https://felte.dev/felte-logo-thin.png",
     "tags": [
       "forms",
       "reactive forms",
