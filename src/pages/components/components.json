@@ -1,5 +1,20 @@
 [
   {
+    "title": "felte",
+    "url": "https://felte.dev",
+    "npm": "https://www.npmjs.com/package/felte",
+    "description": "An extensible form library for Svelte",
+    "image": "https://felte.dev/felte-logo-filled.png",
+    "tags": [
+      "forms",
+      "reactive forms",
+      "validation",
+      "components and libraries"
+    ],
+    "addedOn": "2021-03-26T22:09:06.050Z",
+    "category": "Forms & User Input"
+  },
+  {
     "title": "svelte-time-picker",
     "url": "https://gitlab.com/public-e-soa-com/svelte-time-picker",
     "npm": "https://www.npmjs.com/package/svelte-time-picker",
