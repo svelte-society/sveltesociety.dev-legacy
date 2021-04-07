@@ -3785,5 +3785,18 @@
     ],
     "title": "svate",
     "url": "https://github.com/AlexxNB/svate"
+  },
+  {
+    "addedOn": "2021-04-05T11:52:00Z",
+    "category": "Unclassified",
+    "description": "Performant and powerful remote data synchronization for Svelte",
+    "image": "https://raw.githubusercontent.com/SvelteStack/svelte-query/main/docs/src/images/svelte-query-og.png",
+    "npm": "@sveltestack/svelte-query",
+    "tags": [
+      "components and libraries",
+      "stores and state"
+    ],
+    "title": "@sveltestack/svelte-query",
+    "url": "https://github.com/SvelteStack/svelte-query"
   }
 ]
