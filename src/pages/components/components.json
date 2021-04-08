@@ -3805,8 +3805,6 @@
     "description": "A simple, almost barebones modal popup component that can be easily modified to your needs.",
     "image": "https://user-images.githubusercontent.com/42390521/114045339-010d5000-9899-11eb-9a32-565d1673652d.png",
     "tags": [
-      "modal",
-      "popup",
       "components and libraries"
     ],
     "addedOn": "2021-04-08T14:00:00.000Z",
