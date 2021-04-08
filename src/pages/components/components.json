@@ -3798,5 +3798,17 @@
     ],
     "title": "@sveltestack/svelte-query",
     "url": "https://github.com/SvelteStack/svelte-query"
+  },
+  {
+    "title": "svelte-parallax",
+    "url": "https://github.com/kindoflew/svelte-parallax",
+    "npm": "svelte-parallax",
+    "description": "A spring-based parallax component for Svelte, based on react-spring/parallax.",
+    "image": "",
+    "tags": [
+      "components and libraries"
+    ],
+    "addedOn": "2021-04-08T17:58:00Z",
+    "category": "User Interaction"
   }
 ]
