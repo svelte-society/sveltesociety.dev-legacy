@@ -7,7 +7,9 @@
   let searchValue;
   let searchTag;
   const tags = Array.from(new Set(components.map(item => item.tags).flat()))
-  let filterTag = [];
+  const allCategories = Array.from(new Set(components.map(item => item.category).flat()))
+  let filterTag = []
+  let filterCategory = null
   let sorting = 'added_desc';
 
   const intersection = (array1, array2) => {
@@ -15,11 +17,12 @@
   }
 
   $: dataToDisplay = components.filter(component => {
-    if (!searchValue && filterTag.length === 0) return true
+    if (!searchValue && filterTag.length === 0 && filterCategory === null) return true
 
     if (
-          (searchValue && !(component.title.includes(searchValue) || component.description.includes(searchValue)))
-          || (filterTag.length > 0 && intersection(filterTag, component.tags).length === 0)
+            (searchValue && !(component.title.toLowerCase().includes(searchValue.toLowerCase()) || component.description.toLowerCase().includes(searchValue.toLowerCase())))
+            || (filterTag.length > 0 && intersection(filterTag, component.tags).length === 0)
+            || (filterCategory !== null && component.category !== filterCategory)
     ) {
       return false
     }
@@ -167,7 +170,15 @@
           {/each}
         </ul>
       </Button>
-      <Button>Size</Button>
+      <Button active={filterCategory !== null}>
+        Categories
+        <ul slot="menu" role="menu" class="popin">
+          <li><label><input type="radio" bind:group={filterCategory} value={null}> All</label></li>
+          {#each allCategories as category}
+            <li><label><input type="radio" bind:group={filterCategory} value={category}> {category||"Unclassified"}</label></li>
+          {/each}
+        </ul>
+      </Button>
       <Button on:click={() => location.href = "/help/components"}>Submit a component</Button>
       <Button active={sorting !== ''}>
         Sort
