@@ -262,7 +262,12 @@
     "npm": "svelte-formly",
     "stars": 62,
     "tags": [
-      "forms and validation"
+      "forms and validation",
+      "components and libraries",
+      "reactive form",
+      "dynamic form",
+      "form",
+      "validation"
     ],
     "title": "svelte-formly",
     "url": "https://github.com/arabdevelop/svelte-formly"
