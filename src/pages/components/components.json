@@ -3772,19 +3772,5 @@
     ],
     "title": "svate",
     "url": "https://github.com/AlexxNB/svate"
-  },
-  {
-    "addedOn": "2021-04-08T17:21:00Z",
-    "category": "User Interaction",
-    "description": "A number input field that can be controlled with mouse and keyboard",
-    "image": "",
-    "npm": "svelte-number-spinner",
-    "tags": [
-      "components and libraries",
-      "inputs and widgets",
-      "interactions"
-    ],
-    "title": "svelte-number-spinner",
-    "url": "https://github.com/bohnacker/svelte-number-spinner"
   }
 ]
