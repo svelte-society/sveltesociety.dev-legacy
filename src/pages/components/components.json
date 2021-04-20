@@ -262,11 +262,10 @@
     "npm": "svelte-formly",
     "stars": 62,
     "tags": [
-      "forms and validation",
       "components and libraries",
-      "reactive form",
-      "dynamic form",
       "form",
+      "forms and validation",
+      "reactive forms",
       "validation"
     ],
     "title": "svelte-formly",
