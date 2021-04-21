@@ -3845,5 +3845,18 @@
     ],
     "title": "Invalidable Store",
     "url": "https://github.com/MacFJA/svelte-invalidable"
+  }, {
+    "addedOn": "2021-04-21T18:12:25.602Z",
+    "category": "User Interaction",
+    "description": "The awesome carousel component for Svelte 3",
+    "image": "https://raw.githubusercontent.com/vadimkorr/svelte-carousel/main/docs/svelte-carousel-logo-md.png",
+    "npm": "svelte-carousel",
+    "stars": 11,
+    "tags": [
+      "components and libraries",
+      "layout and structure"
+    ],
+    "title": "svelte-carousel",
+    "url": "https://github.com/vadimkorr/svelte-carousel"
   }
 ]
