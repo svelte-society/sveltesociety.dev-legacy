@@ -1,12 +1,12 @@
-const replPath = 'https://svelte.dev/repl'
-const docPath = 'https://svelte.dev/docs'
+const replPath = 'https://svelte.dev/repl';
+const docPath = 'https://svelte.dev/docs';
 
 export const cheatSheet = [
-  {
-    title: "Svelte Component",
-    repl: `${replPath}/6a5416148c4b410b8ee0325eef54b107`,
-    doc: `${docPath}#Component_format`,
-    content: `<!-- Widget.svelte -->
+    {
+        title: 'Svelte Component',
+        repl: `${replPath}/6a5416148c4b410b8ee0325eef54b107`,
+        doc: `${docPath}#Component_format`,
+        content: `<!-- Widget.svelte -->
 <script>
   export let textValue
 </script>
@@ -31,12 +31,12 @@ export const cheatSheet = [
 
 <Widget textValue="I'm a svelte component" />
 `
-  },
-  {
-    title: "Expressions",
-    repl: `${replPath}/27bd55a7357046f2911923069dee9d86`,
-    doc: `${docPath}#Text_expressions`,
-    content: `<script>
+    },
+    {
+        title: 'Expressions',
+        repl: `${replPath}/27bd55a7357046f2911923069dee9d86`,
+        doc: `${docPath}#Text_expressions`,
+        content: `<script>
   let isShowing = true
   let cat = 'cat'
   let user = {name: 'John Wick'}
@@ -56,12 +56,12 @@ export const cheatSheet = [
 <p>{cat + \`s\`}</p>
 <p>{\`name \${user.name}\`}</p>`
 
-  },
-  {
-    title: "Simple Bind",
-    repl: `${replPath}/505dfd64708844c7b28ead4834059d69`,
-    doc: `${docPath}#Attributes_and_props`,
-    content: `//MyLink.svelte
+    },
+    {
+        title: 'Simple Bind',
+        repl: `${replPath}/505dfd64708844c7b28ead4834059d69`,
+        doc: `${docPath}#Attributes_and_props`,
+        content: `//MyLink.svelte
 <script>
     export let href = ''
     export let title = ''
@@ -88,12 +88,12 @@ export const cheatSheet = [
 
 <MyLink {...link} />
 `
-  },
-  {
-    title: "Two Way Bind",
-    repl: `${replPath}/63c1cc2e6ab24d33ae531d6acdabc14e`,
-    doc: `${docPath}#bind_element_property`,
-    content: `<MyInput bind:value={value} />
+    },
+    {
+        title: 'Two Way Bind',
+        repl: `${replPath}/63c1cc2e6ab24d33ae531d6acdabc14e`,
+        doc: `${docPath}#bind_element_property`,
+        content: `<MyInput bind:value={value} />
 
 // Shorthand
 <MyInput bind:value />
@@ -133,12 +133,12 @@ export const cheatSheet = [
 
 <div bind:this={myDiv}/>
 `
-  },
-  {
-    title: 'Use action',
-    repl: `${replPath}/6262d071414f42e98cdeed1f3c78d93e`,
-    doc: `${docPath}#use_action`,
-    content: `<script>
+    },
+    {
+        title: 'Use action',
+        repl: `${replPath}/6262d071414f42e98cdeed1f3c78d93e`,
+        doc: `${docPath}#use_action`,
+        content: `<script>
   function myFunction(node) {
     // the node has been mounted in the DOM
     return {
@@ -151,12 +151,12 @@ export const cheatSheet = [
 
 <div use:myFunction></div>
     `
-  },
-  {
-    title: "Conditional Render",
-    repl: `${replPath}/b023c56cdf0d42819fe7ccc38ea75c41`,
-    doc: `${docPath}#if`,
-    content: `{#if condition}
+    },
+    {
+        title: 'Conditional Render',
+        repl: `${replPath}/b023c56cdf0d42819fe7ccc38ea75c41`,
+        doc: `${docPath}#if`,
+        content: `{#if condition}
   <p>Condition is true</p>
 {:else if otherCondition}
   <p>OtherCondition is true</p>
@@ -169,12 +169,12 @@ export const cheatSheet = [
 	<div transition:fade>{value}</div>
 {/key}
 `
-  },
-  {
-    title: "Await Template",
-    repl: `${replPath}/22a36f1affba4334807a133d985ce6ef`,
-    doc: `${docPath}#await`,
-    content: `{#await promise}
+    },
+    {
+        title: 'Await Template',
+        repl: `${replPath}/22a36f1affba4334807a133d985ce6ef`,
+        doc: `${docPath}#await`,
+        content: `{#await promise}
   <p>waiting for the promise to resolve...</p>
 {:then value}
   <p>The value is {value}</p>
@@ -183,26 +183,26 @@ export const cheatSheet = [
 {/await}
 `
 
-  },
-  {
-    title: "Render HTML",
-    repl: `${replPath}/44896bb6272d48b2a0a5909678b07cc9`,
-    doc: `${docPath}#html`,
-    content: `<scrit>
+    },
+    {
+        title: 'Render HTML',
+        repl: `${replPath}/44896bb6272d48b2a0a5909678b07cc9`,
+        doc: `${docPath}#html`,
+        content: `<script>
   const myHtml = '<span><strong>My text:</strong> text</span>'
-</scrit>
+</script>
 
 {@html '<div>Content</div>'}
 
 {@html myHtml}
 `
 
-  },
-  {
-    title: "Handle Events",
-    repl: `${replPath}/10cfb455b7b84514b35913aabee8b5c3`,
-    doc: `${docPath}#on_element_event`,
-    content: `<button on:click={handleClick}>
+    },
+    {
+        title: 'Handle Events',
+        repl: `${replPath}/10cfb455b7b84514b35913aabee8b5c3`,
+        doc: `${docPath}#on_element_event`,
+        content: `<button on:click={handleClick}>
   Press me
 </button>
 
@@ -218,12 +218,12 @@ export const cheatSheet = [
   Press me
 </button>
 `
-  },
-  {
-    title: "Forwarding Event",
-    repl: `${replPath}/f1e3b92d7a3c466bb614aa8f49cde3b1`,
-    doc: `${docPath}#createEventDispatcher`,
-    content: `// Widget.svelte
+    },
+    {
+        title: 'Forwarding Event',
+        repl: `${replPath}/f1e3b92d7a3c466bb614aa8f49cde3b1`,
+        doc: `${docPath}#createEventDispatcher`,
+        content: `// Widget.svelte
 <script>
   import { createEventDispatcher } from "svelte";
   const dispatch = createEventDispatcher();
@@ -241,12 +241,12 @@ import Widget from '.Widget.svelte'
   on:message={e => alert(e.detail.text)}>
 
 `
-  },
-  {
-    title: "Rendering List",
-    repl: `${replPath}/db8ac032184b455bbeed903ba042937c`,
-    doc: `${docPath}#each`,
-    content:
+    },
+    {
+        title: 'Rendering List',
+        repl: `${replPath}/db8ac032184b455bbeed903ba042937c`,
+        doc: `${docPath}#each`,
+        content:
       `<ul>
   {#each items as item}
   <li>{item.name} x {item.qty}</li>
@@ -270,12 +270,12 @@ import Widget from '.Widget.svelte'
 {/each}
 `
 
-  },
-  {
-    title: "Using Slot",
-    repl: `${replPath}/4844ee8feb794ed4bde10508cdb177cf`,
-    doc: `${docPath}#slot`,
-    content:
+    },
+    {
+        title: 'Using Slot',
+        repl: `${replPath}/4844ee8feb794ed4bde10508cdb177cf`,
+        doc: `${docPath}#slot`,
+        content:
       `<!-- Widget.svelte -->
 <div>
   <slot>Default content</slot>
@@ -288,12 +288,12 @@ import Widget from '.Widget.svelte'
 </Widget>
 `
 
-  },
-  {
-    title: "Multiple Slot",
-    repl: `${replPath}/abc6ecc5953c4c77af402185a2219df4`,
-    doc: `${docPath}#slot_name`,
-    content:
+    },
+    {
+        title: 'Multiple Slot',
+        repl: `${replPath}/abc6ecc5953c4c77af402185a2219df4`,
+        doc: `${docPath}#slot_name`,
+        content:
       `<!-- Widget.svelte -->
 <div>
   <slot name="header">
@@ -332,12 +332,12 @@ import Widget from '.Widget.svelte'
 </FancyList>
 `
 
-  },
-  {
-    title: "Class Binding",
-    repl: `${replPath}/c0c8e997fec1428ba670d4a95829d110`,
-    doc: `${docPath}#class_name`,
-    content: `<script>
+    },
+    {
+        title: 'Class Binding',
+        repl: `${replPath}/c0c8e997fec1428ba670d4a95829d110`,
+        doc: `${docPath}#class_name`,
+        content: `<script>
    export let type = 'normal'
    export let active = true
 </script>
@@ -356,12 +356,12 @@ import Widget from '.Widget.svelte'
 <div class:active>...</div>
 `
 
-  },
-  {
-    title: "Lifecycle",
-    repl: `${replPath}/ca959a7e552a4b35aa678dbe9a2d2b48`,
-    doc: `${docPath}#svelte`,
-    content:
+    },
+    {
+        title: 'Lifecycle',
+        repl: `${replPath}/ca959a7e552a4b35aa678dbe9a2d2b48`,
+        doc: `${docPath}#svelte`,
+        content:
       `
 <script>
 import onMount from 'svelte'
@@ -381,12 +381,12 @@ onMount(() => {
   onDestroy(() => {})
 ]`
 
-  },
-  {
-    title: "Animations",
-    repl: `${replPath}/f2ba3adfe6cf49a58a38540530567354`,
-    doc: `${docPath}#svelte_animate`,
-    content:
+    },
+    {
+        title: 'Animations',
+        repl: `${replPath}/f2ba3adfe6cf49a58a38540530567354`,
+        doc: `${docPath}#svelte_animate`,
+        content:
       `<script>
   import { flip } from "svelte/animate";
   import { quintOut } from "svelte/easing";
@@ -403,12 +403,12 @@ onMount(() => {
   </div>
 {/each}
 `
-  },
-  {
-    title: "Transitions",
-    repl: `${replPath}/6e505d732f1e48abbd7d3c4ba4cfc34c`,
-    doc: `${docPath}#svelte_transition`,
-    content:
+    },
+    {
+        title: 'Transitions',
+        repl: `${replPath}/6e505d732f1e48abbd7d3c4ba4cfc34c`,
+        doc: `${docPath}#svelte_transition`,
+        content:
 `<script>
   import { fade } from "svelte/transition";
   export let condition;
@@ -423,12 +423,12 @@ onMount(() => {
 // Other transitions
 [Blur, Scale, Fly, Draw, Slide]
 `
-  },
-  {
-    title: "Reactive Expressions",
-    repl: `${replPath}/0f7793bf7b0745f1b356327fad4a71e1`,
-    doc: `${docPath}#2_Assignments_are_reactive`,
-    content:
+    },
+    {
+        title: 'Reactive Expressions',
+        repl: `${replPath}/0f7793bf7b0745f1b356327fad4a71e1`,
+        doc: `${docPath}#2_Assignments_are_reactive`,
+        content:
 `<script>
   let num = 0
   $: squared = num * num
@@ -442,12 +442,12 @@ onMount(() => {
 <p>{squared}</p>
 <p>{cubed}</p>
 `
-  },
-  {
-    title: "Reactive Statement",
-    repl: `${replPath}/b959727e045e4eb7b70c7f16e425fed5`,
-    doc: `${docPath}#3_$_marks_a_statement_as_reactive`,
-    content:
+    },
+    {
+        title: 'Reactive Statement',
+        repl: `${replPath}/b959727e045e4eb7b70c7f16e425fed5`,
+        doc: `${docPath}#3_$_marks_a_statement_as_reactive`,
+        content:
 `<script>
   $: if (count >= 10) {
     alert('count is dangerously high!')
@@ -486,5 +486,5 @@ onMount(() => {
   })()
 </script>
 `
-  },
-]
+    },
+];
