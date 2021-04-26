@@ -3,7 +3,7 @@ const docPath = 'https://svelte.dev/docs'
 
 export const cheatSheet = [
   {
-    title: "Svelte Component",
+    title: 'Svelte Component',
     repl: `${replPath}/6a5416148c4b410b8ee0325eef54b107`,
     doc: `${docPath}#Component_format`,
     content: `<!-- Widget.svelte -->
@@ -30,10 +30,10 @@ export const cheatSheet = [
 <header>{title}</header>
 
 <Widget textValue="I'm a svelte component" />
-`
+`,
   },
   {
-    title: "Expressions",
+    title: 'Expressions',
     repl: `${replPath}/27bd55a7357046f2911923069dee9d86`,
     doc: `${docPath}#Text_expressions`,
     content: `<script>
@@ -54,11 +54,10 @@ export const cheatSheet = [
 <p>My e-mail is {email}</p>
 <p>{user.name}</p>
 <p>{cat + \`s\`}</p>
-<p>{\`name \${user.name}\`}</p>`
-
+<p>{\`name \${user.name}\`}</p>`,
   },
   {
-    title: "Simple Bind",
+    title: 'Simple Bind',
     repl: `${replPath}/505dfd64708844c7b28ead4834059d69`,
     doc: `${docPath}#Attributes_and_props`,
     content: `//MyLink.svelte
@@ -87,10 +86,10 @@ export const cheatSheet = [
 </script>
 
 <MyLink {...link} />
-`
+`,
   },
   {
-    title: "Two Way Bind",
+    title: 'Two Way Bind',
     repl: `${replPath}/63c1cc2e6ab24d33ae531d6acdabc14e`,
     doc: `${docPath}#bind_element_property`,
     content: `<MyInput bind:value={value} />
@@ -132,7 +131,7 @@ export const cheatSheet = [
 </button>
 
 <div bind:this={myDiv}/>
-`
+`,
   },
   {
     title: 'Use action',
@@ -150,10 +149,10 @@ export const cheatSheet = [
 </script>
 
 <div use:myFunction></div>
-    `
+    `,
   },
   {
-    title: "Conditional Render",
+    title: 'Conditional Render',
     repl: `${replPath}/b023c56cdf0d42819fe7ccc38ea75c41`,
     doc: `${docPath}#if`,
     content: `{#if condition}
@@ -168,10 +167,10 @@ export const cheatSheet = [
 {#key value}
 	<div transition:fade>{value}</div>
 {/key}
-`
+`,
   },
   {
-    title: "Await Template",
+    title: 'Await Template',
     repl: `${replPath}/22a36f1affba4334807a133d985ce6ef`,
     doc: `${docPath}#await`,
     content: `{#await promise}
@@ -181,25 +180,23 @@ export const cheatSheet = [
 {:catch error}
   <p>Something went wrong: {error.message}</p>
 {/await}
-`
-
+`,
   },
   {
-    title: "Render HTML",
+    title: 'Render HTML',
     repl: `${replPath}/44896bb6272d48b2a0a5909678b07cc9`,
     doc: `${docPath}#html`,
-    content: `<scrit>
+    content: `<script>
   const myHtml = '<span><strong>My text:</strong> text</span>'
-</scrit>
+</script>
 
 {@html '<div>Content</div>'}
 
 {@html myHtml}
-`
-
+`,
   },
   {
-    title: "Handle Events",
+    title: 'Handle Events',
     repl: `${replPath}/10cfb455b7b84514b35913aabee8b5c3`,
     doc: `${docPath}#on_element_event`,
     content: `<button on:click={handleClick}>
@@ -217,10 +214,10 @@ export const cheatSheet = [
 <button on:submit|preventDefault={handleClick}>
   Press me
 </button>
-`
+`,
   },
   {
-    title: "Forwarding Event",
+    title: 'Forwarding Event',
     repl: `${replPath}/f1e3b92d7a3c466bb614aa8f49cde3b1`,
     doc: `${docPath}#createEventDispatcher`,
     content: `// Widget.svelte
@@ -240,14 +237,13 @@ import Widget from '.Widget.svelte'
   on:click={() => alert('I was clicked')} 
   on:message={e => alert(e.detail.text)}>
 
-`
+`,
   },
   {
-    title: "Rendering List",
+    title: 'Rendering List',
     repl: `${replPath}/db8ac032184b455bbeed903ba042937c`,
     doc: `${docPath}#each`,
-    content:
-      `<ul>
+    content: `<ul>
   {#each items as item}
   <li>{item.name} x {item.qty}</li>
   {:else}
@@ -268,15 +264,13 @@ import Widget from '.Widget.svelte'
     {index + 1}: {item.name} x {item.qty}
   </li>
 {/each}
-`
-
+`,
   },
   {
-    title: "Using Slot",
+    title: 'Using Slot',
     repl: `${replPath}/4844ee8feb794ed4bde10508cdb177cf`,
     doc: `${docPath}#slot`,
-    content:
-      `<!-- Widget.svelte -->
+    content: `<!-- Widget.svelte -->
 <div>
   <slot>Default content</slot>
 </div>
@@ -286,15 +280,13 @@ import Widget from '.Widget.svelte'
 <Widget>
   <p>I   changed the default content</p>
 </Widget>
-`
-
+`,
   },
   {
-    title: "Multiple Slot",
+    title: 'Multiple Slot',
     repl: `${replPath}/abc6ecc5953c4c77af402185a2219df4`,
     doc: `${docPath}#slot_name`,
-    content:
-      `<!-- Widget.svelte -->
+    content: `<!-- Widget.svelte -->
 <div>
   <slot name="header">
     No header was provided
@@ -330,11 +322,10 @@ import Widget from '.Widget.svelte'
     {item.text}
   </div>
 </FancyList>
-`
-
+`,
   },
   {
-    title: "Class Binding",
+    title: 'Class Binding',
     repl: `${replPath}/c0c8e997fec1428ba670d4a95829d110`,
     doc: `${docPath}#class_name`,
     content: `<script>
@@ -354,15 +345,13 @@ import Widget from '.Widget.svelte'
 // Match class
 
 <div class:active>...</div>
-`
-
+`,
   },
   {
-    title: "Lifecycle",
+    title: 'Lifecycle',
     repl: `${replPath}/ca959a7e552a4b35aa678dbe9a2d2b48`,
     doc: `${docPath}#svelte`,
-    content:
-      `
+    content: `
 <script>
 import onMount from 'svelte'
 
@@ -379,15 +368,13 @@ onMount(() => {
   beforeUpdate(() => {}),
   afterUpdate(() => {}),
   onDestroy(() => {})
-]`
-
+]`,
   },
   {
-    title: "Animations",
+    title: 'Animations',
     repl: `${replPath}/f2ba3adfe6cf49a58a38540530567354`,
     doc: `${docPath}#svelte_animate`,
-    content:
-      `<script>
+    content: `<script>
   import { flip } from "svelte/animate";
   import { quintOut } from "svelte/easing";
   let list = [1, 2, 3];
@@ -402,14 +389,13 @@ onMount(() => {
     {n}
   </div>
 {/each}
-`
+`,
   },
   {
-    title: "Transitions",
+    title: 'Transitions',
     repl: `${replPath}/6e505d732f1e48abbd7d3c4ba4cfc34c`,
     doc: `${docPath}#svelte_transition`,
-    content:
-`<script>
+    content: `<script>
   import { fade } from "svelte/transition";
   export let condition;
 </script>
@@ -422,14 +408,13 @@ onMount(() => {
 
 // Other transitions
 [Blur, Scale, Fly, Draw, Slide]
-`
+`,
   },
   {
-    title: "Reactive Expressions",
+    title: 'Reactive Expressions',
     repl: `${replPath}/0f7793bf7b0745f1b356327fad4a71e1`,
     doc: `${docPath}#2_Assignments_are_reactive`,
-    content:
-`<script>
+    content: `<script>
   let num = 0
   $: squared = num * num
   $: cubed = squared * num
@@ -441,14 +426,13 @@ onMount(() => {
 
 <p>{squared}</p>
 <p>{cubed}</p>
-`
+`,
   },
   {
-    title: "Reactive Statement",
+    title: 'Reactive Statement',
     repl: `${replPath}/b959727e045e4eb7b70c7f16e425fed5`,
     doc: `${docPath}#3_$_marks_a_statement_as_reactive`,
-    content:
-`<script>
+    content: `<script>
   $: if (count >= 10) {
     alert('count is dangerously high!')
     count = 9
@@ -485,6 +469,6 @@ onMount(() => {
     bar = await Promise.resolve(foo%2)
   })()
 </script>
-`
+`,
   },
 ]
