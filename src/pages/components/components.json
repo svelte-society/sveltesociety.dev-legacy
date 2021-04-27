@@ -3772,5 +3772,18 @@
     ],
     "title": "svate",
     "url": "https://github.com/AlexxNB/svate"
+  },
+  {
+    "addedOn": "2021-04-27T13:40:00Z",
+    "category": "Integration",
+    "description": "Divide svelte files into HTML, style and script fragments including line number",
+    "image": "",
+    "npm": "@floratmin/svelte-fragment-divider",
+    "stars": 0,
+    "tags": [
+      "integrations"
+    ],
+    "title": "Extract HTML, style and script fragments.",
+    "url": "https://github.com/floratmin/svelte-fragment-divider",
   }
 ]
