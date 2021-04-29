@@ -1,5 +1,19 @@
 [
   {
+    "title": "svelte-client-router",
+    "url": "https://arthurgermano.github.io/svelte-client-router/#/svelte-client-router",
+    "npm": "https://www.npmjs.com/package/svelte-client-router",
+    "description": "Svelte Client Router is everything you need and think when routing SPA's. This is The Svelte Router for SPA!",
+    "tags": [
+      "router",
+      "spa",
+      "routes",
+      "routing"
+    ],
+    "addedOn": "2021-04-27T00:00:00Z",
+    "category": "Router and SPA"
+  },
+  {
     "title": "svelte-time-picker",
     "url": "https://gitlab.com/public-e-soa-com/svelte-time-picker",
     "npm": "https://www.npmjs.com/package/svelte-time-picker",
