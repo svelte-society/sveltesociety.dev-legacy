@@ -1,17 +1,14 @@
 [
   {
-    "title": "svelte-client-router",
+    "title: SCR Svelte Client Router",
     "url": "https://arthurgermano.github.io/svelte-client-router/#/svelte-client-router",
-    "npm": "https://www.npmjs.com/package/svelte-client-router",
+    "npm": "svelte-client-router",
     "description": "Svelte Client Router is everything you need and think when routing SPA's. This is The Svelte Router for SPA!",
     "tags": [
-      "router",
-      "spa",
-      "routes",
-      "routing"
+      "routers"
     ],
     "addedOn": "2021-04-27T00:00:00Z",
-    "category": "Router and SPA"
+    "category": "Routers"
   },
   {
     "title": "svelte-time-picker",
