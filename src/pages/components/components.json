@@ -257,12 +257,16 @@
   {
     "addedOn": "2020-09-29T14:39:13Z",
     "category": "Forms & User Input",
-    "description": "Generate dynamic forms for sveltejs / Sapper js",
+    "description": "Generate dynamic forms for sveltejs, Sveltekit, Routify and Sapper",
     "image": "",
     "npm": "svelte-formly",
-    "stars": 62,
+    "stars": 112,
     "tags": [
-      "forms and validation"
+      "components and libraries",
+      "form",
+      "forms and validation",
+      "reactive forms",
+      "validation"
     ],
     "title": "svelte-formly",
     "url": "https://github.com/arabdevelop/svelte-formly"
