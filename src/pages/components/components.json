@@ -2,7 +2,7 @@
   {
     "title": "@cloudedots/svelte-forms",
     "url": "https://github.com/cloudedots-projects/svelte-forms",
-    "npm": "https://www.npmjs.com/package/@cloudedots/svelte-forms",
+    "npm": "@cloudedots/svelte-forms",
     "description": "Svelte Forms Library with Validation.",
     "tags": [
       "forms",
