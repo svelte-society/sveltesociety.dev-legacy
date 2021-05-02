@@ -3862,5 +3862,17 @@
     ],
     "title": "svelte-carousel",
     "url": "https://github.com/vadimkorr/svelte-carousel"
+  },
+  {
+    "addedOn": "2021-05-02T15:53:00.632Z",
+    "category": "Stores",
+    "description": "Immutable store for Svelte with full Typescript support and Redux Devtools integration",
+    "npm": "svelte-restate",
+    "stars": 0,
+    "tags": [
+      "stores and state"
+    ],
+    "title": "Svelte Restate",
+    "url": "https://github.com/endenwer/svelte-restate"
   }
 ]
