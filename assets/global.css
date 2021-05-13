@@ -286,6 +286,17 @@ a i {
   padding: 1rem 2rem;
 }
 
+a[href^="#"] {
+  color: var(--color-text-secondary);
+  visibility: hidden;
+}
+a[href^="#"]:hover {
+  text-decoration: none;
+}
+*:hover > a[href^="#"] {
+  visibility: visible;
+}
+
 /* Images */
 figure {
   margin: 0;
