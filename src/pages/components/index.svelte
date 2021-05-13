@@ -148,7 +148,7 @@
       <Button active={filterTag.length > 0}>
         Tags {#if filterTag.length > 0}<small>({filterTag.length})</small>{/if}
         <ul slot="menu" role="menu" class="popin">
-          <li class="tag-search"><input bind:value={searchTag} /></li>
+          <li class="tag-search"><input placeholder="Search for tags..." bind:value={searchTag} /></li>
           {#each tagSearchResult as tag}
             <li><label><input type="checkbox" bind:group={filterTag} value={tag}> {tag}</label></li>
           {/each}
