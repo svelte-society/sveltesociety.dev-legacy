@@ -91,6 +91,7 @@
     margin: 0;
     background: #f3f6f9;
     width: 100%;
+    min-width: 15ch;
   }
   ul.popin li.tag-search:hover {
     background: white;
