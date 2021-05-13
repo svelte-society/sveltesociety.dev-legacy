@@ -3874,5 +3874,19 @@
     ],
     "title": "Svelte Restate",
     "url": "https://github.com/endenwer/svelte-restate"
+  },
+  {
+    "addedOn": "2021-05-13T14:45:00.000Z",
+    "category": "Integration",
+    "description": "Svelte Kit authentication with OpenID based on `express-openid-connect`",
+    "npm": "sveltekit-openid-connect",
+    "stars": 0,
+    "tags": [
+      "sveltekit",
+      "components and libraries",
+      "auth"
+    ],
+    "title": "Svelte OpenId Connect",
+    "url": "https://github.com/starbasehq/sveltekit-openid-connect"
   }
 ]
