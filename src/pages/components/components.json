@@ -3783,5 +3783,23 @@
     ],
     "title": "svate",
     "url": "https://github.com/AlexxNB/svate"
+  },
+  {
+    "addedOn": "2021-05-16T03:39:27.573Z",
+    "category": "Unclassified",
+    "npm": "svelte-imgix",
+    "tags": ["components and libraries", "image"],
+    "title": "Svelte Imgix",
+    "description": "Responsive, lazily-loaded images with Svelte and Imgix",
+    "url": "https://github.com/madeleineostoja/svelte-meta"
+  },
+  {
+    "addedOn": "2021-05-16T03:39:27.573Z",
+    "category": "Unclassified",
+    "npm": "svelte-meta",
+    "tags": ["components and libraries", "metadata"],
+    "title": "Svelte Meta",
+    "description": "Easily generate SEO metadata for Svelte",
+    "url": "https://github.com/madeleineostoja/svelte-meta"
   }
 ]
