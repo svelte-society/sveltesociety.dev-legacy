@@ -1,4 +1,27 @@
 [
+    {
+    "title": "svelte-adapter-firebase",
+    "description": "SvelteKit adapter for Firebase Hosting rewrites to either Cloud Functions or Cloud Run for a Svelte SSR experience",
+    "url": "https://github.com/jthegedus/svelte-adapter-firebase",
+    "npm": "https://www.npmjs.com/package/svelte-adapter-firebase",
+    "tags": [
+      "integrations",
+      "cli tools"
+    ],
+    "addedOn": "2021-03-31T00:00:00Z",
+    "category": "Integrations"
+  },
+  {
+    "title": "SCR Svelte Client Router",
+    "url": "https://arthurgermano.github.io/svelte-client-router/#/svelte-client-router",
+    "npm": "svelte-client-router",
+    "description": "Svelte Client Router is everything you need and think when routing SPA's. This is The Svelte Router for SPA!",
+    "tags": [
+      "routers"
+    ],
+    "addedOn": "2021-04-27T00:00:00Z",
+    "category": "Routers"
+  },
   {
     "title": "felte",
     "url": "https://felte.dev",
