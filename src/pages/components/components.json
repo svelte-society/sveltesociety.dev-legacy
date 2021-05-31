@@ -3897,5 +3897,19 @@
     ],
     "title": "Svelte Restate",
     "url": "https://github.com/endenwer/svelte-restate"
+  },
+  {
+    "addedOn": "2021-05-13T20:03:07.660Z",
+    "category": "User Interaction",
+    "description": "Declarative pincode component for Svelte",
+    "image": "",
+    "npm": "svelte-pincode",
+    "stars": 1,
+    "tags": [
+      "component sets",
+      "components and libraries"
+    ],
+    "title": "svelte-pincode",
+    "url": "https://github.com/metonym/svelte-pincode"
   }
 ]
