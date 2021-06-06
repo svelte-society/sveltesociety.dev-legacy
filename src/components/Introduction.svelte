@@ -11,23 +11,22 @@
   </h2>
   <p>Here you can find more interesting things about us in Social Media:</p>
   <div class="wrapper">
-    <div class="wrapper-element">
+    <div class="wrapper-element"> 
+    <a href="https://youtube.com/SvelteSociety" rel="noopener">
       <Icon name="youtube" width="7rem" height="7rem" />
-      <a href="https://youtube.com/SvelteSociety" rel="noopener">
-        Our YouTube Channel</a
-      >
+        <div>Our YouTube Channel</div>
+        </a>
     </div>
-    <div class="wrapper-element">
+    <div class="wrapper-element"> <a href="https://twitter.com/sveltesociety" rel="noopener">
       <Icon name="twitter" width="7rem" height="7rem" />
-      <a href="https://twitter.com/sveltesociety" rel="noopener"
-        >Our Twitter for the latest news around the community</a
-      >
+     <div>Our Twitter for the latest news around the community</div>
+     </a>
     </div>
     <div class="wrapper-element">
+    <a href="https://discord.gg/daNtanDmsE" rel="noopener">
       <Icon name="discord" width="7rem" height="7rem" />
-      <a href="https://discord.gg/daNtanDmsE" rel="noopener"
-        >Our Discord to <s>share memes</s> get help</a
-      >
+      <div>Our Discord to <s>share memes</s> get help</div>
+      </a>
     </div>
   </div>
   <br />
@@ -67,6 +66,8 @@
   a {
     color: black;
     font-weight: lighter;
+    display: grid;
+    justify-content: center;
   }
   img {
     margin: 2rem 0;
