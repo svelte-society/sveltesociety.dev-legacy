@@ -2,7 +2,7 @@
   {
     "title": "sveltefire",
     "url": "https://github.com/codediodeio/sveltefire",
-    "npm": "https://www.npmjs.com/package/sveltefire",
+    "npm": "sveltefire",
     "description": "Cybernetically enhanced Firebase apps 💪🔥",
     "image": "",
     "tags": [
