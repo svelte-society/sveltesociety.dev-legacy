@@ -38,7 +38,7 @@
 </style>
 
 <div class="list">
-  <h1>{title}</h1>
+  <h1 id="category-{window.escape(title)}">{title} <a href="#category-{window.escape(title)}">#</a></h1>
   <div class="grid">
     <slot />
   </div>

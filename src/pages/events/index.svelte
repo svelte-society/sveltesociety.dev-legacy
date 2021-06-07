@@ -52,7 +52,7 @@
 
   <!--society section-->
   <div class="society-wrapper">
-    <h5>Societys arround the world</h5>
+    <h5>Societies arround the world</h5>
     {#each societies as society}
       {#if society.continent}
         <h6 class="continent">{society.continent}</h6>

@@ -65,12 +65,12 @@
   }
 </style>
 
-<div class="card" class:active>
+<div class="card" class:active id="component-{window.escape(title)}">
   {#if image}
     <img src={image} alt={title} />
   {/if}
   <h1>
-    <a href={url}>{title}</a>
+    <a href={url}>{title}</a> <a href="#component-{window.escape(title)}">#</a>
     {#if npm}<Tag click={() => copyToClipboard(`npm install ${npm}`)} variant="copy" title="npm install {npm}"/>{/if}
   </h1>
   <p class="flex-grow">{description}</p>
