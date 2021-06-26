@@ -3952,5 +3952,19 @@
     ],
     "title": "svelte-particles",
     "url": "https://github.com/matteobruni/tsparticles"
-  }
+  },
+  {
+    "addedOn": "2021-06-26T18:19:00Z",
+    "category": "User Interaction",
+    "description": "Horizontal Scroller Component for Svelte",
+    "image": "https://github.com/nicolasmgaray/svelte-horizontal-scroller/raw/master/docs/demo.gif",
+    "npm": "svelte-horizontal-scroller",
+    "stars": 0,
+    "tags": [
+      "components and libraries",      
+      "layout and structure"
+    ],
+    "title": "svelte-horizontal-scroller",
+    "url": "https://github.com/nicolasmgaray/svelte-horizontal-scroller"
+  },
 ]
