@@ -1,5 +1,18 @@
 [
-    {
+  {
+    "addedOn": "2021-07-04T15:00:00Z",
+    "category": "",
+    "description": "Svelte Simple Accordion, fully configurable",
+    "image": "https://e-soa.com/ssa/accordion.png",
+    "npm": "svelte-simple-accordion",
+    "tags": [
+      "components and libraries",
+      "inputs and widgets"
+    ],
+    "title": "svelte-simple-accordion",
+    "url": "https://gitlab.com/public-e-soa-com/svelte-simple-accordion"
+  },
+  {
     "title": "svelte-adapter-firebase",
     "description": "SvelteKit adapter for Firebase Hosting rewrites to either Cloud Functions or Cloud Run for a Svelte SSR experience",
     "url": "https://github.com/jthegedus/svelte-adapter-firebase",
@@ -64,7 +77,7 @@
   {
     "title": "svelte-time-picker",
     "url": "https://gitlab.com/public-e-soa-com/svelte-time-picker",
-    "npm": "https://www.npmjs.com/package/svelte-time-picker",
+    "npm": "svelte-time-picker",
     "description": "Time Picker UI for Svelte, inspired by the MaterialUI React Time Picker",
     "image": "https://camo.githubusercontent.com/c10e998262061f5565fe7b1a99261980c4761a90109108768a25ba9f0b0512e0/68747470733a2f2f652d736f612e636f6d2f7374702f6d6f64616c2e706e67",
     "tags": [
