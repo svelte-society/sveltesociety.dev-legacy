@@ -3799,5 +3799,17 @@
     ],
     "title": "svelte-particles",
     "url": "https://github.com/matteobruni/tsparticles"
+  },
+  {
+    "title": "svelte-pilot",
+    "url": "https://github.com/jiangfengming/svelte-pilot",
+    "npm": "svelte-pilot",
+    "description": "A svelte router with SSR (Server-Side Rendering) support.",
+    "tags": [
+      "routers",
+      "ssr"
+    ],
+    "addedOn": "2021-07-13T18:38:18.845Z",
+    "category": "Routers"
   }
 ]
